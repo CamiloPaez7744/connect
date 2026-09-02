@@ -1,7 +1,7 @@
 import { Tabs } from 'expo-router';
 import { Platform, useWindowDimensions, View, Text, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { T, F, BP } from '../../src/tokens';
+import { T, F, BP, GLASS, SHADOW } from '../../src/tokens';
 
 export default function TabLayout() {
   const { width } = useWindowDimensions();
@@ -14,12 +14,13 @@ export default function TabLayout() {
         tabBarActiveTintColor: T.primary,
         tabBarInactiveTintColor: T.textMuted,
         tabBarStyle: {
-          backgroundColor: T.bgAlt,
-          borderTopColor: T.border,
+          backgroundColor: GLASS.tabBar.backgroundColor,
+          borderTopColor: GLASS.tabBar.borderTopColor,
           borderTopWidth: 1,
           height: Platform.OS === 'ios' ? 88 : 64,
           paddingBottom: Platform.OS === 'ios' ? 28 : 8,
           paddingTop: 8,
+          ...SHADOW.sm,
         },
         tabBarLabelStyle: {
           fontSize: 10,

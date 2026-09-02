@@ -4,7 +4,10 @@ import {
   TextInput, useWindowDimensions, Image, Modal, Animated, Platform
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { T, S, R, F, FS, BP, SHARED, useResponsive } from '../../src/tokens';
+import { T, S, R, F, FS, BP, SHARED, GLASS, SHADOW, NEON, useResponsive } from '../../src/tokens';
+import CardStack from '../../src/components/CardStack';
+import EvervaultCard from '../../src/components/EvervaultCard';
+import BackgroundGradient from '../../src/components/BackgroundGradient';
 
 const FILTER_GROUPS = [
   {
@@ -52,6 +55,13 @@ const ALL_FILTER_ITEMS = FILTER_GROUPS.flatMap(g => g.items);
 
 type SubView = 'menu' | 'random' | 'catalog' | 'mylist';
 type MyListTab = 'favorites' | 'done' | 'skipped';
+type ViewMode = 'grid' | 'stack' | 'evervault';
+
+const VIEW_MODES: { key: ViewMode; icon: string; label: string }[] = [
+  { key: 'grid', icon: 'grid', label: 'Cuadrícula' },
+  { key: 'stack', icon: 'layers', label: 'Stack' },
+  { key: 'evervault', icon: 'square', label: 'Tarjetas' },
+];
 
 export default function PositionsScreen() {
   const { width } = useWindowDimensions();
@@ -70,6 +80,8 @@ export default function PositionsScreen() {
   const [skipped, setSkipped] = useState<number[]>([]);
   const [randomPos, setRandomPos] = useState<any>(null);
   const [showFilters, setShowFilters] = useState(true);
+  const [viewMode, setViewMode] = useState<ViewMode>('grid');
+  const [showViewPicker, setShowViewPicker] = useState(false);
 
   const diceAnim = useRef(new Animated.Value(0)).current;
   const [isRolling, setIsRolling] = useState(false);
@@ -86,15 +98,18 @@ export default function PositionsScreen() {
       const f = localStorage?.getItem('pos_favorites');
       const d = localStorage?.getItem('pos_done');
       const s = localStorage?.getItem('pos_skipped');
+      const v = localStorage?.getItem('pos_viewMode');
       if (f) setFavorites(JSON.parse(f));
       if (d) setDone(JSON.parse(d));
       if (s) setSkipped(JSON.parse(s));
+      if (v && ['grid', 'stack', 'evervault'].includes(v)) setViewMode(v as ViewMode);
     } catch {}
   }, []);
 
   useEffect(() => { try { localStorage?.setItem('pos_favorites', JSON.stringify(favorites)); } catch {} }, [favorites]);
   useEffect(() => { try { localStorage?.setItem('pos_done', JSON.stringify(done)); } catch {} }, [done]);
   useEffect(() => { try { localStorage?.setItem('pos_skipped', JSON.stringify(skipped)); } catch {} }, [skipped]);
+  useEffect(() => { try { localStorage?.setItem('pos_viewMode', viewMode); } catch {} }, [viewMode]);
 
   const toggleFavorite = (id: number) => setFavorites(p => p.includes(id) ? p.filter(f => f !== id) : [...p, id]);
   const toggleDone = (id: number) => setDone(p => p.includes(id) ? p.filter(f => f !== id) : [...p, id]);
@@ -142,28 +157,50 @@ export default function PositionsScreen() {
 
   const openPosition = (pos: any) => { setSelectedPosition(pos); setDescExpanded(false); };
 
+  // ===== View Mode Picker =====
+  const renderViewPicker = () => (
+    <Modal visible={showViewPicker} transparent animationType="fade">
+      <TouchableOpacity style={st.pickerOverlay} activeOpacity={1} onPress={() => setShowViewPicker(false)}>
+        <View style={st.pickerSheet}>
+          <Text style={st.pickerTitle}>Vista del catálogo</Text>
+          {VIEW_MODES.map(vm => (
+            <TouchableOpacity
+              key={vm.key}
+              style={[st.pickerItem, viewMode === vm.key && st.pickerItemActive]}
+              onPress={() => { setViewMode(vm.key); setShowViewPicker(false); }}
+            >
+              <Ionicons name={vm.icon as any} size={20} color={viewMode === vm.key ? T.primary : T.textSecondary} />
+              <Text style={[st.pickerLabel, viewMode === vm.key && { color: T.primary, fontFamily: F.semibold }]}>{vm.label}</Text>
+              {viewMode === vm.key && <Ionicons name="checkmark" size={18} color={T.primary} />}
+            </TouchableOpacity>
+          ))}
+        </View>
+      </TouchableOpacity>
+    </Modal>
+  );
+
   // ===== RENDER: Position Detail Modal =====
   const renderModal = () => (
     <Modal visible={!!selectedPosition} animationType="slide" transparent>
-      <View style={s.modalOverlay}>
-        <View style={[s.modalContent, isDesktop && { maxWidth: 800, width: '80%' }]}>
+      <View style={st.modalOverlay}>
+        <View style={[st.modalContent, isDesktop ? { maxWidth: 800, width: '80%' as any } : undefined]}>
           {selectedPosition && (
             <>
-              <View style={s.modalHeader}>
-                <Text style={[s.modalTitle, isDesktop && { fontSize: FS['3xl'] }]}>{selectedPosition.nameEs}</Text>
+              <View style={st.modalHeader}>
+                <Text style={[st.modalTitle, isDesktop && { fontSize: FS['3xl'] }]}>{selectedPosition.nameEs}</Text>
                 <TouchableOpacity onPress={() => setSelectedPosition(null)} hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}>
                   <Ionicons name="close" size={24} color={T.text} />
                 </TouchableOpacity>
               </View>
               <View style={[isDesktop && { flexDirection: 'row', gap: S.lg }]}>
-                <Image source={{ uri: `/images/${String(selectedPosition.id).padStart(3, '0')}.png` }} style={[s.modalImage, isDesktop && { width: 320, height: 320, marginBottom: 0, flexShrink: 0 }]} resizeMode="contain" />
+                <Image source={{ uri: `/images/${String(selectedPosition.id).padStart(3, '0')}.png` }} style={[st.modalImage, isDesktop && { width: 320, height: 320, marginBottom: 0, flexShrink: 0 }]} resizeMode="contain" />
                 <View style={[isDesktop && { flex: 1 }]}>
-                  <View style={s.modalMeta}>
-                    <View style={[s.badge, { backgroundColor: getSafetyColor(selectedPosition.safety) }]}>
-                      <Text style={s.badgeText}>{getSafetyLabel(selectedPosition.safety)}</Text>
+                  <View style={st.modalMeta}>
+                    <View style={[st.badge, { backgroundColor: getSafetyColor(selectedPosition.safety) }]}>
+                      <Text style={st.badgeText}>{getSafetyLabel(selectedPosition.safety)}</Text>
                     </View>
-                    <Text style={s.modalId}>#{selectedPosition.id}</Text>
-                    <View style={s.modalActions}>
+                    <Text style={st.modalId}>#{selectedPosition.id}</Text>
+                    <View style={st.modalActions}>
                       <TouchableOpacity onPress={() => toggleFavorite(selectedPosition.id)} hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}>
                         <Ionicons name={favorites.includes(selectedPosition.id) ? 'star' : 'star-outline'} size={22} color={T.accent} />
                       </TouchableOpacity>
@@ -177,18 +214,18 @@ export default function PositionsScreen() {
                   </View>
                   <ScrollView style={isDesktop ? {} : { maxHeight: 200 }} showsVerticalScrollIndicator={false}>
                     {isDesktop ? (
-                      <Text style={[s.modalDesc, { lineHeight: 26 }]}>{selectedPosition.descEs}</Text>
+                      <Text style={[st.modalDesc, { lineHeight: 26 }]}>{selectedPosition.descEs}</Text>
                     ) : (
                       <TouchableOpacity activeOpacity={0.7} onPress={() => setDescExpanded(!descExpanded)}>
-                        <Text style={s.modalDesc}>
+                        <Text style={st.modalDesc}>
                           {descExpanded ? selectedPosition.descEs : (selectedPosition.descEs || '').slice(0, 120)}
                           {!descExpanded && (selectedPosition.descEs || '').length > 120 && <Text style={{ color: T.primary, fontFamily: F.bold }}> ...ver más</Text>}
                         </Text>
                       </TouchableOpacity>
                     )}
-                    <View style={s.tagRow}>
+                    <View style={st.tagRow}>
                       {selectedPosition.tags?.map((tag: string, i: number) => (
-                        <View key={i} style={s.tag}><Text style={s.tagText}>{tag}</Text></View>
+                        <View key={i} style={st.tag}><Text style={st.tagText}>{tag}</Text></View>
                       ))}
                     </View>
                   </ScrollView>
@@ -201,29 +238,51 @@ export default function PositionsScreen() {
     </Modal>
   );
 
+  // ===== RENDER: Grid Card =====
+  const renderGridCard = (pos: any) => (
+    <TouchableOpacity key={pos.id} style={st.card} onPress={() => openPosition(pos)} activeOpacity={0.7}>
+      <Image source={{ uri: `/images/${String(pos.id).padStart(3, '0')}.png` }} style={st.cardImage} resizeMode="contain" />
+      <View style={[st.badge, { position: 'absolute' as const, top: 8, right: 8, backgroundColor: getSafetyColor(pos.safety) }]}>
+        <Text style={st.badgeText}>{getSafetyLabel(pos.safety)}</Text>
+      </View>
+      <TouchableOpacity style={[st.favBtn, favorites.includes(pos.id) && st.favBtnActive]} onPress={() => toggleFavorite(pos.id)} hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}>
+        <Ionicons name={favorites.includes(pos.id) ? 'star' : 'star-outline'} size={16} color={favorites.includes(pos.id) ? T.accent : T.textMuted} />
+      </TouchableOpacity>
+      <View style={st.cardInfo}>
+        <Text style={st.cardTitle} numberOfLines={1}>{pos.nameEs}</Text>
+        <View style={st.tagRow}>
+          {pos.tags?.slice(0, 2).map((tag: string, i: number) => (
+            <View key={i} style={st.tagMini}><Text style={st.tagMiniText}>{tag}</Text></View>
+          ))}
+        </View>
+      </View>
+    </TouchableOpacity>
+  );
+
   // ===== VIEW: Menu =====
   if (subView === 'menu') {
     return (
-      <View style={s.container}>
-        <View style={s.header}>
-          <Text style={s.title}>Posiciones</Text>
-          <Text style={s.subtitle}>519 posiciones para explorar</Text>
+      <View style={st.container}>
+        <BackgroundGradient />
+        <View style={st.header}>
+          <Text style={st.title}>Posiciones</Text>
+          <Text style={st.subtitle}>519 posiciones para explorar</Text>
         </View>
         <View style={[s.menuGrid, isDesktop && s.menuGridDesktop]}>
-          <TouchableOpacity style={s.menuCard} onPress={() => { setSubView('random'); rollDice(); }}>
-            <Text style={s.menuCardIcon}>🎲</Text>
-            <Text style={[s.menuCardTitle, { color: T.primary }]}>Posición Random</Text>
-            <Text style={s.menuCardDesc}>Tira el dado y descubre</Text>
+          <TouchableOpacity style={[st.menuCard, SHADOW.neonCyan]} onPress={() => { setSubView('random'); rollDice(); }}>
+            <Text style={st.menuCardIcon}>🎲</Text>
+            <Text style={[st.menuCardTitle, { color: T.primary }]}>Posición Random</Text>
+            <Text style={st.menuCardDesc}>Tira el dado y descubre</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={s.menuCard} onPress={() => setSubView('mylist')}>
+          <TouchableOpacity style={[st.menuCard, SHADOW.neonMagenta]} onPress={() => setSubView('mylist')}>
             <Ionicons name="bookmark" size={36} color={T.accent} />
-            <Text style={[s.menuCardTitle, { color: T.accent }]}>Mi Lista</Text>
-            <Text style={s.menuCardDesc}>Favoritas · Hechas · Omitidas</Text>
+            <Text style={[st.menuCardTitle, { color: T.accent }]}>Mi Lista</Text>
+            <Text style={st.menuCardDesc}>Favoritas · Hechas · Omitidas</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={s.menuCard} onPress={() => setSubView('catalog')}>
+          <TouchableOpacity style={[st.menuCard, SHADOW.neonDual]} onPress={() => setSubView('catalog')}>
             <Ionicons name="grid" size={36} color="#7b2ff7" />
-            <Text style={[s.menuCardTitle, { color: '#7b2ff7' }]}>Catálogo</Text>
-            <Text style={s.menuCardDesc}>Explora todas las posiciones</Text>
+            <Text style={[st.menuCardTitle, { color: '#7b2ff7' }]}>Catálogo</Text>
+            <Text style={st.menuCardDesc}>Explora todas las posiciones</Text>
           </TouchableOpacity>
         </View>
         {renderModal()}
@@ -234,23 +293,24 @@ export default function PositionsScreen() {
   // ===== VIEW: Random / Dice =====
   if (subView === 'random') {
     return (
-      <View style={s.container}>
-        <View style={s.header}>
-          <View style={s.headerRow}>
+      <View style={st.container}>
+        <BackgroundGradient />
+        <View style={st.header}>
+          <View style={st.headerRow}>
             <TouchableOpacity onPress={() => { setRandomPos(null); setSubView('menu'); }}>
               <Ionicons name="arrow-back" size={24} color={T.text} />
             </TouchableOpacity>
             <View style={{ flex: 1 }}>
-              <Text style={s.title}>Dado</Text>
-              <Text style={s.subtitle}>Tira el dado</Text>
+              <Text style={st.title}>Dado</Text>
+              <Text style={st.subtitle}>Tira el dado</Text>
             </View>
           </View>
         </View>
-        <View style={s.diceArea}>
+        <View style={st.diceArea}>
           {!randomPos && !isRolling && (
-            <TouchableOpacity style={s.diceBtn} onPress={rollDice}>
-              <Text style={s.diceEmoji}>🎲</Text>
-              <Text style={s.diceBtnText}>Tirar dado</Text>
+            <TouchableOpacity style={st.diceBtn} onPress={rollDice}>
+              <Text style={st.diceEmoji}>🎲</Text>
+              <Text style={st.diceBtnText}>Tirar dado</Text>
             </TouchableOpacity>
           )}
           {isRolling && (
@@ -260,35 +320,35 @@ export default function PositionsScreen() {
           )}
           {randomPos && !isRolling && (
             <ScrollView style={{ width: '100%' }} contentContainerStyle={{ alignItems: 'center' }}>
-              <View style={[s.glassCard, { width: '100%', maxWidth: 500 }]}>
+              <View style={[st.glassCard, SHADOW.neonCyan, { width: '100%', maxWidth: 500 }]}>
                 <Image source={{ uri: `/images/${String(randomPos.id).padStart(3, '0')}.png` }} style={{ width: '100%', height: 220, backgroundColor: '#000' }} resizeMode="contain" />
                 <View style={{ padding: S.lg }}>
-                  <View style={s.modalMeta}>
-                    <View style={[s.badge, { backgroundColor: getSafetyColor(randomPos.safety) }]}>
-                      <Text style={s.badgeText}>{getSafetyLabel(randomPos.safety)}</Text>
+                  <View style={st.modalMeta}>
+                    <View style={[st.badge, { backgroundColor: getSafetyColor(randomPos.safety) }]}>
+                      <Text style={st.badgeText}>{getSafetyLabel(randomPos.safety)}</Text>
                     </View>
-                    <Text style={s.modalId}>#{randomPos.id}</Text>
+                    <Text style={st.modalId}>#{randomPos.id}</Text>
                   </View>
                   <Text style={{ fontSize: FS.xl, fontFamily: F.display, color: T.text, marginTop: S.sm }}>{randomPos.nameEs}</Text>
-                  <Text style={[s.modalDesc, { marginTop: S.sm }]} numberOfLines={4}>{randomPos.descEs}</Text>
-                  <View style={[s.tagRow, { marginTop: S.md }]}>
+                  <Text style={[st.modalDesc, { marginTop: S.sm }]} numberOfLines={4}>{randomPos.descEs}</Text>
+                  <View style={[st.tagRow, { marginTop: S.md }]}>
                     {randomPos.tags?.slice(0, 4).map((tag: string, i: number) => (
-                      <View key={i} style={s.tag}><Text style={s.tagText}>{tag}</Text></View>
+                      <View key={i} style={st.tag}><Text style={st.tagText}>{tag}</Text></View>
                     ))}
                   </View>
-                  <View style={[s.modalActions, { marginTop: S.lg, justifyContent: 'flex-start' }]}>
-                    <TouchableOpacity style={s.iconBtn} onPress={() => toggleFavorite(randomPos.id)}>
+                  <View style={[st.modalActions, { marginTop: S.lg, justifyContent: 'flex-start' }]}>
+                    <TouchableOpacity style={st.iconBtn} onPress={() => toggleFavorite(randomPos.id)}>
                       <Ionicons name={favorites.includes(randomPos.id) ? 'star' : 'star-outline'} size={22} color={T.accent} />
                     </TouchableOpacity>
-                    <TouchableOpacity style={s.iconBtn} onPress={() => toggleDone(randomPos.id)}>
+                    <TouchableOpacity style={st.iconBtn} onPress={() => toggleDone(randomPos.id)}>
                       <Ionicons name={done.includes(randomPos.id) ? 'checkmark-circle' : 'checkmark-circle-outline'} size={22} color={T.success} />
                     </TouchableOpacity>
-                    <TouchableOpacity style={s.iconBtn} onPress={() => toggleSkipped(randomPos.id)}>
+                    <TouchableOpacity style={st.iconBtn} onPress={() => toggleSkipped(randomPos.id)}>
                       <Ionicons name={skipped.includes(randomPos.id) ? 'close-circle' : 'close-circle-outline'} size={22} color={T.warning} />
                     </TouchableOpacity>
-                    <TouchableOpacity style={[s.btnPrimary, { flex: 1, marginLeft: S.sm }]} onPress={rollDice}>
+                    <TouchableOpacity style={[st.btnPrimary, { flex: 1, marginLeft: S.sm }]} onPress={rollDice}>
                       <Ionicons name="refresh" size={18} color="#fff" />
-                      <Text style={s.btnPrimaryText}>Otra</Text>
+                      <Text style={st.btnPrimaryText}>Otra</Text>
                     </TouchableOpacity>
                   </View>
                 </View>
@@ -304,53 +364,61 @@ export default function PositionsScreen() {
   // ===== VIEW: My List =====
   if (subView === 'mylist') {
     return (
-      <View style={s.container}>
-        <View style={s.header}>
-          <View style={s.headerRow}>
+      <View style={st.container}>
+        <BackgroundGradient />
+        <View style={st.header}>
+          <View style={st.headerRow}>
             <TouchableOpacity onPress={() => setSubView('menu')}>
               <Ionicons name="arrow-back" size={24} color={T.text} />
             </TouchableOpacity>
             <View style={{ flex: 1 }}>
-              <Text style={s.title}>Mi Lista</Text>
-              <Text style={s.subtitle}>{favorites.length} fav · {done.length} hechas · {skipped.length} omitidas</Text>
+              <Text style={st.title}>Mi Lista</Text>
+              <Text style={st.subtitle}>{favorites.length} fav · {done.length} hechas · {skipped.length} omitidas</Text>
             </View>
           </View>
         </View>
-        <View style={s.tabRow}>
+        <View style={st.tabRow}>
           {([['favorites', 'Favoritas', 'star', T.accent], ['done', 'Hechas', 'checkmark-circle', T.success], ['skipped', 'Omitidas', 'close-circle', T.warning]] as const).map(([key, label, icon, color]) => (
-            <TouchableOpacity key={key} style={[s.tab, myListTab === key && { borderColor: color }]} onPress={() => setMyListTab(key)}>
+            <TouchableOpacity key={key} style={[st.tab, myListTab === key && { borderColor: color, backgroundColor: color + '12' }]} onPress={() => setMyListTab(key)}>
               <Ionicons name={icon as any} size={16} color={myListTab === key ? color : T.textMuted} />
-              <Text style={[s.tabText, myListTab === key && { color }]}>{label} ({key === 'favorites' ? favorites.length : key === 'done' ? done.length : skipped.length})</Text>
+              <Text style={[st.tabText, myListTab === key && { color }]}>{label} ({key === 'favorites' ? favorites.length : key === 'done' ? done.length : skipped.length})</Text>
             </TouchableOpacity>
           ))}
         </View>
         {mylistPositions.length === 0 ? (
-          <View style={s.empty}>
+          <View style={st.empty}>
             <Ionicons name="bookmark-outline" size={48} color={T.textMuted} />
-            <Text style={s.emptyText}>Sin elementos</Text>
+            <Text style={st.emptyText}>Sin elementos</Text>
           </View>
-        ) : (
-          <ScrollView contentContainerStyle={s.gridContent}>
-            <View style={[s.grid, { gridTemplateColumns: `repeat(${R2.numColumns}, 1fr)` }]}>
+        ) : viewMode === 'stack' ? (
+          <CardStack
+            items={mylistPositions}
+            onCardPress={openPosition}
+            onFavorite={toggleFavorite}
+            favorites={favorites}
+            getSafetyColor={getSafetyColor}
+            getSafetyLabel={getSafetyLabel}
+          />
+        ) : viewMode === 'evervault' ? (
+          <ScrollView contentContainerStyle={st.gridContent}>
+            <View style={[st.grid, { gridTemplateColumns: `repeat(${Math.min(R2.numColumns, 3)}, 1fr)` }]}>
               {mylistPositions.map((pos: any) => (
-                <TouchableOpacity key={pos.id} style={s.card} onPress={() => openPosition(pos)} activeOpacity={0.7}>
-                  <Image source={{ uri: `/images/${String(pos.id).padStart(3, '0')}.png` }} style={s.cardImage} resizeMode="contain" />
-                  <View style={s.cardInfo}>
-                    <Text style={s.cardTitle} numberOfLines={1}>{pos.nameEs}</Text>
-                    <View style={s.cardActions}>
-                      <TouchableOpacity onPress={() => toggleFavorite(pos.id)} hitSlop={{ top: 5, bottom: 5, left: 5, right: 5 }}>
-                        <Ionicons name={favorites.includes(pos.id) ? 'star' : 'star-outline'} size={14} color={favorites.includes(pos.id) ? T.accent : T.textMuted} />
-                      </TouchableOpacity>
-                      <TouchableOpacity onPress={() => toggleDone(pos.id)} hitSlop={{ top: 5, bottom: 5, left: 5, right: 5 }}>
-                        <Ionicons name={done.includes(pos.id) ? 'checkmark-circle' : 'checkmark-circle-outline'} size={14} color={done.includes(pos.id) ? T.success : T.textMuted} />
-                      </TouchableOpacity>
-                      <TouchableOpacity onPress={() => toggleSkipped(pos.id)} hitSlop={{ top: 5, bottom: 5, left: 5, right: 5 }}>
-                        <Ionicons name={skipped.includes(pos.id) ? 'close-circle' : 'close-circle-outline'} size={14} color={skipped.includes(pos.id) ? T.warning : T.textMuted} />
-                      </TouchableOpacity>
-                    </View>
-                  </View>
-                </TouchableOpacity>
+                <EvervaultCard
+                  key={pos.id}
+                  item={pos}
+                  onPress={() => openPosition(pos)}
+                  onFavorite={() => toggleFavorite(pos.id)}
+                  isFavorite={favorites.includes(pos.id)}
+                  safetyColor={getSafetyColor(pos.safety)}
+                  safetyLabel={getSafetyLabel(pos.safety)}
+                />
               ))}
+            </View>
+          </ScrollView>
+        ) : (
+          <ScrollView contentContainerStyle={st.gridContent}>
+            <View style={[st.grid, { gridTemplateColumns: `repeat(${R2.numColumns}, 1fr)` }]}>
+              {mylistPositions.map((pos: any) => renderGridCard(pos))}
             </View>
           </ScrollView>
         )}
@@ -361,41 +429,48 @@ export default function PositionsScreen() {
 
   // ===== VIEW: Catalog =====
   return (
-    <View style={s.container}>
-      <View style={s.header}>
-        <View style={s.headerRow}>
+    <View style={st.container}>
+      <BackgroundGradient />
+      <View style={st.header}>
+        <View style={st.headerRow}>
           <TouchableOpacity onPress={() => setSubView('menu')}>
             <Ionicons name="arrow-back" size={24} color={T.text} />
           </TouchableOpacity>
           <View style={{ flex: 1 }}>
-            <Text style={s.title}>Catálogo</Text>
-            <Text style={s.subtitle}>{filtered.length} de {positions.length}</Text>
+            <Text style={st.title}>Catálogo</Text>
+            <Text style={st.subtitle}>{filtered.length} de {positions.length}</Text>
           </View>
+          <TouchableOpacity
+            style={[st.viewModeBtn, showViewPicker && st.viewModeBtnActive]}
+            onPress={() => setShowViewPicker(true)}
+          >
+            <Ionicons name={VIEW_MODES.find(v => v.key === viewMode)?.icon as any ?? 'grid'} size={18} color={T.primary} />
+          </TouchableOpacity>
         </View>
       </View>
 
-      <View style={s.filtersContainer}>
-        <View style={s.searchRow}>
-          <View style={[s.searchBox, { flex: 1 }]}>
+      <View style={st.filtersContainer}>
+        <View style={st.searchRow}>
+          <View style={[st.searchBox, { flex: 1 }]}>
             <Ionicons name="search" size={18} color={T.textMuted} />
-            <TextInput style={s.searchInput} placeholder="Buscar posición..." placeholderTextColor={T.textMuted} value={search} onChangeText={setSearch} />
+            <TextInput style={st.searchInput} placeholder="Buscar posición..." placeholderTextColor={T.textMuted} value={search} onChangeText={setSearch} />
             {search.length > 0 && <TouchableOpacity onPress={() => setSearch('')}><Ionicons name="close-circle" size={18} color={T.textMuted} /></TouchableOpacity>}
           </View>
-          <TouchableOpacity style={[s.filterToggle, showFilters && s.filterToggleActive]} onPress={() => setShowFilters(!showFilters)}>
+          <TouchableOpacity style={[st.filterToggle, showFilters && st.filterToggleActive]} onPress={() => setShowFilters(!showFilters)}>
             <Ionicons name={showFilters ? 'options' : 'options-outline'} size={18} color={showFilters ? T.primary : T.textMuted} />
-            <Text style={[s.filterToggleText, showFilters && { color: T.primary }]}>Filtros</Text>
+            <Text style={[st.filterToggleText, showFilters && { color: T.primary }]}>Filtros</Text>
           </TouchableOpacity>
         </View>
         {showFilters && (
-          <ScrollView style={s.filtersScroll} showsVerticalScrollIndicator={false}>
+          <ScrollView style={st.filtersScroll} showsVerticalScrollIndicator={false}>
             {FILTER_GROUPS.map(group => (
-              <View key={group.label} style={s.filterGroup}>
-                <Text style={s.filterGroupLabel}>{group.icon} {group.label}</Text>
-                <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={s.catScroll}>
+              <View key={group.label} style={st.filterGroup}>
+                <Text style={st.filterGroupLabel}>{group.icon} {group.label}</Text>
+                <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={st.catScroll}>
                   {group.items.map(cat => (
-                    <TouchableOpacity key={cat.id} style={[s.chip, selectedCategory === cat.id && { backgroundColor: cat.color + '18', borderColor: cat.color }]} onPress={() => setSelectedCategory(selectedCategory === cat.id ? 'all' : cat.id)}>
-                      <Text style={s.chipIcon}>{cat.icon}</Text>
-                      <Text style={[s.chipText, selectedCategory === cat.id && { color: cat.color, fontFamily: F.semibold }]}>{cat.name}</Text>
+                    <TouchableOpacity key={cat.id} style={[st.chip, selectedCategory === cat.id && { backgroundColor: cat.color + '18', borderColor: cat.color }]} onPress={() => setSelectedCategory(selectedCategory === cat.id ? 'all' : cat.id)}>
+                      <Text style={st.chipIcon}>{cat.icon}</Text>
+                      <Text style={[st.chipText, selectedCategory === cat.id && { color: cat.color, fontFamily: F.semibold }]}>{cat.name}</Text>
                     </TouchableOpacity>
                   ))}
                 </ScrollView>
@@ -405,36 +480,51 @@ export default function PositionsScreen() {
         )}
       </View>
 
-      <ScrollView contentContainerStyle={s.gridContent}>
-        <View style={[s.grid, { gridTemplateColumns: `repeat(${R2.numColumns}, 1fr)` }]}>
-          {filtered.map((pos: any) => (
-            <TouchableOpacity key={pos.id} style={s.card} onPress={() => openPosition(pos)} activeOpacity={0.7}>
-              <Image source={{ uri: `/images/${String(pos.id).padStart(3, '0')}.png` }} style={s.cardImage} resizeMode="contain" />
-              <View style={[s.badge, { position: 'absolute', top: 8, right: 8, backgroundColor: getSafetyColor(pos.safety) }]}>
-                <Text style={s.badgeText}>{getSafetyLabel(pos.safety)}</Text>
-              </View>
-              <TouchableOpacity style={[s.favBtn, favorites.includes(pos.id) && s.favBtnActive]} onPress={() => toggleFavorite(pos.id)} hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}>
-                <Ionicons name={favorites.includes(pos.id) ? 'star' : 'star-outline'} size={16} color={favorites.includes(pos.id) ? T.accent : T.textMuted} />
-              </TouchableOpacity>
-              <View style={s.cardInfo}>
-                <Text style={s.cardTitle} numberOfLines={1}>{pos.nameEs}</Text>
-                <View style={s.tagRow}>
-                  {pos.tags?.slice(0, 2).map((tag: string, i: number) => (
-                    <View key={i} style={s.tagMini}><Text style={s.tagMiniText}>{tag}</Text></View>
-                  ))}
-                </View>
-              </View>
-            </TouchableOpacity>
-          ))}
-        </View>
-      </ScrollView>
+      {viewMode === 'stack' ? (
+        <CardStack
+          items={filtered}
+          onCardPress={openPosition}
+          onFavorite={toggleFavorite}
+          favorites={favorites}
+          getSafetyColor={getSafetyColor}
+          getSafetyLabel={getSafetyLabel}
+        />
+      ) : viewMode === 'evervault' ? (
+        <ScrollView contentContainerStyle={st.gridContent}>
+          <View style={[st.grid, { gridTemplateColumns: `repeat(${Math.min(R2.numColumns, 3)}, 1fr)` }]}>
+            {filtered.map((pos: any) => (
+              <EvervaultCard
+                key={pos.id}
+                item={pos}
+                onPress={() => openPosition(pos)}
+                onFavorite={() => toggleFavorite(pos.id)}
+                isFavorite={favorites.includes(pos.id)}
+                safetyColor={getSafetyColor(pos.safety)}
+                safetyLabel={getSafetyLabel(pos.safety)}
+              />
+            ))}
+          </View>
+        </ScrollView>
+      ) : (
+        <ScrollView contentContainerStyle={st.gridContent}>
+          <View style={[st.grid, { gridTemplateColumns: `repeat(${R2.numColumns}, 1fr)` }]}>
+            {filtered.map((pos: any) => renderGridCard(pos))}
+          </View>
+        </ScrollView>
+      )}
       {renderModal()}
+      {renderViewPicker()}
     </View>
   );
 }
 
 // ===== STYLES =====
 const s = StyleSheet.create({
+  menuGrid: { padding: S.lg, gap: S.md },
+  menuGridDesktop: { flexDirection: 'row', justifyContent: 'center', flexWrap: 'wrap' },
+});
+
+const st = StyleSheet.create({
   container: { flex: 1, backgroundColor: T.bg },
   header: { paddingHorizontal: S.lg, paddingTop: Platform.OS === 'ios' ? 60 : 48, paddingBottom: S.sm },
   headerRow: { flexDirection: 'row', alignItems: 'center', gap: S.md },
@@ -442,10 +532,8 @@ const s = StyleSheet.create({
   subtitle: { fontSize: FS.sm, fontFamily: F.regular, color: T.textSecondary, marginTop: 2 },
 
   // Menu
-  menuGrid: { padding: S.lg, gap: S.md },
-  menuGridDesktop: { flexDirection: 'row', justifyContent: 'center', flexWrap: 'wrap' },
   menuCard: {
-    ...SHARED.glassCard, alignItems: 'center', gap: S.sm,
+    ...GLASS.card, alignItems: 'center', gap: S.sm,
     paddingVertical: S.xl, paddingHorizontal: S.lg,
     minHeight: 140, justifyContent: 'center',
   },
@@ -462,9 +550,9 @@ const s = StyleSheet.create({
   // Filters
   filtersContainer: { paddingHorizontal: S.lg, paddingBottom: S.sm },
   searchRow: { flexDirection: 'row', gap: S.sm, marginBottom: S.sm },
-  searchBox: { flexDirection: 'row', alignItems: 'center', backgroundColor: T.surface, borderRadius: R.md, paddingHorizontal: S.md, gap: S.sm },
+  searchBox: { flexDirection: 'row', alignItems: 'center', ...GLASS.chip, paddingHorizontal: S.md, gap: S.sm },
   searchInput: { flex: 1, color: T.text, fontSize: FS.base, fontFamily: F.regular, paddingVertical: 12 },
-  filterToggle: { flexDirection: 'row', alignItems: 'center', gap: S.xs, paddingHorizontal: S.md, paddingVertical: S.sm, borderRadius: R.md, backgroundColor: T.surface, borderWidth: 1.5, borderColor: T.border },
+  filterToggle: { flexDirection: 'row', alignItems: 'center', gap: S.xs, paddingHorizontal: S.md, paddingVertical: S.sm, borderRadius: R.md, ...GLASS.chip },
   filterToggleActive: { borderColor: T.primary, backgroundColor: T.primary + '10' },
   filterToggleText: { fontSize: FS.sm, fontFamily: F.medium, color: T.textMuted },
 
@@ -474,7 +562,7 @@ const s = StyleSheet.create({
   filterGroupLabel: { fontSize: FS.xs, fontFamily: F.semibold, color: T.textMuted, textTransform: 'uppercase' as const, letterSpacing: 0.5, marginBottom: S.xs, marginLeft: S.lg },
 
   // Chips
-  chip: { flexDirection: 'row', alignItems: 'center', gap: S.sm, paddingHorizontal: S.md, paddingVertical: 10, borderRadius: R.full, backgroundColor: T.surface, borderWidth: 1.5, borderColor: T.border },
+  chip: { flexDirection: 'row', alignItems: 'center', gap: S.sm, paddingHorizontal: S.md, paddingVertical: 10, borderRadius: R.full, ...GLASS.chip },
   chipIcon: { fontSize: 16 },
   chipText: { color: T.textSecondary, fontSize: FS.sm, fontFamily: F.medium },
 
@@ -483,7 +571,11 @@ const s = StyleSheet.create({
   grid: { display: 'grid', gap: S.md },
 
   // Cards
-  card: { ...SHARED.glassCard, overflow: 'hidden' },
+  card: {
+    ...GLASS.card,
+    overflow: 'hidden',
+    ...SHADOW.md,
+  },
   cardImage: { width: '100%', aspectRatio: 1, backgroundColor: '#000' },
   cardInfo: { padding: S.md },
   cardTitle: { fontSize: FS.base, fontFamily: F.semibold, color: T.text, marginBottom: S.xs },
@@ -500,7 +592,7 @@ const s = StyleSheet.create({
 
   // Tabs
   tabRow: { flexDirection: 'row', paddingHorizontal: S.lg, gap: S.sm, marginBottom: S.md },
-  tab: { flexDirection: 'row', alignItems: 'center', gap: 6, ...SHARED.chip },
+  tab: { flexDirection: 'row', alignItems: 'center', gap: 6, ...GLASS.chip, paddingHorizontal: S.md, paddingVertical: 10 },
   tabText: { fontSize: FS.sm, fontFamily: F.semibold, color: T.textMuted },
 
   // Empty
@@ -509,7 +601,7 @@ const s = StyleSheet.create({
 
   // Modal
   modalOverlay: { flex: 1, backgroundColor: 'rgba(0,0,0,0.75)', justifyContent: 'center', alignItems: 'center' },
-  modalContent: { backgroundColor: T.bgAlt, borderRadius: R.xl, maxHeight: '90%', padding: S.lg, overflow: 'hidden', width: '95%' },
+  modalContent: { ...GLASS.elevated, maxHeight: '90%', padding: S.lg, overflow: 'hidden', width: '95%', ...SHADOW.lg },
   modalHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: S.md },
   modalTitle: { fontSize: FS['2xl'], fontFamily: F.display, color: T.text, flex: 1 },
   modalImage: { width: '100%', height: 200, backgroundColor: '#000', borderRadius: R.lg, marginBottom: S.md },
@@ -518,11 +610,21 @@ const s = StyleSheet.create({
   modalId: { fontSize: FS.sm, fontFamily: F.regular, color: T.textMuted, flex: 1 },
   modalDesc: { fontSize: FS.base, fontFamily: F.regular, color: T.textSecondary, lineHeight: 22 },
 
-  // Shared components
-  glassCard: { ...SHARED.glassCard },
+  // Shared
+  glassCard: { ...GLASS.card },
   badge: { ...SHARED.badge },
   badgeText: { color: '#fff', fontSize: FS.xs, fontFamily: F.bold },
   btnPrimary: { ...SHARED.btnPrimary, flexDirection: 'row', gap: S.sm },
   btnPrimaryText: { color: '#fff', fontSize: FS.base, fontFamily: F.bold },
-  iconBtn: { backgroundColor: T.surface, borderRadius: R.md, padding: 10, borderWidth: 1, borderColor: T.border },
+  iconBtn: { ...GLASS.card, padding: 10 },
+
+  // View mode picker
+  viewModeBtn: { width: 40, height: 40, borderRadius: R.md, alignItems: 'center', justifyContent: 'center', ...GLASS.chip },
+  viewModeBtnActive: { borderColor: T.primary, backgroundColor: T.primary + '12' },
+  pickerOverlay: { flex: 1, backgroundColor: 'rgba(0,0,0,0.5)', justifyContent: 'center', alignItems: 'center' },
+  pickerSheet: { ...GLASS.elevated, ...SHADOW.lg, width: 260, padding: S.lg, gap: S.sm },
+  pickerTitle: { fontSize: FS.lg, fontFamily: F.bold, color: T.text, marginBottom: S.sm },
+  pickerItem: { flexDirection: 'row', alignItems: 'center', gap: S.md, paddingVertical: S.md, paddingHorizontal: S.md, borderRadius: R.md },
+  pickerItemActive: { backgroundColor: T.primary + '12' },
+  pickerLabel: { flex: 1, fontSize: FS.base, fontFamily: F.medium, color: T.textSecondary },
 });

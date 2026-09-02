@@ -1,7 +1,8 @@
 import { useState, useRef, useEffect } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Animated, Platform, useWindowDimensions } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { T, S, R, F, FS, BP, SHARED, useResponsive } from '../../src/tokens';
+import { T, S, R, F, FS, BP, SHARED, GLASS, SHADOW, useResponsive } from '../../src/tokens';
+import BackgroundGradient from '../../src/components/BackgroundGradient';
 
 const GAME_MODES = [
   { id: 'pareja', name: 'Pareja', icon: '💑', color: T.accent },
@@ -87,6 +88,7 @@ export default function GameScreen() {
 
   return (
     <View style={s.container}>
+      <BackgroundGradient />
       <View style={s.header}>
         <Text style={s.title}>Juego</Text>
         <Text style={s.subtitle}>Verdad o Reto</Text>
@@ -187,11 +189,11 @@ const s = StyleSheet.create({
   subtitle: { fontSize: FS.sm, fontFamily: F.regular, color: T.textSecondary, marginTop: 2 },
 
   modeRow: { flexDirection: 'row', paddingHorizontal: S.lg, gap: S.md, marginBottom: S.sm },
-  modeBtn: { flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: S.sm, ...SHARED.glassCard, paddingVertical: S.md },
+  modeBtn: { flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: S.sm, ...GLASS.card, paddingVertical: S.md, ...SHADOW.sm },
   modeText: { fontSize: FS.base, fontFamily: F.semibold, color: T.textSecondary },
 
   typeRow: { flexDirection: 'row', paddingHorizontal: S.lg, gap: S.md, marginBottom: S.md },
-  typeBtn: { flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: S.sm, ...SHARED.glassCard, paddingVertical: S.lg },
+  typeBtn: { flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: S.sm, ...GLASS.card, paddingVertical: S.lg, ...SHADOW.sm },
   typeBtnActive: { backgroundColor: '#4cc9f025', borderColor: '#4cc9f0' },
   typeBtnActiveDare: { backgroundColor: '#f7258525', borderColor: '#f72585' },
   typeBtnText: { fontSize: FS.lg, fontFamily: F.semibold, color: T.textMuted },
@@ -203,26 +205,26 @@ const s = StyleSheet.create({
     flexDirection: 'row', alignItems: 'center', gap: S.sm,
     paddingHorizontal: S.md, paddingVertical: 10,
     borderRadius: R.full,
-    backgroundColor: T.surface,
-    borderWidth: 1.5, borderColor: T.border,
+    ...GLASS.chip,
+    borderWidth: 1.5,
   },
   chipIcon: { fontSize: 16 },
   chipText: { color: T.textSecondary, fontSize: FS.sm, fontFamily: F.medium },
 
   cardArea: { flex: 1, justifyContent: 'center', alignItems: 'center', paddingHorizontal: S.lg },
-  gameCard: { width: '100%', ...SHARED.glassCard, padding: S.xl },
+  gameCard: { width: '100%', ...GLASS.card, padding: S.xl, ...SHADOW.lg },
   cardHeader: { flexDirection: 'row', justifyContent: 'space-between', marginBottom: S.lg },
   cardContent: { fontSize: FS.xl, fontFamily: F.medium, color: T.text, lineHeight: 30, textAlign: 'center', marginBottom: S.lg },
   cardCat: { fontSize: FS.sm, fontFamily: F.regular, color: T.textMuted, textAlign: 'center' },
   placeholder: { alignItems: 'center', gap: S.md },
   placeholderText: { fontSize: FS.lg, fontFamily: F.regular, color: T.textMuted },
 
-  drawBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: S.sm, marginHorizontal: S.lg, marginBottom: S.md, paddingVertical: S.lg, borderRadius: R.lg },
+  drawBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: S.sm, marginHorizontal: S.lg, marginBottom: S.md, paddingVertical: S.lg, borderRadius: R.lg, ...SHADOW.md },
   drawBtnText: { color: '#fff', fontSize: FS.lg, fontFamily: F.bold },
 
   historySection: { paddingHorizontal: S.lg, paddingBottom: S.lg },
   historyTitle: { fontSize: FS.sm, fontFamily: F.semibold, color: T.textSecondary, marginBottom: S.sm },
-  historyChip: { flexDirection: 'row', alignItems: 'center', gap: S.sm, ...SHARED.glassCard, paddingHorizontal: S.md, paddingVertical: S.sm, marginRight: S.sm },
+  historyChip: { flexDirection: 'row', alignItems: 'center', gap: S.sm, ...GLASS.chip, paddingHorizontal: S.md, paddingVertical: S.sm, marginRight: S.sm },
   historyText: { fontSize: FS.xs, fontFamily: F.regular, color: T.textSecondary, maxWidth: 100 },
 
   badge: { ...SHARED.badge },

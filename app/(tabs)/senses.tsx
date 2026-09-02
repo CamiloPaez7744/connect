@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView, useWindowDimensions, Modal, Platform } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { T, S, R, F, FS, BP, SHARED, useResponsive } from '../../src/tokens';
+import { T, S, R, F, FS, BP, SHARED, GLASS, SHADOW, useResponsive } from '../../src/tokens';
+import BackgroundGradient from '../../src/components/BackgroundGradient';
 
 const DIFF_COLOR: Record<string, string> = { easy: T.success, medium: T.warning, hard: T.danger };
 const DIFF_LABEL: Record<string, string> = { easy: 'Fácil', medium: 'Media', hard: 'Difícil' };
@@ -43,6 +44,7 @@ export default function SensesScreen() {
 
   return (
     <View style={s.container}>
+      <BackgroundGradient />
       <View style={s.header}>
         <Text style={s.title}>Sentidos</Text>
         <Text style={s.subtitle}>Explora los 5 sentidos del placer</Text>
@@ -208,11 +210,11 @@ const s = StyleSheet.create({
   title: { fontSize: FS['3xl'], fontFamily: F.display, color: T.text },
   subtitle: { fontSize: FS.sm, fontFamily: F.regular, color: T.textSecondary, marginTop: 2 },
 
-  randomBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: S.sm, backgroundColor: '#7b2ff7', marginHorizontal: S.lg, paddingVertical: S.md, borderRadius: R.lg, marginBottom: S.lg },
+  randomBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: S.sm, backgroundColor: '#7b2ff7', marginHorizontal: S.lg, paddingVertical: S.md, borderRadius: R.lg, marginBottom: S.lg, ...SHADOW.neonDual },
   randomBtnText: { color: '#fff', fontSize: FS.base, fontFamily: F.semibold },
 
   sensesGrid: { paddingHorizontal: S.lg, gap: S.md, marginBottom: S.xl },
-  senseCard: { ...SHARED.glassCard, padding: S.lg, alignItems: 'center', gap: S.xs },
+  senseCard: { ...GLASS.card, padding: S.lg, alignItems: 'center', gap: S.xs, ...SHADOW.sm },
   senseName: { fontSize: FS.lg, fontFamily: F.bold },
   senseCount: { fontSize: FS.xs, fontFamily: F.regular, color: T.textMuted },
 
@@ -221,7 +223,7 @@ const s = StyleSheet.create({
   sectionTitle: { fontSize: FS.xl, fontFamily: F.bold },
   sectionDesc: { fontSize: FS.sm, fontFamily: F.regular, color: T.textSecondary, lineHeight: 20, marginBottom: S.md },
 
-  activityCard: { ...SHARED.glassCard, padding: S.md, marginBottom: S.sm },
+  activityCard: { ...GLASS.card, padding: S.md, marginBottom: S.sm, ...SHADOW.sm },
   actHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: S.xs },
   actName: { fontSize: FS.base, fontFamily: F.semibold, color: T.text, flex: 1 },
   actDesc: { fontSize: FS.sm, fontFamily: F.regular, color: T.textSecondary, lineHeight: 18, marginBottom: S.sm },
@@ -230,7 +232,7 @@ const s = StyleSheet.create({
 
   // Modals
   modalOverlay: { flex: 1, backgroundColor: 'rgba(0,0,0,0.75)', justifyContent: 'flex-end' },
-  modalContent: { backgroundColor: T.bgAlt, borderTopLeftRadius: R.xl, borderTopRightRadius: R.xl, maxHeight: '90%', padding: S.lg, overflow: 'hidden' },
+  modalContent: { ...GLASS.elevated, borderTopLeftRadius: R.xl, borderTopRightRadius: R.xl, maxHeight: '90%', padding: S.lg, overflow: 'hidden', ...SHADOW.lg },
   modalHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: S.md },
   modalTitle: { fontSize: FS['2xl'], fontFamily: F.display, color: T.text, flex: 1 },
   modalDesc: { fontSize: FS.base, fontFamily: F.regular, color: T.textSecondary, lineHeight: 22 },
@@ -238,7 +240,7 @@ const s = StyleSheet.create({
   // Components
   badge: { ...SHARED.badge },
   badgeText: { fontSize: FS.xs, fontFamily: F.bold },
-  miniBadge: { flexDirection: 'row', alignItems: 'center', gap: 4, ...SHARED.badge, backgroundColor: T.surface },
+  miniBadge: { flexDirection: 'row', alignItems: 'center', gap: 4, ...SHARED.badge, ...GLASS.chip },
   miniBadgeText: { fontSize: FS.xs, fontFamily: F.medium, color: T.textSecondary },
 
   materialsTitle: { fontSize: FS.sm, fontFamily: F.semibold, color: T.text, marginBottom: S.sm },
@@ -248,6 +250,6 @@ const s = StyleSheet.create({
   tipBox: { flexDirection: 'row', gap: S.sm, backgroundColor: '#ffd16612', borderRadius: R.md, padding: S.md, borderWidth: 1, borderColor: '#ffd16625', marginTop: S.md },
   tipText: { flex: 1, fontSize: FS.sm, fontFamily: F.regular, color: '#ffd166', lineHeight: 20 },
 
-  drawBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: S.sm, paddingVertical: S.md, borderRadius: R.lg, marginTop: S.lg },
+  drawBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: S.sm, paddingVertical: S.md, borderRadius: R.lg, marginTop: S.lg, ...SHADOW.md },
   drawBtnText: { color: '#fff', fontSize: FS.base, fontFamily: F.semibold },
 });

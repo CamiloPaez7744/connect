@@ -1,4 +1,6 @@
-import { Platform } from 'react-native';
+import { Platform, ViewStyle, TextStyle, ImageStyle } from 'react-native';
+
+type NamedStyles<T> = { [P in keyof T]: ViewStyle | TextStyle | ImageStyle };
 
 // ===== DESIGN TOKENS - Basado en tap-2-play =====
 export const T = {
@@ -97,14 +99,128 @@ export function useResponsive(width: number) {
   };
 }
 
-// ===== SHARED STYLES =====
-export const SHARED = {
-  // Glass card material
-  glassCard: {
-    backgroundColor: T.surface,
+// ===== GLASS / GLOW EFFECTS (React Native compatible) =====
+export const GLASS = {
+  // Glass card — semi-transparent bg + border glow
+  card: {
+    backgroundColor: 'rgba(26,31,53,0.85)',
     borderRadius: R.lg,
     borderWidth: 1,
-    borderColor: T.border,
+    borderColor: 'rgba(255,255,255,0.08)',
+  },
+  // Elevated glass — for modals, sheets
+  elevated: {
+    backgroundColor: 'rgba(17,24,39,0.92)',
+    borderRadius: R.xl,
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.10)',
+  },
+  // Chip / pill material
+  chip: {
+    backgroundColor: 'rgba(26,31,53,0.7)',
+    borderRadius: R.full,
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.08)',
+  },
+  // Tab bar material
+  tabBar: {
+    backgroundColor: 'rgba(12,15,26,0.88)',
+    borderTopColor: 'rgba(255,255,255,0.06)',
+  },
+} as const;
+
+// ===== SHADOW PRESETS =====
+export const SHADOW = {
+  // Subtle elevation
+  sm: {
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 8,
+    elevation: 3,
+  } as ViewStyle,
+  // Medium card shadow
+  md: {
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.35,
+    shadowRadius: 16,
+    elevation: 6,
+  } as ViewStyle,
+  // Large — modal / floating
+  lg: {
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.45,
+    shadowRadius: 32,
+    elevation: 12,
+  } as ViewStyle,
+  // Neon cyan glow
+  neonCyan: {
+    shadowColor: T.primary,
+    shadowOffset: { width: 0, height: 0 },
+    shadowOpacity: 0.35,
+    shadowRadius: 20,
+    elevation: 8,
+  } as ViewStyle,
+  // Neon magenta glow
+  neonMagenta: {
+    shadowColor: T.accent,
+    shadowOffset: { width: 0, height: 0 },
+    shadowOpacity: 0.35,
+    shadowRadius: 20,
+    elevation: 8,
+  } as ViewStyle,
+  // Combined neon glow (cyan + magenta border)
+  neonDual: {
+    shadowColor: T.primary,
+    shadowOffset: { width: 0, height: 0 },
+    shadowOpacity: 0.3,
+    shadowRadius: 24,
+    elevation: 10,
+  } as ViewStyle,
+} as const;
+
+// ===== NEON BORDER PRESETS =====
+export const NEON = {
+  cyan: {
+    borderColor: 'rgba(0,229,199,0.4)',
+    shadowColor: T.primary,
+    shadowOffset: { width: 0, height: 0 },
+    shadowOpacity: 0.4,
+    shadowRadius: 16,
+  } as ViewStyle,
+  magenta: {
+    borderColor: 'rgba(247,37,133,0.4)',
+    shadowColor: T.accent,
+    shadowOffset: { width: 0, height: 0 },
+    shadowOpacity: 0.4,
+    shadowRadius: 16,
+  } as ViewStyle,
+  subtle: {
+    borderColor: 'rgba(255,255,255,0.12)',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 0 },
+    shadowOpacity: 0.2,
+    shadowRadius: 12,
+  } as ViewStyle,
+} as const;
+
+// ===== SHARED STYLES =====
+export const SHARED: { [key: string]: ViewStyle } = {
+  // Glass card material (legacy alias)
+  glassCard: {
+    backgroundColor: 'rgba(26,31,53,0.85)',
+    borderRadius: R.lg,
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.08)',
+    ...({
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 4 },
+      shadowOpacity: 0.35,
+      shadowRadius: 16,
+      elevation: 6,
+    } as ViewStyle),
   },
 
   // Button base
@@ -117,13 +233,13 @@ export const SHARED = {
   },
 
   btnSecondary: {
-    backgroundColor: T.surface,
+    backgroundColor: 'rgba(26,31,53,0.7)',
     borderRadius: R.md,
     paddingVertical: 14,
     alignItems: 'center' as const,
     justifyContent: 'center' as const,
     borderWidth: 1,
-    borderColor: T.border,
+    borderColor: 'rgba(255,255,255,0.08)',
   },
 
   // Chip
@@ -131,14 +247,14 @@ export const SHARED = {
     paddingHorizontal: 14,
     paddingVertical: 8,
     borderRadius: R.full,
-    backgroundColor: T.surface,
+    backgroundColor: 'rgba(26,31,53,0.7)',
     borderWidth: 1,
-    borderColor: T.border,
+    borderColor: 'rgba(255,255,255,0.08)',
   },
 
   // Input
   input: {
-    backgroundColor: T.surface,
+    backgroundColor: 'rgba(26,31,53,0.7)',
     borderRadius: R.md,
     paddingHorizontal: 14,
     paddingVertical: 12,
