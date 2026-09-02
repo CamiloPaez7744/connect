@@ -37,7 +37,7 @@ yarn-error.log*
 svg/
 *.html
 test_*.png
-connect.png
+/connect.png
 guia-sensorial-pareja.pdf
 design/
 method_*/
