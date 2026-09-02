@@ -1,0 +1,317 @@
+[
+  {
+    "id": "vista",
+    "name": "Vista",
+    "icon": "👁️",
+    "color": "#f72585",
+    "description": "Estimula la vista con experiencias visuales que despierten el deseo y la curiosidad.",
+    "activities": [
+      {
+        "id": "v1",
+        "name": "Striptease progresivo",
+        "description": "Uno de los partners realiza un striptease lento y sensual mientras el otro observa. Pueden usar una silla como escenario. El que observa no puede tocar, solo mirar.",
+        "difficulty": "medium",
+        "duration": "10-15 min",
+        "materials": ["Música sensual", "Ropa que se pueda quitar fácilmente"],
+        "tip": "La paciencia es clave: quitarse una prenda cada 2-3 minutos mantiene la tensión."
+      },
+      {
+        "id": "v2",
+        "name": "Juego de velas",
+        "description": "Enciende velas alrededor de la cama o del baño. La luz parpadeante crea sombras sensuales en el cuerpo. Pueden explorar el cuerpo del otro siguiendo las sombras.",
+        "difficulty": "easy",
+        "duration": "20-30 min",
+        "materials": ["Velas aromáticas", "Espacio seguro sin corrientes de aire"],
+        "tip": "Usa velas de colores diferentes para crear diferentes ambientes."
+      },
+      {
+        "id": "v3",
+        "name": "Espejo erótico",
+        "description": "Coloquen un espejo grande junto a la cama o en el techo. Observarse durante el acto sexual aumenta la excitación visual y la confianza.",
+        "difficulty": "medium",
+        "duration": "Variable",
+        "materials": ["Espejo grande y seguro"],
+        "tip": "Empiecen con un espejo pequeño si les da nervios, y vean cómo se sienten."
+      },
+      {
+        "id": "v4",
+        "name": "Lencería sorpresa",
+        "description": "Uno de los partners se excusa para ir al baño y regresa con lencería nueva que el otro no conocía. La sorpresa visual genera una oleada de deseo.",
+        "difficulty": "easy",
+        "duration": "5-10 min",
+        "materials": ["Lencería nueva guardada como sorpresa"],
+        "tip": "Compra piezas que no sabías que te gustarían: telas brillantes, encajes negros, colores atrevidos."
+      },
+      {
+        "id": "v5",
+        "name": "Video erótico juntos",
+        "description": "Veann juntos un video erótico (no pornográfico necesariamente) para inspirarse y hablar de lo que les gustaría probar. El estímulo visual compartido abre conversaciones.",
+        "difficulty": "easy",
+        "duration": "15-30 min",
+        "materials": ["Pantalla accesible", "Videos artísticos eróticos"],
+        "tip": "Busca videos de producción artística, no solo porno: hay series eróticas y cortometrajes muy sensuales."
+      },
+      {
+        "id": "v6",
+        "name": "Pintura corporal",
+        "description": "Usa pintura comestible o pintura corporal para dibujar en el cuerpo del otro. Luego 'limpia' la pintura con la boca. Arte y erotismo combinados.",
+        "difficulty": "medium",
+        "duration": "20-40 min",
+        "materials": ["Pintura corporal comestible", "Pinceles suaves"],
+        "tip": "Empieza con líneas simples: un corazón, el nombre, trazos abstractos."
+      }
+    ]
+  },
+  {
+    "id": "olfato",
+    "name": "Olfato",
+    "icon": "👃",
+    "color": "#7b2ff7",
+    "description": "El olfato está directamente conectado con la memoria y la emoción. Los olores pueden desencadenar recuerdos y deseos instantáneamente.",
+    "activities": [
+      {
+        "id": "o1",
+        "name": "Masaje con aceites aromáticos",
+        "description": "Calienta aceite de masaje con gotas de aceite esencial (ylang-ylang, sándalo, jazmín). El aroma relaja mientras el tacto excita. Masajea todo el cuerpo lentamente.",
+        "difficulty": "easy",
+        "duration": "30-60 min",
+        "materials": ["Aceite de masaje", "Aceites esenciales", "Toalla caliente"],
+        "tip": "El ylang-ylang es considerado afrodisíaco natural. Mezcla 3 gotas en 10ml de aceite base."
+      },
+      {
+        "id": "o2",
+        "name": "Baño aromático",
+        "description": "Prepara un baño con sales de Epsom, aceites esenciales y velas. El vapor transporta los aromas y relaja los músculos. Pueden masajearse mutuamente bajo el agua.",
+        "difficulty": "easy",
+        "duration": "30-45 min",
+        "materials": ["Sales de Epsom", "Aceites esenciales", "Velas", "Música suave"],
+        "tip": "La lavanda relaja, el eucalipto despierta, el rosa es sensual. Mezcla según el ánimo."
+      },
+      {
+        "id": "o3",
+        "name": "Cena erótica con aromas",
+        "description": "Cocinen juntos una cena con especias aromáticas: canela, jengibre, cardamomo, azafrán. El olor de la comida y las especias despiertan los sentidos antes de la cena principal.",
+        "difficulty": "medium",
+        "duration": "60-90 min",
+        "materials": ["Ingredientes frescos", "Especias aromáticas", "Vino o champán"],
+        "tip": "El azafrán es un afrodisíaco antiguo. El chocolate caliente con cardamomo es perfecto para después."
+      },
+      {
+        "id": "o4",
+        "name": "Perfume de pareja",
+        "description": "Cada uno se pone su perfume favorito antes de encontrarse. Los olores se mezclan durante el abrazo y crean una fragancia única de pareja.",
+        "difficulty": "easy",
+        "duration": "5 min",
+        "materials": ["Perfume o colonia favorita"],
+        "tip": "Elige un perfume que te recuerde a tu pareja. El olor se vuelve un ancla emocional."
+      },
+      {
+        "id": "o5",
+        "name": "Incienso y meditación sensorial",
+        "description": "Enciende incienso de sándalo o patchouli. Siéntense frente a frente, cierren los ojos y respiren profundamente. Sin hablar, acérquense lentamente hasta que sus narices se toquen.",
+        "difficulty": "easy",
+        "duration": "15-20 min",
+        "materials": ["Incienso", "Cojines", "Música ambiental"],
+        "tip": "La meditación juntos crea una conexión profunda antes del sexo."
+      },
+      {
+        "id": "o6",
+        "name": "Spray de sábanas",
+        "description": "Rocía las sábanas con un spray de lavanda o almizcle antes de acostarse. El aroma envolvente crea un nido sensual que invita a la intimidad.",
+        "difficulty": "easy",
+        "duration": "2 min",
+        "materials": ["Spray de sábanas aromático"],
+        "tip": "Puedes hacer el tuyo: agua destilada + gotas de aceite esencial en un spray."
+      }
+    ]
+  },
+  {
+    "id": "gusto",
+    "name": "Gusto",
+    "icon": "👅",
+    "color": "#06d6a0",
+    "description": "El gusto y el tacto están íntimamente conectados. La boca es uno de los órganos sexuales más sensibles del cuerpo.",
+    "activities": [
+      {
+        "id": "g1",
+        "name": "Chocolate comestible",
+        "description": "Derrite chocolate blanco o negro y úsalo para pintar el cuerpo del otro. Luego limpia cada gota con la lengua. El chocolate tibio sobre piel fría es una experiencia única.",
+        "difficulty": "easy",
+        "duration": "15-25 min",
+        "materials": ["Chocolate derretido", "Plato hondo"],
+        "tip": "El chocolate blanco es más dulce y sensual, el negro es más intenso y profundo."
+      },
+      {
+        "id": "g2",
+        "name": "Frutas eróticas",
+        "description": "Prepara una bandeja con fresas, uvas, mango, melocotón. Alimenta a tu pareja con las manos, dejando que los jugos escurran por los labios y el mentón.",
+        "difficulty": "easy",
+        "duration": "15-20 min",
+        "materials": ["Frutas frescas cortadas", "Crema batida (opcional)"],
+        "tip": "Las fresas con crema son clásicas pero efectivas. El mango maduro tiene una textura sensual."
+      },
+      {
+        "id": "g3",
+        "name": "Hielo y calor",
+        "description": "Usa cubos de hielo para trazar líneas frías por el cuerpo, luego cambia a un masaje con aceite tibio. El contraste de temperaturas es extremadamente estimulante.",
+        "difficulty": "medium",
+        "duration": "15-20 min",
+        "materials": ["Hielo", "Aceite de masaje tibio", "Toalla"],
+        "tip": "Nunca pongas hielo directo en zonas sensibles más de 3 segundos. Trázalo por los costados."
+      },
+      {
+        "id": "g4",
+        "name": "Vino y besos",
+        "description": "Tomen sorbos de vino tinto o champán y compártanlo besándose. El líquido pasa de boca en boca mientras se besan profundamente.",
+        "difficulty": "easy",
+        "duration": "10-15 min",
+        "materials": ["Vino tinto o champán", "Dos copas"],
+        "tip": "El vino tinto ácido crea un contraste interesante con el sabor de los labios."
+      },
+      {
+        "id": "g5",
+        "name": "Nieve de coco",
+        "description": "Unta crema de coco o helado de coco en zonas del cuerpo y limpia con la lengua. La textura fría y cremosa es adictiva.",
+        "difficulty": "easy",
+        "duration": "10-15 min",
+        "materials": ["Crema de coco o helado de coco"],
+        "tip": "La crema de coco tiene una textura perfecta para deslizar sobre la piel."
+      },
+      {
+        "id": "g6",
+        "name": "Degustación de líquidos corporales",
+        "description": "Un juego de confianza: cada uno prueba los líquidos corporales del otro (saliva, sudor, fluidos) y describe el sabor. Es vulnerable y extremadamente íntimo.",
+        "difficulty": "hard",
+        "duration": "10-20 min",
+        "materials": ["Confianza total", "Comunicación abierta"],
+        "tip": "Solo con pareja de confianza. La vulnerabilidad genera una conexión profunda."
+      }
+    ]
+  },
+  {
+    "id": "oido",
+    "name": "Oído",
+    "icon": "👂",
+    "color": "#118ab2",
+    "description": "Los oidos son uno de los órganos más sensibles del cuerpo. Los susurros, gemidos y la música pueden intensificar enormemente el placer.",
+    "activities": [
+      {
+        "id": "a1",
+        "name": "Playlist sensual",
+        "description": "Crea una playlist juntos con canciones que les gusten para el sexo. El ritmo de la música puede guiar el ritmo de los movimientos.",
+        "difficulty": "easy",
+        "duration": "Variable",
+        "materials": ["Buenos parlantes", "Spotify o similar"],
+        "tip": "Busca playlists como 'Sensual R&B', 'Lo-Fi Sexy', o 'Bass bedrooms'. El bass profundo se siente en el cuerpo."
+      },
+      {
+        "id": "a2",
+        "name": "Susurros al oído",
+        "description": "Acércate al oído de tu pareja y susúrrale lo que te gustaría hacerle, lo que te está haciendo sentir, o un recuerdo de una vez que fue increíble.",
+        "difficulty": "easy",
+        "duration": "Durante el sexo",
+        "materials": ["Solo tu voz"],
+        "tip": "La voz baja y grave es más erótica que un grito. La cercanía del aliento en la oreja es eléctrica."
+      },
+      {
+        "id": "a3",
+        "name": "Gemidos guiados",
+        "description": "Uno guía al otro: 'Quiero que gimas cuando te toque aquí'. Los gemidos feedback comunican placer y excitación mutua.",
+        "difficulty": "easy",
+        "duration": "Durante el sexo",
+        "materials": ["Comunicación abierta"],
+        "tip": "No forces los gemidos. Deja que salgan naturales. Un gemido auténtico es 100 veces más excitante."
+      },
+      {
+        "id": "a4",
+        "name": "ASMR erótico",
+        "description": "Busca audios o videos ASMR con sonidos sensuales: susurros, rascados, sonidos de piel. Escúchenlos juntos con auriculares antes de dormir.",
+        "difficulty": "easy",
+        "duration": "15-30 min",
+        "materials": ["Auriculares", "Videos ASMR eróticos"],
+        "tip": "El ASMR relaja y crea una sensación de hormigueo que puede convertirse en deseo."
+      },
+      {
+        "id": "a5",
+        "name": "Sonidos del sexo",
+        "description": "En vez de ocultar los sonidos, amplifícalos: los golpes de piel, los gemidos, la respiración pesada. El sonido del sexo es extremadamente excitante.",
+        "difficulty": "easy",
+        "duration": "Durante el sexo",
+        "materials": ["Desinhibición"],
+        "tip": "Sube el volumen de los sonidos naturales. Los gemidos y la respiración pesada son pornografía auditiva."
+      },
+      {
+        "id": "a6",
+        "name": "Teléfono erótico",
+        "description": "Aunque estén en la misma casa, llamen al teléfono del otro y háblenle eróticamente. El efecto del teléfono amplifica la voz y crea distancia emocional que excita.",
+        "difficulty": "medium",
+        "duration": "10-20 min",
+        "materials": ["Dos teléfonos", "Habitaciones separadas"],
+        "tip": "La voz por teléfono suena diferente: más grave, más íntima. Úsalo a tu favor."
+      }
+    ]
+  },
+  {
+    "id": "tacto",
+    "name": "Tacto",
+    "icon": "✋",
+    "color": "#ffd166",
+    "description": "El tacto es el sentido más primitivo y poderoso. Un solo toque puede comunicar más que mil palabras.",
+    "activities": [
+      {
+        "id": "t1",
+        "name": "Masaje tantrico",
+        "description": "Masaje lento y consciente que recorre todo el cuerpo sin llegar a zonas genitales. La frustración de no ser tocado ahí aumenta el deseo exponencialmente.",
+        "difficulty": "medium",
+        "duration": "30-60 min",
+        "materials": ["Aceite de masaje", "Música suave", "Cojines"],
+        "tip": "Recorre TODO el cuerpo: nuca, espalda, brazos, piernas, pies, manos, orejas. Todo es erógeno."
+      },
+      {
+        "id": "t2",
+        "name": "Plumas y texturas",
+        "description": "Usa plumas, seda, terciopelo, encaje para acariciar el cuerpo del otro. Diferentes texturas activan diferentes receptores del tacto.",
+        "difficulty": "easy",
+        "duration": "15-25 min",
+        "materials": ["Plumas de ropa", "Pañuelos de seda", "Telas variadas"],
+        "tip": "La seda sobre la piel generates una sensación de 'piel de gallina' que es increíblemente sensual."
+      },
+      {
+        "id": "t3",
+        "name": "Vendaje sensorial",
+        "description": "Venda los ojos de tu pareja (o usa una máscara de dormir). Al eliminar la vista, el tacto se vuelve 10 veces más intenso.",
+        "difficulty": "medium",
+        "duration": "20-40 min",
+        "materials": ["Venda suave o máscara de dormir"],
+        "tip": "Cuando no puede ver, cada toque es una sorpresa. Toca con diferentes partes: dedos, labios, nariz."
+      },
+      {
+        "id": "t4",
+        "name": "Juego de manos guiadas",
+        "description": "Uno cierra los ojos y el otro guía sus manos por su propio cuerpo, mostrándole dónde le gusta ser tocado. Comunicación del placer a través del tacto.",
+        "difficulty": "easy",
+        "duration": "15-25 min",
+        "materials": ["Solo sus manos"],
+        "tip": "No hay respuestas incorrectas. Si algo se siente bien, déjalo. Si no, redirige suavemente."
+      },
+      {
+        "id": "t5",
+        "name": "Ducha juntos",
+        "description": "Duchen juntos sin tener sexo. Solo acaríciense bajo el agua caliente. El vapor, el calor, y el agua corriendo por los cuerpos crean una experiencia sensorial completa.",
+        "difficulty": "easy",
+        "duration": "15-20 min",
+        "materials": ["Ducha amplia", "Jabón aromático"],
+        "tip": "Enfócate en lavar a tu pareja con cuidado, como si fuera un ritual. Cada caricia es intencional."
+      },
+      {
+        "id": "t6",
+        "name": "Temperatura extrema",
+        "description": "Alterna entre manos frías (sumergidas en agua helada) y manos calientes (calentadas con agua caliente) al tocar el cuerpo. El contraste es eléctrico.",
+        "difficulty": "easy",
+        "duration": "10-15 min",
+        "materials": ["Bowl con agua fría", "Bowl con agua caliente"],
+        "tip": "Empieza con frío, luego cambia a caliente. El cuerpo reacciona intensamente al cambio."
+      }
+    ]
+  }
+]

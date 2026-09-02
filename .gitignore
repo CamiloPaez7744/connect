@@ -1,0 +1,80 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Expo
+.expo/
+expo-env.d.ts
+dist/
+web-build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python scripts
+*.py
+
+# Image processing
+svg/
+*.html
+test_*.png
+connect.png
+guia-sensorial-pareja.pdf
+design/
+method_*/
+extracted/
+extracted_v2/
+extracted_v3/
+images_raw/
+images_clipped/
+images_final/
+images_final_v2/
+images_masked/
+images_v2/
+images_v3/
+images_v4/
+images_v5/
+images_v6/
+images_white_bg/
+images_with_furniture/
+images_with_white_furniture/
+images/
+
+# Docker symlinks
+public/images_final_v2
+
+# Docker
+.dockerignore
+docker-compose.yml
+docker-entrypoint.sh
+
+# Temp
+tmp/
+*.tmp
+*.bak
+
+# Build artifacts
+build/
+*.tgz
+
+# Scraper logs
+scrape_log.txt

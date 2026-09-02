@@ -1,0 +1,199 @@
+[
+  {
+    "id": "doggy",
+    "nameEs": "Doggy",
+    "icon": "🐕",
+    "color": "#f72585",
+    "tags": [
+      "doggy",
+      "por detrás",
+      "entrada trasera"
+    ]
+  },
+  {
+    "id": "cowgirl",
+    "nameEs": "Cowgirl",
+    "icon": "🤠",
+    "color": "#7b2ff7",
+    "tags": [
+      "cowgirl",
+      "mujer arriba"
+    ]
+  },
+  {
+    "id": "man_top",
+    "nameEs": "Hombre arriba",
+    "icon": "💪",
+    "color": "#118ab2",
+    "tags": [
+      "hombre arriba"
+    ]
+  },
+  {
+    "id": "spooning",
+    "nameEs": "Cucharas",
+    "icon": "🥄",
+    "color": "#06d6a0",
+    "tags": [
+      "cucharas",
+      "cucharas reversa"
+    ]
+  },
+  {
+    "id": "standing",
+    "nameEs": "De pie",
+    "icon": "🧍",
+    "color": "#ffd166",
+    "tags": [
+      "de pie",
+      "de pie y cargando"
+    ]
+  },
+  {
+    "id": "sitting",
+    "nameEs": "Sentados",
+    "icon": "🪑",
+    "color": "#ef4444",
+    "tags": [
+      "sentados"
+    ]
+  },
+  {
+    "id": "kneeling",
+    "nameEs": "Arrodillados",
+    "icon": "🙏",
+    "color": "#f59e0b",
+    "tags": [
+      "arrodillados"
+    ]
+  },
+  {
+    "id": "lying",
+    "nameEs": "Acostados",
+    "icon": "🛏️",
+    "color": "#4cc9f0",
+    "tags": [
+      "acostados"
+    ]
+  },
+  {
+    "id": "oral",
+    "nameEs": "Oral",
+    "icon": "💋",
+    "color": "#f72585",
+    "tags": [
+      "sexo oral",
+      "cunnilingus"
+    ]
+  },
+  {
+    "id": "anal",
+    "nameEs": "Anal",
+    "icon": "🔥",
+    "color": "#ef4444",
+    "tags": [
+      "sexo anal",
+      "juego anal"
+    ]
+  },
+  {
+    "id": "sixty_nine",
+    "nameEs": "69",
+    "icon": "6️⃣",
+    "color": "#b5179e",
+    "tags": [
+      "69"
+    ]
+  },
+  {
+    "id": "bed",
+    "nameEs": "En la cama",
+    "icon": "🛏️",
+    "color": "#06d6a0",
+    "tags": [
+      "en la cama"
+    ]
+  },
+  {
+    "id": "chair",
+    "nameEs": "En silla",
+    "icon": "🪑",
+    "color": "#118ab2",
+    "tags": [
+      "en silla",
+      "en sillón"
+    ]
+  },
+  {
+    "id": "couch",
+    "nameEs": "En sofá",
+    "icon": "🛋️",
+    "color": "#7b2ff7",
+    "tags": [
+      "en sofá"
+    ]
+  },
+  {
+    "id": "table",
+    "nameEs": "En mesa",
+    "icon": "🍽️",
+    "color": "#ffd166",
+    "tags": [
+      "en mesa"
+    ]
+  },
+  {
+    "id": "ball",
+    "nameEs": "En pelota",
+    "icon": "⚽",
+    "color": "#f59e0b",
+    "tags": [
+      "en pelota"
+    ]
+  },
+  {
+    "id": "face_to_face",
+    "nameEs": "Cara a cara",
+    "icon": "😍",
+    "color": "#f72585",
+    "tags": [
+      "cara a cara"
+    ]
+  },
+  {
+    "id": "reverse",
+    "nameEs": "Reversa",
+    "icon": "🔄",
+    "color": "#4cc9f0",
+    "tags": [
+      "reversa"
+    ]
+  },
+  {
+    "id": "sideways",
+    "nameEs": "De lado",
+    "icon": "↔️",
+    "color": "#06d6a0",
+    "tags": [
+      "de lado"
+    ]
+  },
+  {
+    "id": "criss_cross",
+    "nameEs": "Cruzadas",
+    "icon": "✖️",
+    "color": "#7b2ff7",
+    "tags": [
+      "cruzadas"
+    ]
+  },
+  {
+    "id": "right_angle",
+    "nameEs": "Ángulo recto",
+    "icon": "📐",
+    "color": "#118ab2",
+    "tags": [
+      "ángulo recto"
+    ]
+  }
+]

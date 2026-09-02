@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Connect",
+    "slug": "connect",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/connect.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "connect",
+    "splash": {
+      "backgroundColor": "#0a0e1a"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.connect.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/connect.png",
+        "backgroundColor": "#0a0e1a"
+      },
+      "package": "com.connect.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/connect.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-asset",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

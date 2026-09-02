@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "dare": "Baila sensualmente para tu pareja durante 1 minuto sin usar las manos.",
+    "category": "sensual",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 2,
+    "dare": "Quítate una prenda de ropa de la forma más lenta y sensual que puedas.",
+    "category": "sensual",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 3,
+    "dare": "Acaricia el cuello de tu pareja con la punta de los dedos durante 30 segundos.",
+    "category": "sensual",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 4,
+    "dare": "Susurra al oído de tu pareja algo que te gustaría hacerle ahora mismo.",
+    "category": "sensual",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 5,
+    "dare": "Besa a tu pareja en el cuello durante 30 segundos sin parar.",
+    "category": "sensual",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 6,
+    "dare": "Pon tus manos en las caderas de tu pareja y muévelas al ritmo de una canción imaginaria.",
+    "category": "sensual",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 7,
+    "dare": "Lame la oreja de tu pareja suavemente.",
+    "category": "sensual",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 8,
+    "dare": "Acaricia los muslos de tu pareja por dentro sin tocar la zona íntima.",
+    "category": "sensual",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 9,
+    "dare": "Dale un masaje en los hombros y espalda a tu pareja durante 2 minutos.",
+    "category": "erotico",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 10,
+    "dare": "Besa todo el cuerpo de tu pareja desde los pies hasta la boca, sin tocar los genitales.",
+    "category": "erotico",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 11,
+    "dare": "Toma hielo y traza líneas por el cuerpo de tu pareja.",
+    "category": "erotico",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 12,
+    "dare": "Hazle un oral a tu pareja durante 3 minutos sin que llegue al orgasmo.",
+    "category": "erotico",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 13,
+    "dare": "Deja que tu pareja te ate las manos con una bufanda y haga lo que quiera.",
+    "category": "erotico",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 14,
+    "dare": "Sentados frente a frente, acaríciense sin hablar durante 2 minutos.",
+    "category": "erotico",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 15,
+    "dare": "Pon crema de coco en el pecho de tu pareja y límpiala con la boca.",
+    "category": "erotico",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 16,
+    "dare": "Toca los pechos de tu pareja con las yemas de los dedos suavemente.",
+    "category": "erotico",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 17,
+    "dare": "Imita el gemido más gracioso que puedas. Tu pareja debe adivinar si es real o falso.",
+    "category": "divertido",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 18,
+    "dare": "Baila como si estuvieras en un concierto de rock durante 30 segundos.",
+    "category": "divertido",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 19,
+    "dare": "Ponte en 4 y deja que tu pareja te dibuje algo en la espalda con el dedo.",
+    "category": "divertido",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 20,
+    "dare": "Haz una cara de placer más exagerada que puedas.",
+    "category": "divertido",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 21,
+    "dare": "Canta una canción de amor con toda tu alma, sin importar cómo suene.",
+    "category": "divertido",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 22,
+    "dare": "Cuenta una historia erotica improvisada de 30 segundos.",
+    "category": "divertido",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 23,
+    "dare": "Deja que tu pareja te tome una selfie en una pose sensual.",
+    "category": "divertido",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 24,
+    "dare": "Mandale un mensaje subido de tono a tu pareja (aunque estén en la misma casa).",
+    "category": "atrevido",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 25,
+    "dare": "Deja que tu pareja te haga una pregunta incómoda y responde con total honestidad.",
+    "category": "atrevido",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 26,
+    "dare": "Quítate la ropa interior y déjala en el bolsillo de tu pareja.",
+    "category": "atrevido",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 27,
+    "dare": "Pon tu mano en el pecho de tu pareja y di lo que sientes por ella durante 1 minuto.",
+    "category": "atrevido",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 28,
+    "dare": "Deja que tu pareja te muerda suavemente el cuello.",
+    "category": "atrevido",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 29,
+    "dare": "Toca tu propia zona erógena favorita mientras miras a los ojos de tu pareja.",
+    "category": "atrevido",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 30,
+    "dare": "Deja que tu pareja escoja tu ropa interior para la próxima semana.",
+    "category": "atrevido",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 31,
+    "dare": "Deja que tu pareja te amarre a la cama durante 5 minutos.",
+    "category": "extremo",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 32,
+    "dare": "Tengan sexo en el lugar más público que se atrevan (sin que los pillen).",
+    "category": "extremo",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 33,
+    "dare": "Deja que tu pareja haga lo que quiera contigo durante 2 minutos sin poder decir que no.",
+    "category": "extremo",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 34,
+    "dare": "Tomen una foto erotica juntos y guárdenla en un lugar seguro.",
+    "category": "extremo",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 35,
+    "dare": "Llamen a un amigo/a y cuéntenle lo último que hicieron en la cama.",
+    "category": "extremo",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 36,
+    "dare": "Vistan ropa interior y sirvan la cena en esa outfit.",
+    "category": "extremo",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 37,
+    "dare": "Cenen en la cama en PIEL COMPLETA.",
+    "category": "extremo",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 38,
+    "dare": "Escribe una nota de amor y déjala donde tu pareja la encuentre mañana.",
+    "category": "romantico",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 39,
+    "dare": "Preparen una cena a la luz de las velas.",
+    "category": "romantico",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 40,
+    "dare": "Dense un baño juntos con sales de Epsom y velas.",
+    "category": "romantico",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 41,
+    "dare": "Acuéstense en la cama y cuéntense sus 3 recuerdos favoritos juntos.",
+    "category": "romantico",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 42,
+    "dare": "Déjense de masajear los pies mutuamente durante 5 minutos.",
+    "category": "romantico",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 43,
+    "dare": "Abrácense sin hablar durante 2 minutos, solo sintiendo el calor del otro.",
+    "category": "romantico",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 44,
+    "dare": "Miren las estrellas juntos y cuéntense un sueño que tengan para el futuro.",
+    "category": "romantico",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 45,
+    "dare": "Baila como si no te importara nada durante 1 minuto.",
+    "category": "grupo",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 46,
+    "dare": "Imita a una celebridad famosa y que adivinen quién es.",
+    "category": "grupo",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 47,
+    "dare": "Cuenta tu peor cita sexual (sin nombres).",
+    "category": "grupo",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 48,
+    "dare": "Deja que el grupo escoja tu próximo post de Instagram.",
+    "category": "grupo",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 49,
+    "dare": "Besa a la persona de tu izquierda en la mejilla.",
+    "category": "grupo",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 50,
+    "dare": "Cuenta tu mayor secreto sexual (sin dar demasiados detalles).",
+    "category": "grupo",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 51,
+    "dare": "Deja que tu pareja te haga un strip tease completo.",
+    "category": "sensual",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 52,
+    "dare": "Pon engrasador corporal y da un masaje completo a tu pareja.",
+    "category": "erotico",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 53,
+    "dare": "Esculpe tu cuerpo con pintura corporal y deja que tu pareja lo admire.",
+    "category": "erotico",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 54,
+    "dare": "Usa una plumapara acariciar todo el cuerpo de tu pareja.",
+    "category": "sensual",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 55,
+    "dare": "Deja que tu pareja te ponga un bone en los labios y bésala suavemente.",
+    "category": "sensual",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 56,
+    "dare": "Tengan una conversación sexy por mensaje durante todo el día de hoy.",
+    "category": "atrevido",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 57,
+    "dare": "Pon una canción sensual y baila con tu pareja pegados durante toda la canción.",
+    "category": "romantico",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 58,
+    "dare": "Deja que tu pareja elija tu posición favorita para hoy.",
+    "category": "erotico",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 59,
+    "dare": "Hagan un juramento de algo nuevo que quieren probar juntos en la cama.",
+    "category": "romantico",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 60,
+    "dare": "Cierren los ojos y adivinen qué parte de la mano de su pareja están tocando.",
+    "category": "divertido",
+    "intensity": 1,
+    "mode": "pareja"
+  }
+]
