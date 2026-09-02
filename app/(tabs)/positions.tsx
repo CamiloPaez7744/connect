@@ -156,7 +156,7 @@ export default function PositionsScreen() {
                 </TouchableOpacity>
               </View>
               <View style={[isDesktop && { flexDirection: 'row', gap: S.lg }]}>
-                <Image source={{ uri: `/images_final_v2/${String(selectedPosition.id).padStart(3, '0')}.png` }} style={[s.modalImage, isDesktop && { width: 320, height: 320, marginBottom: 0, flexShrink: 0 }]} resizeMode="contain" />
+                <Image source={{ uri: `/images/${String(selectedPosition.id).padStart(3, '0')}.png` }} style={[s.modalImage, isDesktop && { width: 320, height: 320, marginBottom: 0, flexShrink: 0 }]} resizeMode="contain" />
                 <View style={[isDesktop && { flex: 1 }]}>
                   <View style={s.modalMeta}>
                     <View style={[s.badge, { backgroundColor: getSafetyColor(selectedPosition.safety) }]}>
@@ -261,7 +261,7 @@ export default function PositionsScreen() {
           {randomPos && !isRolling && (
             <ScrollView style={{ width: '100%' }} contentContainerStyle={{ alignItems: 'center' }}>
               <View style={[s.glassCard, { width: '100%', maxWidth: 500 }]}>
-                <Image source={{ uri: `/images_final_v2/${String(randomPos.id).padStart(3, '0')}.png` }} style={{ width: '100%', height: 220, backgroundColor: '#000' }} resizeMode="contain" />
+                <Image source={{ uri: `/images/${String(randomPos.id).padStart(3, '0')}.png` }} style={{ width: '100%', height: 220, backgroundColor: '#000' }} resizeMode="contain" />
                 <View style={{ padding: S.lg }}>
                   <View style={s.modalMeta}>
                     <View style={[s.badge, { backgroundColor: getSafetyColor(randomPos.safety) }]}>
@@ -334,7 +334,7 @@ export default function PositionsScreen() {
             <View style={[s.grid, { gridTemplateColumns: `repeat(${R2.numColumns}, 1fr)` }]}>
               {mylistPositions.map((pos: any) => (
                 <TouchableOpacity key={pos.id} style={s.card} onPress={() => openPosition(pos)} activeOpacity={0.7}>
-                  <Image source={{ uri: `/images_final_v2/${String(pos.id).padStart(3, '0')}.png` }} style={s.cardImage} resizeMode="contain" />
+                  <Image source={{ uri: `/images/${String(pos.id).padStart(3, '0')}.png` }} style={s.cardImage} resizeMode="contain" />
                   <View style={s.cardInfo}>
                     <Text style={s.cardTitle} numberOfLines={1}>{pos.nameEs}</Text>
                     <View style={s.cardActions}>
@@ -409,7 +409,7 @@ export default function PositionsScreen() {
         <View style={[s.grid, { gridTemplateColumns: `repeat(${R2.numColumns}, 1fr)` }]}>
           {filtered.map((pos: any) => (
             <TouchableOpacity key={pos.id} style={s.card} onPress={() => openPosition(pos)} activeOpacity={0.7}>
-              <Image source={{ uri: `/images_final_v2/${String(pos.id).padStart(3, '0')}.png` }} style={s.cardImage} resizeMode="contain" />
+              <Image source={{ uri: `/images/${String(pos.id).padStart(3, '0')}.png` }} style={s.cardImage} resizeMode="contain" />
               <View style={[s.badge, { position: 'absolute', top: 8, right: 8, backgroundColor: getSafetyColor(pos.safety) }]}>
                 <Text style={s.badgeText}>{getSafetyLabel(pos.safety)}</Text>
               </View>
