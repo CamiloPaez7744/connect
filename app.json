@@ -8,6 +8,8 @@
     "userInterfaceStyle": "dark",
     "scheme": "connect",
     "splash": {
+      "image": "./assets/connect.png",
+      "resizeMode": "contain",
       "backgroundColor": "#0a0e1a"
     },
     "assetBundlePatterns": [
