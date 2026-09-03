@@ -232,7 +232,7 @@ const s = StyleSheet.create({
 
   // Modals
   modalOverlay: { flex: 1, backgroundColor: 'rgba(0,0,0,0.75)', justifyContent: 'flex-end' },
-  modalContent: { ...GLASS.elevated, borderTopLeftRadius: R.xl, borderTopRightRadius: R.xl, maxHeight: '90%', padding: S.lg, overflow: 'hidden', ...SHADOW.lg },
+  modalContent: { ...GLASS.elevated, borderTopLeftRadius: R.xl, borderTopRightRadius: R.xl, maxHeight: '90%', padding: S.lg, overflow: 'hidden', borderColor: 'rgba(0,229,199,0.08)', boxShadow: '0 8px 32px rgba(0,0,0,0.4), 0 0 6px rgba(0,229,199,0.08)' },
   modalHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: S.md },
   modalTitle: { fontSize: FS['2xl'], fontFamily: F.display, color: T.text, flex: 1 },
   modalDesc: { fontSize: FS.base, fontFamily: F.regular, color: T.textSecondary, lineHeight: 22 },

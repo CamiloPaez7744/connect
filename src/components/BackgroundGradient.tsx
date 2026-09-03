@@ -6,7 +6,7 @@ const { width: W, height: H } = Dimensions.get('window');
 
 function WebGradient() {
   return (
-    <View style={st.container} pointerEvents="none">
+    <View style={[st.container, { pointerEvents: 'none' as const }]}>
       <style>{`
         #bg-base {
           position: fixed;
@@ -92,7 +92,7 @@ function NativeGradient() {
   const tealY = drift.interpolate({ inputRange: [0, 1], outputRange: [H * 0.04, -H * 0.04] });
 
   return (
-    <View style={st.container} pointerEvents="none">
+    <View style={[st.container, { pointerEvents: 'none' as const }]}>
       <Animated.View
         style={[
           st.orb,

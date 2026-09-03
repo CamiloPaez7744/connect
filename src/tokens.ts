@@ -130,49 +130,50 @@ export const GLASS = {
 } as const;
 
 // ===== SHADOW PRESETS =====
+// On web, shadow* props are deprecated — use boxShadow (CSS)
 export const SHADOW = {
-  // Subtle elevation
   sm: {
+    boxShadow: '0 2px 8px rgba(0,0,0,0.25)',
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.25,
     shadowRadius: 8,
     elevation: 3,
   } as ViewStyle,
-  // Medium card shadow
   md: {
+    boxShadow: '0 4px 16px rgba(0,0,0,0.35)',
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.35,
     shadowRadius: 16,
     elevation: 6,
   } as ViewStyle,
-  // Large — modal / floating
   lg: {
+    boxShadow: '0 8px 32px rgba(0,0,0,0.45)',
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 8 },
     shadowOpacity: 0.45,
     shadowRadius: 32,
     elevation: 12,
   } as ViewStyle,
-  // Neon cyan glow
   neonCyan: {
+    boxShadow: '0 0 20px rgba(0,229,199,0.35), 0 0 40px rgba(0,229,199,0.15)',
     shadowColor: T.primary,
     shadowOffset: { width: 0, height: 0 },
     shadowOpacity: 0.35,
     shadowRadius: 20,
     elevation: 8,
   } as ViewStyle,
-  // Neon magenta glow
   neonMagenta: {
+    boxShadow: '0 0 20px rgba(247,37,133,0.35), 0 0 40px rgba(247,37,133,0.15)',
     shadowColor: T.accent,
     shadowOffset: { width: 0, height: 0 },
     shadowOpacity: 0.35,
     shadowRadius: 20,
     elevation: 8,
   } as ViewStyle,
-  // Combined neon glow (cyan + magenta border)
   neonDual: {
+    boxShadow: '0 0 24px rgba(0,229,199,0.3), 0 0 48px rgba(0,229,199,0.1)',
     shadowColor: T.primary,
     shadowOffset: { width: 0, height: 0 },
     shadowOpacity: 0.3,
@@ -185,6 +186,7 @@ export const SHADOW = {
 export const NEON = {
   cyan: {
     borderColor: 'rgba(0,229,199,0.4)',
+    boxShadow: '0 0 16px rgba(0,229,199,0.4)',
     shadowColor: T.primary,
     shadowOffset: { width: 0, height: 0 },
     shadowOpacity: 0.4,
@@ -192,6 +194,7 @@ export const NEON = {
   } as ViewStyle,
   magenta: {
     borderColor: 'rgba(247,37,133,0.4)',
+    boxShadow: '0 0 16px rgba(247,37,133,0.4)',
     shadowColor: T.accent,
     shadowOffset: { width: 0, height: 0 },
     shadowOpacity: 0.4,
@@ -199,6 +202,7 @@ export const NEON = {
   } as ViewStyle,
   subtle: {
     borderColor: 'rgba(255,255,255,0.12)',
+    boxShadow: '0 0 12px rgba(0,0,0,0.2)',
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 0 },
     shadowOpacity: 0.2,
@@ -214,13 +218,12 @@ export const SHARED: { [key: string]: ViewStyle } = {
     borderRadius: R.lg,
     borderWidth: 1,
     borderColor: 'rgba(255,255,255,0.08)',
-    ...({
-      shadowColor: '#000',
-      shadowOffset: { width: 0, height: 4 },
-      shadowOpacity: 0.35,
-      shadowRadius: 16,
-      elevation: 6,
-    } as ViewStyle),
+    boxShadow: '0 4px 16px rgba(0,0,0,0.35)',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.35,
+    shadowRadius: 16,
+    elevation: 6,
   },
 
   // Button base
