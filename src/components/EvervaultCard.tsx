@@ -1,10 +1,11 @@
 import { useState, useRef } from 'react';
 import {
   View, Text, Image, StyleSheet, Animated,
-  TouchableOpacity, Dimensions,
+  TouchableOpacity, Dimensions, Platform,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { T, S, R, F, FS, GLASS, SHADOW } from '../tokens';
+import { imageMap } from '../imageMap';
 
 const { width: SCREEN_W } = Dimensions.get('window');
 
@@ -98,7 +99,7 @@ export default function EvervaultCard({
           onPressOut={handlePressOut}
         >
           <View style={st.imageWrap}>
-            <Image source={{ uri: `/images/${imgId}.png` }} style={st.image} resizeMode="cover" />
+            <Image source={Platform.OS === 'web' ? { uri: `/images/${imgId}.png` } : (imageMap[imgId] || imageMap['001'])} style={st.image} resizeMode="cover" />
             <View style={st.imageOverlay} />
             <View style={[st.safetyBadge, { backgroundColor: safety.color }]}>
               <Text style={st.safetyText}>{safety.label}</Text>

@@ -5,11 +5,18 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { T, S, R, F, FS, BP, SHARED, GLASS, SHADOW, NEON, useResponsive } from '../../src/tokens';
+import { imageMap } from '../../src/imageMap';
 import CardStack from '../../src/components/CardStack';
 import EvervaultCard from '../../src/components/EvervaultCard';
 import BackgroundGradient from '../../src/components/BackgroundGradient';
 import RatingModal from '../../src/components/RatingModal';
 import RouletteWheel, { RouletteItem } from '../../src/components/RouletteWheel';
+
+function getImageSource(id: number) {
+  const key = String(id).padStart(3, '0');
+  if (Platform.OS === 'web') return { uri: `/images/${key}.png` };
+  return imageMap[key] || imageMap['001'];
+}
 
 const FILTER_GROUPS = [
   {
@@ -286,7 +293,7 @@ export default function PositionsScreen() {
                 </TouchableOpacity>
               </View>
               <View style={[isDesktop && { flexDirection: 'row', gap: S.lg }]}>
-                <Image source={{ uri: `/images/${String(selectedPosition.id).padStart(3, '0')}.png` }} style={[st.modalImage, isDesktop && { width: 320, height: 320, marginBottom: 0, flexShrink: 0 }]} resizeMode="contain" />
+                <Image source={getImageSource(selectedPosition.id)} style={[st.modalImage, isDesktop && { width: 320, height: 320, marginBottom: 0, flexShrink: 0 }]} resizeMode="contain" />
                 <View style={[isDesktop && { flex: 1 }]}>
                   <View style={st.modalMeta}>
                     <View style={[st.badge, { backgroundColor: getSafetyColor(selectedPosition.safety) }]}>
@@ -334,7 +341,7 @@ export default function PositionsScreen() {
   // ===== RENDER: Grid Card =====
   const renderGridCard = (pos: any) => (
     <TouchableOpacity key={pos.id} style={st.card} onPress={() => openPosition(pos)} activeOpacity={0.7}>
-      <Image source={{ uri: `/images/${String(pos.id).padStart(3, '0')}.png` }} style={st.cardImage} resizeMode="contain" />
+      <Image source={getImageSource(pos.id)} style={st.cardImage} resizeMode="contain" />
       <View style={[st.badge, { position: 'absolute' as const, top: 8, right: 8, backgroundColor: getSafetyColor(pos.safety) }]}>
         <Text style={st.badgeText}>{getSafetyLabel(pos.safety)}</Text>
       </View>
@@ -414,7 +421,7 @@ export default function PositionsScreen() {
           {randomPos && !isRolling && (
             <ScrollView style={{ width: '100%' }} contentContainerStyle={{ alignItems: 'center' }}>
               <View style={[st.randomCard, SHADOW.neonCyan]}>
-                <Image source={{ uri: `/images/${String(randomPos.id).padStart(3, '0')}.png` }} style={st.randomCardImage} resizeMode="contain" />
+                <Image source={getImageSource(randomPos.id)} style={st.randomCardImage} resizeMode="contain" />
                 <View style={st.randomCardBody}>
                   <View style={st.modalMeta}>
                     <View style={[st.badge, { backgroundColor: getSafetyColor(randomPos.safety) }]}>
@@ -524,7 +531,7 @@ export default function PositionsScreen() {
                 const avg = getAvgRating(pos.id);
                 return (
                   <TouchableOpacity key={pos.id} style={st.mylistCard} onPress={() => openPosition(pos)} activeOpacity={0.7}>
-                    <Image source={{ uri: `/images/${String(pos.id).padStart(3, '0')}.png` }} style={st.mylistCardImage} resizeMode="contain" />
+                    <Image source={getImageSource(pos.id)} style={st.mylistCardImage} resizeMode="contain" />
                     <View style={st.mylistCardBottom}>
                       <Text style={st.mylistCardTitle} numberOfLines={1}>{pos.nameEs}</Text>
                       <Text style={st.mylistCardId}>#{pos.id}</Text>

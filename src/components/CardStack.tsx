@@ -5,6 +5,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { T, S, R, F, FS, GLASS, SHADOW, NEON } from '../tokens';
+import { imageMap } from '../imageMap';
 
 const SCREEN_W = Dimensions.get('window').width;
 const SWIPE_THRESHOLD = SCREEN_W * 0.25;
@@ -139,7 +140,7 @@ export default function CardStack({
         {next && (
           <View style={[st.card, st.cardBehind]}>
             <Image
-              source={{ uri: `/images/${String(next.id).padStart(3, '0')}.png` }}
+              source={Platform.OS === 'web' ? { uri: `/images/${String(next.id).padStart(3, '0')}.png` } : (imageMap[String(next.id).padStart(3, '0')] || imageMap['001'])}
               style={st.cardImage}
               resizeMode="cover"
             />
@@ -166,7 +167,7 @@ export default function CardStack({
         >
           <TouchableOpacity activeOpacity={0.9} onPress={() => onCardPress?.(current)}>
             <Image
-              source={{ uri: `/images/${imgId}.png` }}
+              source={Platform.OS === 'web' ? { uri: `/images/${imgId}.png` } : (imageMap[imgId] || imageMap['001'])}
               style={st.cardImage}
               resizeMode="cover"
             />
