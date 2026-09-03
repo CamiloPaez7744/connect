@@ -1,1051 +1,2052 @@
 [
   {
     "id": 1,
-    "question": "¿Cuál es la parte de tu cuerpo que más te gusta que te toquen?",
+    "question": "¿Qué fue lo primero que te llamó la atención de mí físicamente?",
     "category": "descubrimiento",
-    "intensity": 2,
+    "intensity": 1,
     "mode": "pareja"
   },
   {
     "id": 2,
-    "question": "¿Cuál fue el primer pensamiento que tuviste de mí cuando nos vimos por primera vez?",
+    "question": "¿Qué prenda mía te gusta más que me quite?",
     "category": "descubrimiento",
     "intensity": 1,
     "mode": "pareja"
   },
   {
     "id": 3,
-    "question": "¿Qué es lo que más te atrae de mí físicamente?",
-    "category": "descubrimiento",
-    "intensity": 2,
+    "question": "¿Mi perfume/olor te excita? Descríbelo.",
+    "category": "deseos",
+    "intensity": 1,
     "mode": "pareja"
   },
   {
     "id": 4,
-    "question": "¿Alguna vez has fantaseado conmigo? ¿En qué situación?",
+    "question": "¿Cómo te gusta que te mire cuando estamos solos?",
     "category": "descubrimiento",
-    "intensity": 4,
+    "intensity": 1,
     "mode": "pareja"
   },
   {
     "id": 5,
-    "question": "¿Qué posición sexual nunca has probado pero te gustaría?",
-    "category": "descubrimiento",
-    "intensity": 4,
+    "question": "¿Qué gesto mío te parece más sexy?",
+    "category": "caliente",
+    "intensity": 1,
     "mode": "pareja"
   },
   {
     "id": 6,
-    "question": "¿Cuál es tu mayor miedo en la intimidad?",
+    "question": "¿Qué parte de mi espalda te gusta tocar?",
     "category": "descubrimiento",
-    "intensity": 3,
+    "intensity": 1,
     "mode": "pareja"
   },
   {
     "id": 7,
-    "question": "¿Qué es lo que más disfrutas durante el sexo?",
+    "question": "¿Prefieres mis labios con brillo o naturales?",
     "category": "descubrimiento",
-    "intensity": 3,
+    "intensity": 1,
     "mode": "pareja"
   },
   {
     "id": 8,
-    "question": "¿Cuál es tu momento favorito del acto sexual?",
+    "question": "¿Qué color de ropa interior crees que llevo hoy?",
     "category": "descubrimiento",
-    "intensity": 3,
+    "intensity": 1,
     "mode": "pareja"
   },
   {
     "id": 9,
-    "question": "¿Alguna vez te he dicho algo que te excitó mucho y no sabía?",
+    "question": "¿Qué canción te pondrías para seducirme?",
     "category": "descubrimiento",
-    "intensity": 3,
+    "intensity": 1,
     "mode": "pareja"
   },
   {
     "id": 10,
-    "question": "¿Qué parte de mi cuerpo te vuelve loco/a?",
-    "category": "descubrimiento",
-    "intensity": 3,
+    "question": "¿Cómo es mi \"mirada de deseo\"?",
+    "category": "deseos",
+    "intensity": 1,
     "mode": "pareja"
   },
   {
     "id": 11,
-    "question": "¿Cuál es tuمفاwasa favorita y por qué?",
+    "question": "¿Qué prefieres, que te muerda suave o que te bese fuerte?",
     "category": "descubrimiento",
-    "intensity": 2,
+    "intensity": 1,
     "mode": "pareja"
   },
   {
     "id": 12,
-    "question": "¿Qué te prende más: ver, escuchar o sentir?",
+    "question": "¿Cuál es mi ángulo más favorecedor?",
     "category": "descubrimiento",
-    "intensity": 2,
+    "intensity": 1,
     "mode": "pareja"
   },
   {
     "id": 13,
-    "question": "¿Alguna vez has tenido un sueño erótico conmigo? ¿De qué trataba?",
-    "category": "descubrimiento",
-    "intensity": 4,
+    "question": "¿Qué es lo más atrevido que harías en un ascensor conmigo?",
+    "category": "caliente",
+    "intensity": 1,
     "mode": "pareja"
   },
   {
     "id": 14,
-    "question": "¿Qué ropa interior te gusta más que use?",
+    "question": "¿Cómo te gusta que te tome la mano?",
     "category": "descubrimiento",
-    "intensity": 3,
+    "intensity": 1,
     "mode": "pareja"
   },
   {
     "id": 15,
-    "question": "¿En qué momento del día te da más ganas?",
+    "question": "¿Qué piensas cuando me ves reír?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 16,
+    "question": "¿Mi voz te provoca algo?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 17,
+    "question": "¿Qué prefieres, verme en ropa interior o en una camisa grande?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 18,
+    "question": "¿Cuánto tiempo podrías sostenerme la mirada sin reírte?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 19,
+    "question": "¿Qué accesorio mío (pulsera, collar) te gusta jugar?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 20,
+    "question": "¿Qué harías si te susurro algo al oído ahora?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 21,
+    "question": "¿Te gusta que te despeine?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 22,
+    "question": "¿Qué parte de mi cara te dan ganas de pintar con tus dedos?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 23,
+    "question": "¿Cómo me describirías en tres palabras para un amante?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 24,
+    "question": "¿Te gustan mis manos? ¿Qué te gustaría que hicieran?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 25,
+    "question": "¿Qué es más sexy, que te cocine o que te bañe?",
+    "category": "caliente",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 26,
+    "question": "¿Qué harías si te digo que hoy no llevo nada debajo del vestido?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 27,
+    "question": "¿Qué prefieres, que te mire a los ojos o a la boca?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 28,
+    "question": "¿Qué es lo primero que tocarías si nos acostamos?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 29,
+    "question": "¿Te gusta la ropa interior con encaje o lisa?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 30,
+    "question": "¿Qué parte de mi cuerpo te pide ser besada ahora?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 31,
+    "question": "¿Cómo te gusta que te llame en la cama?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 32,
+    "question": "¿Qué piensas si te digo \"hoy solo quiero mirarte\"?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 33,
+    "question": "¿Te atreverías a desabrocharme un botón con los dientes?",
+    "category": "caliente",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 34,
+    "question": "¿Qué prefieres, luz tenue o completa oscuridad?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 35,
+    "question": "¿Qué perfume te pondrías para mí?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 36,
+    "question": "¿Qué harías si te digo que me ponga tu camisa?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 37,
+    "question": "¿Te gustan los mordiscos en el hombro?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 38,
+    "question": "¿Cómo te sientes cuando camino frente a ti?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 39,
+    "question": "¿Qué palabra te excita más que diga?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 40,
+    "question": "¿Eres más de dar órdenes o de recibirlas?",
     "category": "descubrimiento",
     "intensity": 2,
     "mode": "pareja"
   },
   {
-    "id": 16,
-    "question": "¿Qué te gustaría que hiciera contigo ahora mismo?",
-    "category": "deseos",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 17,
-    "question": "¿Hay algo que siempre has querido probar pero da vergüenza pedir?",
-    "category": "deseos",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 18,
-    "question": "¿Qué fantasía tienes que involucra un lugar público?",
-    "category": "deseos",
-    "intensity": 5,
-    "mode": "pareja"
-  },
-  {
-    "id": 19,
-    "question": "¿Te gusta que te dominen o que domines? ¿Por qué?",
-    "category": "deseos",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 20,
-    "question": "¿Qué fue lo más atrevido que has hecho sexualmente?",
-    "category": "deseos",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 21,
-    "question": "¿Te excita la idea de usar juguetes sexuales juntos?",
-    "category": "deseos",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 22,
-    "question": "¿Qué opinas del sexo anal? ¿Lo has probado?",
-    "category": "deseos",
-    "intensity": 5,
-    "mode": "pareja"
-  },
-  {
-    "id": 23,
-    "question": "¿Te gustaría que alguien más nos viera teniendo sexo?",
-    "category": "deseos",
-    "intensity": 5,
-    "mode": "pareja"
-  },
-  {
-    "id": 24,
-    "question": "¿Qué opinas del role play? ¿Qué personaje te gustaría interpretar?",
-    "category": "deseos",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 25,
-    "question": "¿Alguna vez has pensado en una trio? ¿Con quién?",
-    "category": "deseos",
-    "intensity": 5,
-    "mode": "pareja"
-  },
-  {
-    "id": 26,
-    "question": "¿Qué parte de mi cuerpo te gustaría explorar más a fondo?",
-    "category": "deseos",
-    "intensity": 3,
-    "mode": "pareja"
-  },
-  {
-    "id": 27,
-    "question": "¿Te excita la idea de hacerlo en un lugar donde nos puedan pillar?",
-    "category": "deseos",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 28,
-    "question": "¿Qué location de la casa es tu favorita para hacer el amor?",
-    "category": "deseos",
-    "intensity": 3,
-    "mode": "pareja"
-  },
-  {
-    "id": 29,
-    "question": "¿Alguna vez has querido hacer un video teniendo sexo?",
-    "category": "deseos",
-    "intensity": 5,
-    "mode": "pareja"
-  },
-  {
-    "id": 30,
-    "question": "¿Qué opinas del tantric sex?",
-    "category": "deseos",
-    "intensity": 3,
-    "mode": "pareja"
-  },
-  {
-    "id": 31,
-    "question": "Describe tu fantasía sexual perfecta, desde el principio hasta el final.",
-    "category": "fantasias",
-    "intensity": 5,
-    "mode": "pareja"
-  },
-  {
-    "id": 32,
-    "question": "¿Alguna vez has fantaseado con alguien que no es tu pareja? ¿Quién?",
-    "category": "fantasias",
-    "intensity": 5,
-    "mode": "pareja"
-  },
-  {
-    "id": 33,
-    "question": "¿Qué te gustaría que pasara en una noche de hotel solo para nosotros?",
-    "category": "fantasias",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 34,
-    "question": "¿Te gusta la idea de serGrabado/a teniendo sexo? ¿Qué harías si se filtara?",
-    "category": "fantasias",
-    "intensity": 5,
-    "mode": "pareja"
-  },
-  {
-    "id": 35,
-    "question": "¿Cuál es tu fantasía más prohibida que nunca le has contado a nadie?",
-    "category": "fantasias",
-    "intensity": 5,
-    "mode": "pareja"
-  },
-  {
-    "id": 36,
-    "question": "¿Te excita la idea de hacer el amor bajo la lluvia?",
-    "category": "fantasias",
-    "intensity": 3,
-    "mode": "pareja"
-  },
-  {
-    "id": 37,
-    "question": "¿Alguna vez has querido tener sexo en un ascensor, avión o auto?",
-    "category": "fantasias",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 38,
-    "question": "¿Qué opinas del bondage ligero? ¿Te gustaría que te amarre?",
-    "category": "fantasias",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 39,
-    "question": "¿Alguna vez has soñado con una orgía? ¿Cómo era?",
-    "category": "fantasias",
-    "intensity": 5,
-    "mode": "pareja"
-  },
-  {
-    "id": 40,
-    "question": "¿Qué te gustaría que hagamos en nuestra próxima escapada de fin de semana?",
-    "category": "fantasias",
-    "intensity": 3,
-    "mode": "pareja"
-  },
-  {
     "id": 41,
-    "question": "¿Cuál fue tu mejor momento sexual conmigo?",
-    "category": "recuerdos",
+    "question": "¿Qué parte de mi cuerpo te gusta dominar?",
+    "category": "descubrimiento",
     "intensity": 2,
     "mode": "pareja"
   },
   {
     "id": 42,
-    "question": "¿Cuál fue el sexo más rápido que hemos tenido? ¿Dónde fue?",
-    "category": "recuerdos",
-    "intensity": 3,
+    "question": "¿Cuál es tu fantasía más recurrente conmigo?",
+    "category": "fantasias",
+    "intensity": 2,
     "mode": "pareja"
   },
   {
     "id": 43,
-    "question": "¿Qué recuerdo sexual me tienes que nunca me has contado?",
-    "category": "recuerdos",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 44,
-    "question": "¿Cuál fue tu primera vez? ¿Cómo fue?",
-    "category": "recuerdos",
-    "intensity": 2,
-    "mode": "pareja"
-  },
-  {
-    "id": 45,
-    "question": "¿Alguna vez nos han escuchado teniendo sexo? ¿Qué pasó?",
-    "category": "recuerdos",
-    "intensity": 3,
-    "mode": "pareja"
-  },
-  {
-    "id": 46,
-    "question": "¿Cuál fue el lugar más loco donde hemos hecho el amor?",
-    "category": "recuerdos",
-    "intensity": 3,
-    "mode": "pareja"
-  },
-  {
-    "id": 47,
-    "question": "¿Qué pretendiente meTenías antes de que fuéramos novios?",
-    "category": "recuerdos",
-    "intensity": 2,
-    "mode": "pareja"
-  },
-  {
-    "id": 48,
-    "question": "¿Cuál fue el momento más divertido que hemos tenido en la cama?",
-    "category": "recuerdos",
-    "intensity": 1,
-    "mode": "pareja"
-  },
-  {
-    "id": 49,
-    "question": "¿Alguna vez hemos terminado el sexo demasiado rápido? ¿Qué pasó?",
-    "category": "recuerdos",
-    "intensity": 2,
-    "mode": "pareja"
-  },
-  {
-    "id": 50,
-    "question": "¿Cuál fue la mejor vez que me diste oral? ¿Qué hizo especial?",
-    "category": "recuerdos",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 51,
-    "question": "Demuéstrame cómo te masturbas cuando piensas en mí.",
-    "category": "juegos",
-    "intensity": 5,
-    "mode": "pareja"
-  },
-  {
-    "id": 52,
-    "question": "Baila para mí como si estuvieras en un club de striptease.",
-    "category": "juegos",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 53,
-    "question": "Ponte tu ropa interior favorita y camina por la casa como si fuera una pasarela.",
-    "category": "juegos",
-    "intensity": 3,
-    "mode": "pareja"
-  },
-  {
-    "id": 54,
-    "question": "Háblame sucio durante 2 minutos sin parar.",
-    "category": "juegos",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 55,
-    "question": "Masajea mi cuello y espalda con besos durante 3 minutos.",
-    "category": "juegos",
-    "intensity": 2,
-    "mode": "pareja"
-  },
-  {
-    "id": 56,
-    "question": "Imita un gemido que te excite y déjame adivinar si es real o falso.",
-    "category": "juegos",
-    "intensity": 3,
-    "mode": "pareja"
-  },
-  {
-    "id": 57,
-    "question": "Pon una canción sensual y baila pegado/a a mí hasta que termine.",
-    "category": "juegos",
-    "intensity": 3,
-    "mode": "pareja"
-  },
-  {
-    "id": 58,
-    "question": "Describe con detalle qué me harías si estuviéramos solos ahora mismo.",
-    "category": "juegos",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 59,
-    "question": "Dame un beso de 30 segundos sin usar las manos.",
-    "category": "juegos",
-    "intensity": 2,
-    "mode": "pareja"
-  },
-  {
-    "id": 60,
-    "question": "Quítame una prenda de ropa usando solo tu boca.",
-    "category": "juegos",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 61,
-    "question": "¿Qué es lo que más valoras de nuestra relación sexual?",
-    "category": "intimidad",
-    "intensity": 1,
-    "mode": "pareja"
-  },
-  {
-    "id": 62,
-    "question": "¿Alguna vez te he hecho sentir incómodo/a en la cama? ¿Qué pasó?",
-    "category": "intimidad",
-    "intensity": 2,
-    "mode": "pareja"
-  },
-  {
-    "id": 63,
-    "question": "¿Qué necesitas de mí que no te estoy dando en la intimidad?",
-    "category": "intimidad",
-    "intensity": 3,
-    "mode": "pareja"
-  },
-  {
-    "id": 64,
-    "question": "¿Cómo me describirías como amante?",
-    "category": "intimidad",
-    "intensity": 2,
-    "mode": "pareja"
-  },
-  {
-    "id": 65,
-    "question": "¿Qué es algo que podríamos mejorar en nuestra vida sexual?",
-    "category": "intimidad",
-    "intensity": 2,
-    "mode": "pareja"
-  },
-  {
-    "id": 66,
-    "question": "¿Te sientes cómodo/a hablando de sexo conmigo? ¿Por qué sí o por qué no?",
-    "category": "intimidad",
-    "intensity": 2,
-    "mode": "pareja"
-  },
-  {
-    "id": 67,
-    "question": "¿Qué significado tiene el sexo para ti en nuestra relación?",
-    "category": "intimidad",
-    "intensity": 1,
-    "mode": "pareja"
-  },
-  {
-    "id": 68,
-    "question": "¿Alguna vez has fakeado un orgasmo? ¿Por qué?",
-    "category": "intimidad",
-    "intensity": 3,
-    "mode": "pareja"
-  },
-  {
-    "id": 69,
-    "question": "¿Qué es lo que más te gusta de mí como amante?",
-    "category": "intimidad",
-    "intensity": 2,
-    "mode": "pareja"
-  },
-  {
-    "id": 70,
-    "question": "Si pudieras cambiar algo de nuestra vida sexual, ¿qué sería?",
-    "category": "intimidad",
-    "intensity": 2,
-    "mode": "pareja"
-  },
-  {
-    "id": 71,
-    "question": "¿Qué es lo más sucio que me dirías ahora mismo?",
-    "category": "caliente",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 72,
-    "question": "¿Cómo te sientes cuando te escribo algo picante por mensaje?",
-    "category": "caliente",
-    "intensity": 3,
-    "mode": "pareja"
-  },
-  {
-    "id": 73,
-    "question": "¿Alguna vez has tenido sexo en el trabajo o en un lugar taboo?",
-    "category": "caliente",
-    "intensity": 5,
-    "mode": "pareja"
-  },
-  {
-    "id": 74,
-    "question": "¿Qué parte de mi cuerpo te gustaría desnudar con la boca ahora mismo?",
-    "category": "caliente",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 75,
-    "question": "¿Te excita que te haga el amor despacio o rápido y duro?",
-    "category": "caliente",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 76,
-    "question": "¿Qué opinas del sexo en el baño? ¿Lo hemos probado?",
-    "category": "caliente",
-    "intensity": 3,
-    "mode": "pareja"
-  },
-  {
-    "id": 77,
-    "question": "¿Alguna vez hemos tenido sexo tan bueno que no pudiste caminar al día siguiente?",
-    "category": "caliente",
-    "intensity": 5,
-    "mode": "pareja"
-  },
-  {
-    "id": 78,
-    "question": "¿Qué.positionn nunca hemos probado pero te gustaría que hagamos ahora?",
-    "category": "caliente",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 79,
-    "question": "¿Te gusta cuando te agarro del pelo durante el sexo?",
-    "category": "caliente",
-    "intensity": 4,
-    "mode": "pareja"
-  },
-  {
-    "id": 80,
-    "question": "¿Cuántas veces a la semana necesitas sexo para estar satisfecho/a?",
-    "category": "caliente",
-    "intensity": 3,
-    "mode": "pareja"
-  },
-  {
-    "id": 81,
-    "question": "¿Cuál es la cosa más atrevida que has hecho borracho/a?",
-    "category": "grupo",
-    "intensity": 3,
-    "mode": "grupo"
-  },
-  {
-    "id": 82,
-    "question": "¿Alguna vez has besado a alguien que no era tu pareja en una fiesta?",
-    "category": "grupo",
-    "intensity": 3,
-    "mode": "grupo"
-  },
-  {
-    "id": 83,
-    "question": "¿Cuál es tu mayor secreto sexual que nadie aquí sabe?",
-    "category": "grupo",
-    "intensity": 4,
-    "mode": "grupo"
-  },
-  {
-    "id": 84,
-    "question": "¿Alguna vez has tenido una relación de una noche? ¿Cómo fue?",
-    "category": "grupo",
-    "intensity": 4,
-    "mode": "grupo"
-  },
-  {
-    "id": 85,
-    "question": "¿Qué es lo más loco que harías si nadie te juzgara?",
-    "category": "grupo",
-    "intensity": 4,
-    "mode": "grupo"
-  },
-  {
-    "id": 86,
-    "question": "¿Alguna vez has tenido sexo con más de una persona en el mismo día?",
-    "category": "grupo",
-    "intensity": 5,
-    "mode": "grupo"
-  },
-  {
-    "id": 87,
-    "question": "¿Cuál es tu posición favorita y por qué?",
-    "category": "grupo",
-    "intensity": 2,
-    "mode": "grupo"
-  },
-  {
-    "id": 88,
-    "question": "¿Alguna vez has mandado una foto subida de tono y te arrepentiste?",
-    "category": "grupo",
-    "intensity": 4,
-    "mode": "grupo"
-  },
-  {
-    "id": 89,
-    "question": "¿Qué es lo más sucio que alguien te ha dicho en la cama?",
-    "category": "grupo",
-    "intensity": 4,
-    "mode": "grupo"
-  },
-  {
-    "id": 90,
-    "question": "¿Alguna vez has fingido un orgasmo? ¿Cuándo fue la última vez?",
-    "category": "grupo",
-    "intensity": 3,
-    "mode": "grupo"
-  },
-  {
-    "id": 91,
-    "question": "¿Te gustaría que usemos comida en la cama? ¿Qué tipo?",
-    "category": "juegos",
-    "intensity": 3,
-    "mode": "pareja"
-  },
-  {
-    "id": 92,
-    "question": "¿Alguna vez has querido probar el sexo con hielo en algún lugar del cuerpo?",
-    "category": "juegos",
-    "intensity": 3,
-    "mode": "pareja"
-  },
-  {
-    "id": 93,
-    "question": "¿Cuál es tu mayor inseguridad sobre tu cuerpo?",
+    "question": "¿Cómo te gustaría que te atara?",
     "category": "descubrimiento",
     "intensity": 2,
     "mode": "pareja"
   },
   {
+    "id": 44,
+    "question": "¿Qué te parece el juego de roles? ¿Cuál te llama la atención?",
+    "category": "juegos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 45,
+    "question": "¿Qué ropa te pondrías para que te \"desvista\" con violencia?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 46,
+    "question": "¿Prefieres que te bese duro o suave?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 47,
+    "question": "¿Cómo te gustaría que te provoque en público?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 48,
+    "question": "¿Qué es lo más prohibido que te excita?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 49,
+    "question": "¿Qué apodo te gustaría que te grite en la cama?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 50,
+    "question": "¿Eres de juegos previos largos o prefieres ir al grano?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 51,
+    "question": "¿Qué harías si te pongo una venda en los ojos?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 52,
+    "question": "¿Te gusta que te rasque suave o fuerte?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 53,
+    "question": "¿Cuál es tu zona erógena más sensible?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 54,
+    "question": "¿Qué posesión mía te gustaría que usaras como juguete?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 55,
+    "question": "¿Qué es lo más atrevido que harías en un auto?",
+    "category": "caliente",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 56,
+    "question": "¿Cómo te gusta que te pida las cosas?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 57,
+    "question": "¿Qué significa para ti el \"descontrol\"?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 58,
+    "question": "¿Te gusta que te muerdan? ¿Dónde?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 59,
+    "question": "¿Qué canción te pone en ambiente de dominación?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 60,
+    "question": "¿Qué prefieres, que te pida permiso o que me tome lo que quiero?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 61,
+    "question": "¿Qué es lo más sucio que te gusta que te digan?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 62,
+    "question": "¿Cómo te gusta que te mire mientras estás arriba?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 63,
+    "question": "¿Qué parte de mi cuerpo te da más morbo?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 64,
+    "question": "¿Te gusta el roleplay de \"desconocidos en un bar\"?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 65,
+    "question": "¿Qué prefieres, seda o cuero?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 66,
+    "question": "¿Cómo sería nuestro \"juego de la botella\" privado?",
+    "category": "juegos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 67,
+    "question": "¿Qué es lo que más te prohibirías a ti mismo?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 68,
+    "question": "¿Te gusta que te escupan? (en contexto sexual)",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 69,
+    "question": "¿Qué objeto de la casa usarías para atarme?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 70,
+    "question": "¿Cómo te gusta que te despierte?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 71,
+    "question": "¿Qué es un \"no\" rotundo para ti en la cama?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 72,
+    "question": "¿Te gusta que te agarren del pelo?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 73,
+    "question": "¿Cuál es tu fetiche más oculto?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 74,
+    "question": "¿Qué parte de mí te gusta ensuciar?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 75,
+    "question": "¿Cómo reaccionarías si te digo \"hazme lo que quieras\"?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 76,
+    "question": "¿Te gusta que te arañen?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 77,
+    "question": "¿Qué prefieres, sexo de madrugada o de tarde?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 78,
+    "question": "¿Qué te parece el sexo en el espejo?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 79,
+    "question": "¿Cómo te gusta que te bese el cuello?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 80,
+    "question": "¿Prefieres morder o ser mordido?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 81,
+    "question": "¿Qué sabor te gusta más que tenga mi boca?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 82,
+    "question": "¿Cómo te gusta que te chupe los dedos?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 83,
+    "question": "¿Qué zona de tu cuerpo te vuelve loco cuando te la beso?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 84,
+    "question": "¿Te gusta que te muerda los labios?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 85,
+    "question": "¿Qué harías si te digo que quiero saborearte entero?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 86,
+    "question": "¿Cómo te gusta que te bese el pecho?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 87,
+    "question": "¿Cuál es la sensación más placentera que recuerdas con mi boca?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 88,
+    "question": "¿Te gusta que te muerda la oreja? ¿Suave o fuerte?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 89,
+    "question": "¿Qué prefieres, besos húmedos o secos?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 90,
+    "question": "¿Cómo te gusta que te bese los muslos?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 91,
+    "question": "¿Qué sensación te da cuando te beso la nuca?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 92,
+    "question": "¿Te gusta el juego de \"chupar\" y \"soplar\"?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 93,
+    "question": "¿Qué harías si te digo que no pare de besarte?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
     "id": 94,
-    "question": "¿Qué es algo que te gustaría que hiciera más en la cama?",
+    "question": "¿Te gusta que te bese las costillas?",
     "category": "descubrimiento",
     "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 95,
-    "question": "¿Cuál es tu zona erógena que menos hemos explorado?",
+    "question": "¿Cómo te gusta que te bese las manos?",
     "category": "descubrimiento",
     "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 96,
-    "question": "¿Qué música te excita más para tener sexo?",
+    "question": "¿Qué prefieres, que te muerda la barbilla o la mandíbula?",
     "category": "descubrimiento",
-    "intensity": 2,
+    "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 97,
-    "question": "¿Te gusta más el sexo por la mañana o por la noche? ¿Por qué?",
+    "question": "¿Te gusta que te deje marcas (chupetones)?",
     "category": "descubrimiento",
-    "intensity": 2,
+    "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 98,
-    "question": "¿Alguna vez te he despertado con un sexo oral? ¿Qué te pareció?",
+    "question": "¿Qué parte de mi cuerpo te gusta morder más?",
     "category": "descubrimiento",
     "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 99,
-    "question": "¿Cuál es tu fantasies del tipo ' Wake Up Call' favorita?",
+    "question": "¿Cómo te gusta que te bese los hombros?",
     "category": "descubrimiento",
     "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 100,
-    "question": "¿Qué es algo que nunca harías en la cama sin importar cuánto te lo pidieran?",
+    "question": "¿Te gusta que te bese la espalda baja?",
     "category": "descubrimiento",
     "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 101,
-    "question": "¿Te gustaría que te atara a la cama y hiciera lo que quisiera contigo?",
+    "question": "¿Qué es más excitante, un beso sorpresa o uno esperado?",
     "category": "deseos",
-    "intensity": 5,
+    "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 102,
-    "question": "¿Qué opinas del role play de profesor/a y alumno/a?",
-    "category": "deseos",
-    "intensity": 4,
+    "question": "¿Cómo te gusta que te bese el estómago?",
+    "category": "descubrimiento",
+    "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 103,
-    "question": "¿Alguna vez has querido tener un encuentro en unhotel con un desconocido/a (fingiendo que no nos conocemos)?",
-    "category": "deseos",
-    "intensity": 5,
+    "question": "¿Te gusta que te muerda los dedos?",
+    "category": "descubrimiento",
+    "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 104,
-    "question": "¿Qué juguete sexual te gustaría que probáramos juntos?",
-    "category": "deseos",
-    "intensity": 4,
+    "question": "¿Qué sensación te produce mi lengua en tu piel?",
+    "category": "descubrimiento",
+    "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 105,
-    "question": "¿Te excita la idea de tener sexo en la playa de noche?",
-    "category": "deseos",
-    "intensity": 4,
+    "question": "¿Te gusta que te bese las rodillas?",
+    "category": "descubrimiento",
+    "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 106,
-    "question": "Toca una parte de mi cuerpo con la boca y déjame adivinar cuál es.",
-    "category": "juegos",
-    "intensity": 2,
+    "question": "¿Cómo te gusta que te bese las caderas?",
+    "category": "descubrimiento",
+    "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 107,
-    "question": "Pon una mano en mi pecho y la otra donde quieras. Ahora cuéntame qué sientes.",
-    "category": "juegos",
+    "question": "¿Prefieres besos largos o cortos y rápidos?",
+    "category": "descubrimiento",
     "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 108,
-    "question": "Dibuja con el dedo algo en mi espalda y déjame adivinar qué es.",
-    "category": "juegos",
-    "intensity": 1,
+    "question": "¿Te gusta que te muerda los labios hasta que sangren (suavemente)?",
+    "category": "descubrimiento",
+    "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 109,
-    "question": "Acércate a mi oído y susúrrame algo que nunca me has dicho.",
-    "category": "juegos",
+    "question": "¿Qué haces con tu lengua cuando te beso?",
+    "category": "descubrimiento",
     "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 110,
-    "question": "Tócame sin usar las manos. ¿Cómo lo harías?",
-    "category": "juegos",
+    "question": "¿Te gusta que te bese los pies?",
+    "category": "descubrimiento",
     "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 111,
-    "question": "¿Cuál fue el momento exacto en que supiste que me amabas?",
-    "category": "recuerdos",
-    "intensity": 1,
+    "question": "¿Cómo te gusta que te bese los tobillos?",
+    "category": "descubrimiento",
+    "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 112,
-    "question": "¿Cuál fue nuestra mejor cita? ¿Qué la hizo especial?",
-    "category": "recuerdos",
-    "intensity": 1,
+    "question": "¿Te gusta el sabor de mi piel después de hacer ejercicio?",
+    "category": "descubrimiento",
+    "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 113,
-    "question": "¿Qué regalo te ha hecho más feliz?",
-    "category": "recuerdos",
-    "intensity": 1,
+    "question": "¿Qué te excita más, verme besar tu cuerpo o sentirlo?",
+    "category": "deseos",
+    "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 114,
-    "question": "¿Cuál fue nuestro primer beso? ¿Cómo fue?",
-    "category": "recuerdos",
-    "intensity": 1,
+    "question": "¿Te gusta que te bese los brazos por dentro?",
+    "category": "descubrimiento",
+    "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 115,
-    "question": "¿Alguna vez hemos tenido una discusión que terminó en sexo increíble?",
-    "category": "recuerdos",
+    "question": "¿Cómo te gusta que te bese las muñecas?",
+    "category": "descubrimiento",
     "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 116,
-    "question": "¿Qué es algo que me admiras que no sabes que sé que admiras?",
-    "category": "intimidad",
-    "intensity": 1,
+    "question": "¿Te gusta que te muerda el lóbulo de la oreja?",
+    "category": "descubrimiento",
+    "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 117,
-    "question": "¿Qué es algo que te gustaría que hiciéramos juntos que nunca hemos hecho?",
-    "category": "intimidad",
-    "intensity": 2,
+    "question": "¿Qué prefieres, que te bese con menta o con caramelo?",
+    "category": "descubrimiento",
+    "intensity": 3,
     "mode": "pareja"
   },
   {
     "id": 118,
-    "question": "¿Cuál es tu mayor sueño para nosotros como pareja?",
-    "category": "intimidad",
-    "intensity": 1,
+    "question": "¿Cuál es tu posición favorita y por qué?",
+    "category": "descubrimiento",
+    "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 119,
-    "question": "¿Qué es algo que te da miedo de nuestra relación?",
-    "category": "intimidad",
-    "intensity": 2,
+    "question": "¿Prefieres estar arriba o abajo?",
+    "category": "descubrimiento",
+    "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 120,
-    "question": "¿Qué necesitas de mí que no te estoy dando?",
-    "category": "intimidad",
-    "intensity": 2,
+    "question": "¿Cómo te gusta el ritmo, rápido o lento?",
+    "category": "descubrimiento",
+    "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 121,
-    "question": "Describe cómo me desvestirías ahora mismo, prenda por prenda.",
-    "category": "caliente",
+    "question": "¿Qué posición te parece más íntima?",
+    "category": "descubrimiento",
     "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 122,
-    "question": "¿Qué harías conmigo si estuviéramos solos en un ascensor?",
-    "category": "caliente",
-    "intensity": 5,
+    "question": "¿Te gusta el sexo frente al espejo?",
+    "category": "descubrimiento",
+    "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 123,
-    "question": "¿Qué es lo más atrevido que has hecho en una piscina?",
-    "category": "caliente",
+    "question": "¿Prefieres el sexo en la cama o en el suelo?",
+    "category": "descubrimiento",
     "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 124,
-    "question": "¿Te excita que te haga el amor de espaldas mirándote a los ojos?",
-    "category": "caliente",
+    "question": "¿Qué posición te da más control?",
+    "category": "descubrimiento",
     "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 125,
-    "question": "¿Cuánto tiempo puedes aguantar sin tocar a tu pareja? (Reto de resistencia)",
-    "category": "caliente",
-    "intensity": 3,
+    "question": "¿Cómo te gusta que te muevan las caderas?",
+    "category": "descubrimiento",
+    "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 126,
-    "question": "¿Cuál es elScreenshot más comprometedor que tienes en tu teléfono?",
-    "category": "grupo",
+    "question": "¿Te gusta el sexo de pie?",
+    "category": "descubrimiento",
     "intensity": 4,
-    "mode": "grupo"
+    "mode": "pareja"
   },
   {
     "id": 127,
-    "question": "¿Alguna vez has besado a dos personas en la misma noche?",
-    "category": "grupo",
+    "question": "¿Qué posición te parece más atrevida?",
+    "category": "caliente",
     "intensity": 4,
-    "mode": "grupo"
+    "mode": "pareja"
   },
   {
     "id": 128,
-    "question": "¿Cuál es tu mayor orgullo sexual que nunca le has contado a nadie?",
-    "category": "grupo",
-    "intensity": 3,
-    "mode": "grupo"
+    "question": "¿Prefieres el ritmo constante o con pausas?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
   },
   {
     "id": 129,
-    "question": "¿Qué es lo más loco que harías en una fiesta de swingers?",
-    "category": "grupo",
-    "intensity": 5,
-    "mode": "grupo"
+    "question": "¿Cómo te gusta que te toquen mientras estás en una posición?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
   },
   {
     "id": 130,
-    "question": "¿Alguna vez has tenido una fantasía con alguien que está en esta habitación?",
-    "category": "grupo",
-    "intensity": 5,
-    "mode": "grupo"
+    "question": "¿Te gusta el sexo en 69?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
   },
   {
     "id": 131,
-    "question": "¿Qué canción te recuerda a nuestro primer beso?",
-    "category": "recuerdos",
-    "intensity": 1,
+    "question": "¿Qué posición te hace sentir más vulnerable?",
+    "category": "descubrimiento",
+    "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 132,
-    "question": "¿Cuál es tu Place Favorito que nunca hemos ido juntos?",
-    "category": "deseos",
-    "intensity": 2,
+    "question": "¿Cómo te gusta que te agarren las caderas?",
+    "category": "descubrimiento",
+    "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 133,
-    "question": "¿Qué opinas de las parejas abiertas? ¿Alguna vez lo considerarías?",
+    "question": "¿Prefieres el sexo con luz o sin luz?",
     "category": "descubrimiento",
     "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 134,
-    "question": "¿Alguna vez has tenido pensamientos intrusivos durante el sexo?",
-    "category": "descubrimiento",
-    "intensity": 3,
+    "question": "¿Qué posición te da más placer?",
+    "category": "intimidad",
+    "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 135,
-    "question": "¿Qué es algo que te gustaría que te dijera más often en la cama?",
-    "category": "intimidad",
-    "intensity": 3,
+    "question": "¿Cómo te gusta que te toquen el clítoris/pene?",
+    "category": "descubrimiento",
+    "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 136,
-    "question": "¿Te gustaría que hiciéramos un videojuego de strip poker?",
-    "category": "juegos",
-    "intensity": 3,
+    "question": "¿Te gusta cambiar de posición durante el sexo?",
+    "category": "descubrimiento",
+    "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 137,
-    "question": "¿Qué es algo que nunca harías en público pero sí en privado?",
-    "category": "deseos",
+    "question": "¿Qué posición te parece más romántica?",
+    "category": "descubrimiento",
     "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 138,
-    "question": "¿Alguna vez has tenido un crush en un profesor/a o jefe/a?",
-    "category": "recuerdos",
-    "intensity": 3,
+    "question": "¿Cómo te gusta que te besen mientras estás en una posición?",
+    "category": "descubrimiento",
+    "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 139,
-    "question": "¿Qué es lo más romántico que alguien ha hecho por ti en la cama?",
-    "category": "recuerdos",
-    "intensity": 2,
+    "question": "¿Prefieres el sexo en la ducha?",
+    "category": "descubrimiento",
+    "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 140,
-    "question": "¿Te excita la idea de tener sexo en un avión privado?",
-    "category": "fantasias",
+    "question": "¿Qué posición te parece más prohibida?",
+    "category": "descubrimiento",
     "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 141,
-    "question": "¿Qué opinas del pegging? ¿Lo has considerado?",
-    "category": "deseos",
-    "intensity": 5,
+    "question": "¿Cómo te gusta que te agarren el pelo?",
+    "category": "descubrimiento",
+    "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 142,
-    "question": "¿Alguna vez has querido hacer una sesion de fotos erótica?",
-    "category": "fantasias",
+    "question": "¿Te gusta el sexo con ropa puesta?",
+    "category": "descubrimiento",
     "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 143,
-    "question": "¿Cuál es tu mayor fantasía con una celebridad?",
-    "category": "fantasias",
+    "question": "¿Qué posición te da más acceso a mi cuerpo?",
+    "category": "intimidad",
     "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 144,
-    "question": "¿Qué opinas del sex swing? ¿Te gustaría probarlo?",
-    "category": "deseos",
-    "intensity": 5,
+    "question": "¿Cómo te gusta que te muevan las piernas?",
+    "category": "descubrimiento",
+    "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 145,
-    "question": "¿Alguna vez has tenido un trío real? ¿Cómo fue?",
-    "category": "fantasias",
-    "intensity": 5,
+    "question": "¿Prefieres el sexo boca arriba o boca abajo?",
+    "category": "descubrimiento",
+    "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 146,
-    "question": "¿Qué es algo que te gusta que te hagan pero nunca pides?",
+    "question": "¿Qué posición te parece más divertida?",
     "category": "descubrimiento",
-    "intensity": 3,
+    "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 147,
-    "question": "¿Te gustaría que jugáramos a 'verdad o mentira' con我们的 amigosa?",
-    "category": "grupo",
+    "question": "¿Cómo te gusta que te toquen el pecho?",
+    "category": "descubrimiento",
     "intensity": 4,
-    "mode": "grupo"
+    "mode": "pareja"
   },
   {
     "id": 148,
-    "question": "¿Cuál es tu position favorita para el oral? ¿Por qué?",
+    "question": "¿Te gusta el sexo en la cocina?",
     "category": "descubrimiento",
-    "intensity": 3,
+    "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 149,
-    "question": "¿Qué opinas del someting called 'edging'? ¿Lo has probado?",
-    "category": "deseos",
+    "question": "¿Cómo te gusta que te agarren la nuca?",
+    "category": "descubrimiento",
     "intensity": 4,
     "mode": "pareja"
   },
   {
     "id": 150,
-    "question": "Si pudieras tener sexo con cualquier persona del mundo una vez, ¿quién sería?",
+    "question": "¿Prefieres el sexo con música?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 151,
+    "question": "¿Qué posición te da más libertad?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 152,
+    "question": "¿Cómo te gusta que te toquen los muslos?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 153,
+    "question": "¿Te gusta el sexo al aire libre?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 154,
+    "question": "¿Qué posición te parece más salvaje?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 155,
+    "question": "¿Cómo te gusta que te agarren las muñecas?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 156,
+    "question": "¿Prefieres el sexo con juegos de rol?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 157,
+    "question": "¿Cuál es tu fantasía sexual más salvaje?",
     "category": "fantasias",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 158,
+    "question": "¿Qué te gustaría que hiciera con mis manos ahora mismo?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 159,
+    "question": "¿Te gusta el sexo anal? ¿Cómo lo prefieres?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 160,
+    "question": "¿Qué juguete sexual te gustaría probar?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 161,
+    "question": "¿Cómo te gusta que te toquen mientras te penetro?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 162,
+    "question": "¿Qué es lo más erótico que has visto en una película porno?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 163,
+    "question": "¿Te gusta que te amarren mientras te penetran?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 164,
+    "question": "¿Qué te excita más, verme a mí o escucharme?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 165,
+    "question": "¿Te gusta el sexo con vibradores?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 166,
+    "question": "¿Cómo te gusta que te penetren, lento o rápido?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 167,
+    "question": "¿Qué te parece el sexo en trío? (como fantasía)",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 168,
+    "question": "¿Te gusta que te hablen sucio durante el sexo?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 169,
+    "question": "¿Cómo te gusta que te toquen el punto G/próstata?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 170,
+    "question": "¿Te gusta el sexo con lubricantes?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 171,
+    "question": "¿Qué te parece el juego de la \"novia folladora\"?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 172,
+    "question": "¿Te gusta que te escupan mientras te penetran?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 173,
+    "question": "¿Qué te parece el sexo con esposas?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 174,
+    "question": "¿Cómo te gusta que te agarren las nalgas?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 175,
+    "question": "¿Te gusta el sexo con bolas chinas?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 176,
+    "question": "¿Qué te parece el sexo con plumas?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 177,
+    "question": "¿Te gusta que te aten los ojos?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 178,
+    "question": "¿Te gusta el sexo con cremas?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 179,
+    "question": "¿Qué te parece el sexo con hielo?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 180,
+    "question": "¿Te gusta el sexo con velas?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 181,
+    "question": "¿Cómo te gusta que te toquen los pechos?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 182,
+    "question": "¿Te gusta el sexo con disfraces?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 183,
+    "question": "¿Qué te parece el sexo con máscaras?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 184,
+    "question": "¿Te gusta el sexo con correas?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 185,
+    "question": "¿Cómo te gusta que te toquen las caderas?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 186,
+    "question": "¿Te gusta el sexo con ropa interior?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 187,
+    "question": "¿Qué te parece el sexo con medias?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 188,
+    "question": "¿Te gusta el sexo con tacones?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 189,
+    "question": "¿Te gusta el sexo con guantes?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 190,
+    "question": "¿Te gusta el sexo con lubricantes con sabor?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 191,
+    "question": "¿Cómo te gusta que te toquen el cuello?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 192,
+    "question": "¿Te gusta el sexo con aromas?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 193,
+    "question": "¿Qué te parece el sexo con música?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 194,
+    "question": "¿Qué fue lo primero que notaste de mí?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 195,
+    "question": "¿Cuál es un recuerdo nuestro que te hace sonreír solo con pensarlo?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 196,
+    "question": "¿Qué gesto mío te hace sentir más amado/a?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 197,
+    "question": "¿Qué es algo que admiras de mí y nunca me has dicho?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 198,
+    "question": "¿Cómo te gusta que te consuelen cuando tienes un mal día?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 199,
+    "question": "¿Qué canción te recuerda a nosotros?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 200,
+    "question": "¿Cuál ha sido tu momento favorito de esta relación hasta ahora?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 201,
+    "question": "¿Qué es algo pequeño que hago que te hace sentir cuidado/a?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 202,
+    "question": "¿Qué te hizo decidir que yo valía la pena?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 203,
+    "question": "¿Cómo te gustaría que celebráramos una fecha especial este año?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 204,
+    "question": "¿Qué es algo de mí que te sorprendió con el tiempo?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 205,
+    "question": "¿Qué palabra usarías para describir cómo te sientes cuando estamos juntos?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 206,
+    "question": "¿Hay algo que te gustaría que hiciéramos juntos más seguido?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 207,
+    "question": "¿Qué es lo que más valoras de nuestra comunicación?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 208,
+    "question": "¿Qué momento del día te hace pensar más en mí?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 209,
+    "question": "¿Cómo prefieres que te muestre cariño: con palabras, con gestos o con tiempo juntos?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 210,
+    "question": "¿Qué es algo que aprendiste de ti mismo/a gracias a esta relación?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 211,
+    "question": "¿Cuál crees que es nuestra mayor fortaleza como pareja?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 212,
+    "question": "¿Qué te gustaría que supiera de ti que quizá no te he preguntado?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 213,
+    "question": "¿Qué significa para ti sentirte \"en casa\" con alguien?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 214,
+    "question": "¿Qué parte de mi cuerpo te gusta mirar más?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 215,
+    "question": "¿Cuál fue el momento en que sentiste más atracción física por mí?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 216,
+    "question": "¿Qué prenda de ropa mía te gustaría verme quitarme más lento?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 217,
+    "question": "¿Qué olor o perfume mío te vuelve loco/a?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 218,
+    "question": "¿Prefieres que te coquetee con palabras o con miradas?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 219,
+    "question": "¿Qué es lo más atrevido que has pensado hacer conmigo pero no me has dicho?",
+    "category": "caliente",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 220,
+    "question": "¿Cuál es tu recuerdo favorito de un beso nuestro?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 221,
+    "question": "¿Qué lugar de la casa te parece el más \"peligroso\" para estar a solas conmigo?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 222,
+    "question": "¿Qué canción pondrías si quisieras seducirme?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 223,
+    "question": "¿Preferirías un mensaje de texto atrevido o que te lo diga en persona?",
+    "category": "caliente",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 224,
+    "question": "¿Qué gesto mío te hace pensar \"quiero besarlo/a ahora mismo\"?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 225,
+    "question": "¿Te gusta más cuando tomo la iniciativa o cuando la tomas tú?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 226,
+    "question": "¿Qué tan seguido piensas en mí durante el día de forma... no tan inocente?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 227,
+    "question": "¿Qué tipo de ropa interior mía te gusta más?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 228,
+    "question": "¿Cuál crees que es tu mejor \"arma\" de seducción?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 229,
+    "question": "¿Qué te parece más sexy: la confianza o la timidez?",
+    "category": "caliente",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 230,
+    "question": "¿Prefieres que te seduzca despacio o directo?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 231,
+    "question": "¿Qué parte de nuestra rutina diaria te resulta inesperadamente sexy?",
+    "category": "caliente",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 232,
+    "question": "¿Qué mirada mía te desarma por completo?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 233,
+    "question": "¿Qué es algo que quisieras que probáramos la próxima vez que estemos solos?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 234,
+    "question": "¿Qué tipo de caricias te excitan más: suaves o firmes?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 235,
+    "question": "¿En qué parte del cuerpo te gustaría que te bese más seguido?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 236,
+    "question": "¿Qué zona de tu cuerpo es más sensible y casi nunca te toco ahí?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 237,
+    "question": "¿Prefieres el sexo lento y prolongado o rápido e intenso?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 238,
+    "question": "¿Qué posición te gusta más y por qué?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 239,
+    "question": "¿Te gusta que te hable durante la intimidad, o prefieres el silencio?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 240,
+    "question": "¿Qué es algo que te gustaría que hiciera con más frecuencia en la cama?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 241,
+    "question": "¿Cuál ha sido el encuentro más intenso que hemos tenido?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 242,
+    "question": "¿Te gustaría que fuéramos más lentos en los preliminares o vamos bien así?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 243,
+    "question": "¿Qué tipo de ropa (o ausencia de ella) te resulta más provocadora en mí?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 244,
+    "question": "¿Prefieres la luz encendida o apagada durante la intimidad?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 245,
+    "question": "¿Qué sonido mío te excita más?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 246,
+    "question": "¿Te gustaría que exploráramos el sexo oral con más frecuencia?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 247,
+    "question": "¿Qué tan importante es para ti el juego previo antes del sexo?",
+    "category": "juegos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 248,
+    "question": "¿Qué lugar de la casa (fuera de la habitación) te gustaría estrenar conmigo?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 249,
+    "question": "¿Prefieres que tome el control o que lo tomes tú?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 250,
+    "question": "¿Qué tan seguido te gustaría tener intimidad conmigo si pudieras elegir libremente?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 251,
+    "question": "¿Hay alguna caricia o beso que te gustaría pedirme pero no lo has hecho?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 252,
+    "question": "¿Qué te gustaría que hiciera justo antes de terminar?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 253,
+    "question": "¿Cómo te gustaría que te tocara la próxima vez que estemos solos, paso a paso?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 254,
+    "question": "¿Cuál es tu fantasía sexual más recurrente conmigo?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 255,
+    "question": "¿Te gustaría probar juegos de roles? ¿Cuál te llama la atención?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 256,
+    "question": "¿Qué es algo \"prohibido\" que te gustaría probar al menos una vez?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 257,
+    "question": "¿Te interesaría usar juguetes durante nuestra intimidad? ¿Cuáles?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 258,
+    "question": "¿Qué te gustaría que hiciéramos frente a un espejo?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 259,
+    "question": "¿Te excita la idea de grabarnos o tomarnos fotos íntimas (solo para nosotros)?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 260,
+    "question": "¿Qué tanto te gustaría que te dominara o te dejara tener el control total?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 261,
+    "question": "¿Has fantaseado con algún lugar arriesgado para tener intimidad?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 262,
+    "question": "¿Te gustaría explorar el uso de vendas para los ojos o ataduras suaves?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 263,
+    "question": "¿Qué palabra o frase te gustaría que te dijera durante el sexo que nunca te he dicho?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 264,
+    "question": "¿Qué tan seguido fantaseas conmigo cuando no estamos juntos?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 265,
+    "question": "¿Te gustaría que exploráramos el sexo anal alguna vez? ¿Cómo te sentirías al respecto?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 266,
+    "question": "¿Qué tipo de lencería o vestuario te gustaría que usara para ti?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 267,
+    "question": "¿Te gustaría que probáramos tener intimidad en un lugar fuera de casa?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 268,
+    "question": "¿Qué fantasía tuya nunca me has contado por vergüenza?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 269,
+    "question": "¿Te gustaría explorar el \"dirty talk\" más explícito durante el sexo?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 270,
+    "question": "¿Qué tan intensa te gustaría que fuera la próxima vez, del 1 al 10?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 271,
+    "question": "¿Hay alguna fantasía con un \"personaje\" o escenario que te gustaría recrear?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 272,
+    "question": "¿Qué te gustaría que hiciera que aún no hemos probado juntos?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 273,
+    "question": "¿Qué límite tienes claro que no quieres cruzar, para que yo lo respete siempre?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 274,
+    "question": "¿Cuál es la fantasía más intensa que tienes y nunca te has atrevido a decirme?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 275,
+    "question": "¿Hay algo que hayas visto o leído que te gustaría recrear conmigo?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 276,
+    "question": "¿Qué tan cómodo/a te sientes hablando de tus deseos sexuales conmigo, del 1 al 10?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 277,
+    "question": "¿Qué necesitarías de mí para sentirte completamente libre en la intimidad?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 278,
+    "question": "¿Hay alguna inseguridad sobre tu cuerpo que te gustaría que te ayudara a superar?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 279,
+    "question": "¿Qué es algo que te gustaría que exploráramos juntos, pero sientes que aún no es el momento?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 280,
+    "question": "¿Qué significa para ti el placer? ¿Es solo físico o también emocional?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 281,
+    "question": "¿Qué te gustaría que supiera de tu historia sexual que nunca te he preguntado?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 282,
+    "question": "¿Hay algo que hicimos alguna vez que no disfrutaste y no me lo dijiste?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 283,
+    "question": "¿Qué te gustaría que cambiáramos en nuestra vida íntima a largo plazo?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 284,
+    "question": "¿Qué tan satisfecho/a te sientes con nuestra vida sexual actualmente?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 285,
+    "question": "¿Hay algo que necesites escuchar de mí para sentirte más deseado/a?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 286,
+    "question": "¿Qué fantasía compartida te gustaría que exploráramos como pareja, con calma y consentimiento?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 287,
+    "question": "¿Qué es lo más vulnerable que podrías compartirme sobre tu deseo por mí?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 288,
+    "question": "¿Cómo te gustaría que habláramos si algo no nos gusta durante la intimidad?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 289,
+    "question": "¿Qué tan importante es para ti el consentimiento explícito, incluso en la confianza que tenemos?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 290,
+    "question": "¿Qué te haría sentir más conectado/a conmigo durante el sexo, más allá de lo físico?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 291,
+    "question": "¿Hay algo del pasado (tuyo o mío) que te gustaría hablar para sentirnos más cerca?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 292,
+    "question": "¿Qué esperas de nuestra intimidad dentro de un año?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 293,
+    "question": "¿Qué es lo que más deseas que yo entienda sobre cómo te sientes en la cama?",
+    "category": "intimidad",
     "intensity": 5,
     "mode": "pareja"
   }
