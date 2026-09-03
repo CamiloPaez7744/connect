@@ -1,7 +1,7 @@
-import { useState } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Switch, Platform, useWindowDimensions } from 'react-native';
+import { useState, useEffect } from 'react';
+import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Switch, Platform, useWindowDimensions, TextInput } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { T, S, R, F, FS, BP, SHARED } from '../../src/tokens';
+import { T, S, R, F, FS, BP, SHARED, GLASS, SHADOW } from '../../src/tokens';
 
 export default function SettingsScreen() {
   const { width } = useWindowDimensions();
@@ -9,6 +9,20 @@ export default function SettingsScreen() {
   const [explicitMode, setExplicitMode] = useState(true);
   const [gameMode, setGameMode] = useState<'pareja' | 'grupo'>('pareja');
   const [showAbout, setShowAbout] = useState(false);
+  const [herName, setHerName] = useState('');
+  const [hisName, setHisName] = useState('');
+
+  useEffect(() => {
+    try {
+      const h = localStorage?.getItem('couple_herName');
+      const s = localStorage?.getItem('couple_hisName');
+      if (h) setHerName(h);
+      if (s) setHisName(s);
+    } catch {}
+  }, []);
+
+  useEffect(() => { try { localStorage?.setItem('couple_herName', herName); } catch {} }, [herName]);
+  useEffect(() => { try { localStorage?.setItem('couple_hisName', hisName); } catch {} }, [hisName]);
 
   return (
     <View style={s.container}>
@@ -18,6 +32,44 @@ export default function SettingsScreen() {
       </View>
 
       <ScrollView style={{ flex: 1 }} contentContainerStyle={[s.content, isDesktop && { maxWidth: 600, alignSelf: 'center' }]}>
+        {/* Perfil de pareja */}
+        <View style={s.section}>
+          <Text style={s.sectionTitle}>Nuestra pareja</Text>
+          <View style={s.profileCard}>
+            <View style={s.profileRow}>
+              <View style={s.profileAvatar}>
+                <Ionicons name="female" size={24} color={T.accent} />
+              </View>
+              <View style={{ flex: 1 }}>
+                <Text style={s.profileLabel}>Ella</Text>
+                <TextInput
+                  style={s.profileInput}
+                  placeholder="Nombre..."
+                  placeholderTextColor={T.textMuted}
+                  value={herName}
+                  onChangeText={setHerName}
+                />
+              </View>
+            </View>
+            <View style={s.profileDivider} />
+            <View style={s.profileRow}>
+              <View style={s.profileAvatar}>
+                <Ionicons name="male" size={24} color="#3b82f6" />
+              </View>
+              <View style={{ flex: 1 }}>
+                <Text style={s.profileLabel}>Él</Text>
+                <TextInput
+                  style={s.profileInput}
+                  placeholder="Nombre..."
+                  placeholderTextColor={T.textMuted}
+                  value={hisName}
+                  onChangeText={setHisName}
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+
         {/* Mode */}
         <View style={s.section}>
           <Text style={s.sectionTitle}>Modo de juego</Text>
@@ -100,20 +152,46 @@ const s = StyleSheet.create({
   section: { marginBottom: S.xl },
   sectionTitle: { fontSize: FS.xs, fontFamily: F.semibold, color: T.textMuted, textTransform: 'uppercase' as const, letterSpacing: 1, marginBottom: S.md },
 
+  // Couple profile
+  profileCard: { ...GLASS.card, padding: S.lg, ...SHADOW.sm },
+  profileRow: { flexDirection: 'row', alignItems: 'center', gap: S.md },
+  profileAvatar: {
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'rgba(255,255,255,0.06)',
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.1)',
+  },
+  profileLabel: { fontSize: FS.xs, fontFamily: F.semibold, color: T.textMuted, marginBottom: 4 },
+  profileInput: {
+    ...GLASS.chip,
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.08)',
+    paddingHorizontal: S.md,
+    paddingVertical: 8,
+    color: T.text,
+    fontSize: FS.base,
+    fontFamily: F.regular,
+  },
+  profileDivider: { height: 1, backgroundColor: 'rgba(255,255,255,0.06)', marginVertical: S.md },
+
   modeRow: { flexDirection: 'row', gap: S.md },
-  modeCard: { flex: 1, ...SHARED.glassCard, padding: S.lg, alignItems: 'center', gap: S.xs },
+  modeCard: { flex: 1, ...GLASS.card, padding: S.lg, alignItems: 'center', gap: S.xs, ...SHADOW.sm },
   modeCardActive: { borderColor: T.accent, backgroundColor: T.accent + '10' },
   modeCardActiveGrupo: { borderColor: '#7b2ff7', backgroundColor: '#7b2ff710' },
   modeIcon: { fontSize: 32 },
   modeLabel: { fontSize: FS.lg, fontFamily: F.bold, color: T.text },
   modeDesc: { fontSize: FS.xs, fontFamily: F.regular, color: T.textMuted, textAlign: 'center' },
 
-  settingRow: { ...SHARED.glassCard, padding: S.md, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+  settingRow: { ...GLASS.card, padding: S.md, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', ...SHADOW.sm },
   settingInfo: { flexDirection: 'row', alignItems: 'center', gap: S.md, flex: 1 },
   settingLabel: { fontSize: FS.base, fontFamily: F.semibold, color: T.text },
   settingDesc: { fontSize: FS.xs, fontFamily: F.regular, color: T.textMuted, marginTop: 2 },
 
-  aboutCard: { ...SHARED.glassCard, padding: S.md },
+  aboutCard: { ...GLASS.card, padding: S.md, ...SHADOW.sm },
   aboutHeader: { flexDirection: 'row', alignItems: 'center', gap: S.sm },
   aboutLabel: { flex: 1, fontSize: FS.base, fontFamily: F.semibold, color: T.text },
   aboutText: { fontSize: FS.sm, fontFamily: F.regular, color: T.textSecondary, lineHeight: 20, marginBottom: S.sm },
