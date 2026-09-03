@@ -9,6 +9,7 @@ import CardStack from '../../src/components/CardStack';
 import EvervaultCard from '../../src/components/EvervaultCard';
 import BackgroundGradient from '../../src/components/BackgroundGradient';
 import RatingModal from '../../src/components/RatingModal';
+import RouletteWheel, { RouletteItem } from '../../src/components/RouletteWheel';
 
 const FILTER_GROUPS = [
   {
@@ -95,6 +96,9 @@ export default function PositionsScreen() {
   const [ratingModalPos, setRatingModalPos] = useState<any>(null);
   const [hechasFilter, setHechasFilter] = useState<'all' | 'her' | 'his' | 'super'>('all');
   const [showHechasFilters, setShowHechasFilters] = useState(false);
+  const [toTryRouletteOpen, setToTryRouletteOpen] = useState(false);
+  const [confettiVisible, setConfettiVisible] = useState(false);
+  const confettiAnim = useRef(new Animated.Value(0)).current;
 
   const diceAnim = useRef(new Animated.Value(0)).current;
   const [isRolling, setIsRolling] = useState(false);
@@ -219,6 +223,32 @@ export default function PositionsScreen() {
   }, [positions, done, ratings, hechasFilter]);
 
   const openPosition = (pos: any) => { setSelectedPosition(pos); setDescExpanded(false); };
+
+  const toTryRouletteItems: RouletteItem[] = useMemo(() => {
+    const toTryPositions = positions.filter(p => toTry.includes(p.id));
+    return toTryPositions.map(p => ({
+      id: String(p.id),
+      label: p.nameEs || p.name,
+    }));
+  }, [positions, toTry]);
+
+  const showConfetti = () => {
+    setConfettiVisible(true);
+    confettiAnim.setValue(0);
+    Animated.timing(confettiAnim, { toValue: 1, duration: 2000, useNativeDriver: true }).start(() => {
+      setConfettiVisible(false);
+    });
+  };
+
+  const handleToTryRouletteResult = (item: RouletteItem) => {
+    setToTryRouletteOpen(false);
+    showConfetti();
+    const posId = parseInt(item.id);
+    const pos = positions.find(p => p.id === posId);
+    if (pos) {
+      setTimeout(() => openPosition(pos), 600);
+    }
+  };
 
   // ===== View Mode Picker =====
   const renderViewPicker = () => (
@@ -455,6 +485,11 @@ export default function PositionsScreen() {
             </TouchableOpacity>
           ))}
         </View>
+        {myListTab === 'toTry' && toTry.length > 1 && (
+          <TouchableOpacity style={st.rouletteIconBtn} onPress={() => setToTryRouletteOpen(true)}>
+            <Ionicons name="disc" size={20} color="#a855f7" />
+          </TouchableOpacity>
+        )}
         {myListTab === 'done' && done.length > 0 && (
           <>
             <TouchableOpacity style={st.hechasToggleBtn} onPress={() => setShowHechasFilters(p => !p)}>
@@ -547,6 +582,53 @@ export default function PositionsScreen() {
           onSave={saveRating}
           existingRating={ratingModalPos ? ratings[ratingModalPos.id] : undefined}
         />
+        <RouletteWheel
+          items={toTryRouletteItems}
+          visible={toTryRouletteOpen}
+          centerLabel="GIRAR"
+          onSpinEnd={handleToTryRouletteResult}
+          onClose={() => setToTryRouletteOpen(false)}
+          resultTitle="Tu posición elegida"
+        />
+        {confettiVisible && (
+          <View style={st.confettiOverlay} pointerEvents="none">
+            {Array.from({ length: 40 }).map((_, i) => {
+              const colors = ['#f72585', '#4cc9f0', '#ffd166', '#06d6a0', '#7b2ff7', '#ef4444', T.primary];
+              const x = Math.random() * 100;
+              const delay = Math.random() * 0.5;
+              const size = 6 + Math.random() * 8;
+              return (
+                <Animated.View
+                  key={i}
+                  style={{
+                    position: 'absolute',
+                    left: `${x}%`,
+                    top: -10,
+                    width: size,
+                    height: size,
+                    borderRadius: Math.random() > 0.5 ? size / 2 : 2,
+                    backgroundColor: colors[i % colors.length],
+                    opacity: confettiAnim.interpolate({
+                      inputRange: [0, 0.1, 0.8, 1],
+                      outputRange: [0, 1, 1, 0],
+                    }),
+                    transform: [{
+                      translateY: confettiAnim.interpolate({
+                        inputRange: [0, 1],
+                        outputRange: [0, 600 + Math.random() * 200],
+                      }),
+                    }, {
+                      rotate: confettiAnim.interpolate({
+                        inputRange: [0, 1],
+                        outputRange: ['0deg', `${360 + Math.random() * 720}deg`],
+                      }),
+                    }],
+                  }}
+                />
+              );
+            })}
+          </View>
+        )}
       </View>
     );
   }
@@ -762,6 +844,12 @@ const st = StyleSheet.create({
     backgroundColor: 'rgba(26,31,53,0.5)',
   },
   hechasFilterActive: { borderColor: T.primary, backgroundColor: T.primary + '18' },
+
+  // Roulette
+  rouletteIconBtn: { width: 36, height: 36, borderRadius: 18, alignItems: 'center', justifyContent: 'center', backgroundColor: 'rgba(168,85,247,0.15)', borderWidth: 1, borderColor: 'rgba(168,85,247,0.3)', marginHorizontal: S.lg, marginVertical: S.sm, alignSelf: 'flex-end' },
+
+  // Confetti
+  confettiOverlay: { ...StyleSheet.absoluteFillObject, zIndex: 999 },
   hechasFilterText: { fontSize: FS.xs, fontFamily: F.medium, color: T.textMuted },
   hechasFilterTextActive: { color: T.primary },
 

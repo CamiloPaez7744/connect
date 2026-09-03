@@ -9,56 +9,238 @@
       {
         "id": "v1",
         "name": "Striptease progresivo",
-        "description": "Uno de los partners realiza un striptease lento y sensual mientras el otro observa. Pueden usar una silla como escenario. El que observa no puede tocar, solo mirar.",
-        "difficulty": "medium",
+        "description": "Uno realiza un striptease lento mientras el otro observa sin tocar.",
+        "difficulty": "easy",
         "duration": "10-15 min",
-        "materials": ["Música sensual", "Ropa que se pueda quitar fácilmente"],
-        "tip": "La paciencia es clave: quitarse una prenda cada 2-3 minutos mantiene la tensión."
+        "intensity": 1,
+        "materials": [
+          "Música sensual"
+        ],
+        "tip": "Quitarse una prenda cada 2-3 minutos mantiene la tensión."
       },
       {
         "id": "v2",
         "name": "Juego de velas",
-        "description": "Enciende velas alrededor de la cama o del baño. La luz parpadeante crea sombras sensuales en el cuerpo. Pueden explorar el cuerpo del otro siguiendo las sombras.",
+        "description": "Enciende velas alrededor de la cama. La luz parpadeante crea sombras sensuales en el cuerpo.",
         "difficulty": "easy",
         "duration": "20-30 min",
-        "materials": ["Velas aromáticas", "Espacio seguro sin corrientes de aire"],
-        "tip": "Usa velas de colores diferentes para crear diferentes ambientes."
+        "intensity": 1,
+        "materials": [
+          "Velas aromáticas"
+        ],
+        "tip": "Usa velas de colores diferentes para crear ambientes."
       },
       {
         "id": "v3",
         "name": "Espejo erótico",
-        "description": "Coloquen un espejo grande junto a la cama o en el techo. Observarse durante el acto sexual aumenta la excitación visual y la confianza.",
+        "description": "Coloquen un espejo grande junto a la cama. Observarse durante el acto aumenta la excitación visual.",
         "difficulty": "medium",
         "duration": "Variable",
-        "materials": ["Espejo grande y seguro"],
-        "tip": "Empiecen con un espejo pequeño si les da nervios, y vean cómo se sienten."
+        "intensity": 2,
+        "materials": [
+          "Espejo grande"
+        ],
+        "tip": "Empiecen con un espejo pequeño si les da nervios."
       },
       {
         "id": "v4",
         "name": "Lencería sorpresa",
-        "description": "Uno de los partners se excusa para ir al baño y regresa con lencería nueva que el otro no conocía. La sorpresa visual genera una oleada de deseo.",
+        "description": "Uno regresa del baño con lencería nueva que el otro no conocía.",
         "difficulty": "easy",
         "duration": "5-10 min",
-        "materials": ["Lencería nueva guardada como sorpresa"],
-        "tip": "Compra piezas que no sabías que te gustarían: telas brillantes, encajes negros, colores atrevidos."
+        "intensity": 1,
+        "materials": [
+          "Lencería nueva"
+        ],
+        "tip": "Compra piezas atrevidas: encajes, colores intensos."
       },
       {
         "id": "v5",
-        "name": "Video erótico juntos",
-        "description": "Veann juntos un video erótico (no pornográfico necesariamente) para inspirarse y hablar de lo que les gustaría probar. El estímulo visual compartido abre conversaciones.",
-        "difficulty": "easy",
-        "duration": "15-30 min",
-        "materials": ["Pantalla accesible", "Videos artísticos eróticos"],
-        "tip": "Busca videos de producción artística, no solo porno: hay series eróticas y cortometrajes muy sensuales."
+        "name": "Pintura corporal",
+        "description": "Usa pintura comestible para dibujar en el cuerpo del otro. Luego 'limpia' con la boca.",
+        "difficulty": "medium",
+        "duration": "20-40 min",
+        "intensity": 2,
+        "materials": [
+          "Pintura comestible",
+          "Pinceles"
+        ],
+        "tip": "Dibuja caminos que conecten zonas erógenas."
       },
       {
         "id": "v6",
-        "name": "Pintura corporal",
-        "description": "Usa pintura comestible o pintura corporal para dibujar en el cuerpo del otro. Luego 'limpia' la pintura con la boca. Arte y erotismo combinados.",
+        "name": "El espejo del suelo",
+        "description": "Siéntate frente a un espejo de cuerpo entero y muéstrate al otro mientras te tocas.",
+        "difficulty": "hard",
+        "duration": "10-15 min",
+        "intensity": 3,
+        "materials": [
+          "Espejo grande"
+        ],
+        "tip": "La mirada a través del espejo multipla la excitación."
+      },
+      {
+        "id": "v7",
+        "name": "Linterna mágica",
+        "description": "En una habitación a oscuras, usa la linterna del móvil para iluminar partes de tu cuerpo.",
+        "difficulty": "easy",
+        "duration": "10-15 min",
+        "intensity": 2,
+        "materials": [
+          "Móvil con linterna"
+        ],
+        "tip": "Pasa la luz lentamente desde el cuello hasta la entrepierna."
+      },
+      {
+        "id": "v8",
+        "name": "Exhibición en la ducha",
+        "description": "Ábrele la cortina y muéstrate bajo el agua, abriendo los labios con dos dedos.",
+        "difficulty": "hard",
+        "duration": "5-10 min",
+        "intensity": 4,
+        "materials": [
+          "Ducha con vidrio"
+        ],
+        "tip": "Mantén la pose 5 segundos mientras te mira."
+      },
+      {
+        "id": "v9",
+        "name": "Sombra erótica",
+        "description": "Pon una vela detrás de ti y proyecta tu silueta en la pared haciendo movimientos de cadera.",
         "difficulty": "medium",
-        "duration": "20-40 min",
-        "materials": ["Pintura corporal comestible", "Pinceles suaves"],
-        "tip": "Empieza con líneas simples: un corazón, el nombre, trazos abstractos."
+        "duration": "10-15 min",
+        "intensity": 3,
+        "materials": [
+          "Vela"
+        ],
+        "tip": "Los movimientos lentos son más provocadores."
+      },
+      {
+        "id": "v10",
+        "name": "Cámara lenta",
+        "description": "Pídele que se siente en el suelo. Tú, de pie, quítate la ropa interior lo más lento posible.",
+        "difficulty": "hard",
+        "duration": "5-10 min",
+        "intensity": 4,
+        "materials": [],
+        "tip": "Los últimos centímetros bájalos con la punta de los pies."
+      },
+      {
+        "id": "v11",
+        "name": "Ropa transparente",
+        "description": "Ponte ropa interior transparente y siéntate en la silla más lejana, abriendo las piernas.",
+        "difficulty": "hard",
+        "duration": "5-10 min",
+        "intensity": 5,
+        "materials": [
+          "Ropa interior transparente"
+        ],
+        "tip": "La distancia genera desesperación visual."
+      },
+      {
+        "id": "v12",
+        "name": "Striptease con parada",
+        "description": "Haz un striptease lento, pero cuando te quedes con la tanga, gírate y muéstrale el hilo entre tus nalgas.",
+        "difficulty": "medium",
+        "duration": "10-15 min",
+        "intensity": 3,
+        "materials": [
+          "Música sensual"
+        ],
+        "tip": "Mantén la pose 10 segundos."
+      },
+      {
+        "id": "v13",
+        "name": "Degustación visual",
+        "description": "Pon miel en el pezón y en el clítoris. Siéntate frente a él y dile: 'elige cuál quieres ver lamer primero'.",
+        "difficulty": "hard",
+        "duration": "10-15 min",
+        "intensity": 5,
+        "materials": [
+          "Miel"
+        ],
+        "tip": "La elección genera anticipación."
+      },
+      {
+        "id": "v14",
+        "name": "El juego del no tocar",
+        "description": "Siéntate a horcajadas sobre sus piernas sin tocarlo y muévete frotando contra su pantalón.",
+        "difficulty": "medium",
+        "duration": "10-15 min",
+        "intensity": 4,
+        "materials": [],
+        "tip": "La prohibición de tocar aumenta el deseo."
+      },
+      {
+        "id": "v15",
+        "name": "Maquillaje de deseo",
+        "description": "Píntate los labios de rojo y bésate el antebrazo dejando la marca. Enséñala y dile dónde más quieres dejar huella.",
+        "difficulty": "easy",
+        "duration": "5 min",
+        "intensity": 2,
+        "materials": [
+          "Labial rojo"
+        ],
+        "tip": "La marca visible genera visualización."
+      },
+      {
+        "id": "v16",
+        "name": "Espejo del techo",
+        "description": "Coloca un espejo en el techo y ponla en perrito para que se vea siendo penetrada.",
+        "difficulty": "hard",
+        "duration": "Variable",
+        "intensity": 5,
+        "materials": [
+          "Espejo"
+        ],
+        "tip": "El ángulo del techo es único."
+      },
+      {
+        "id": "v17",
+        "name": "Ilumina su cuerpo",
+        "description": "Usa la linterna para recorrer su piel en la penumbra, deteniéndote en zonas sensibles.",
+        "difficulty": "easy",
+        "duration": "10-15 min",
+        "intensity": 2,
+        "materials": [
+          "Móvil con linterna"
+        ],
+        "tip": "Cada zona iluminada será devorada por tu boca."
+      },
+      {
+        "id": "v18",
+        "name": "Erección visible",
+        "description": "Ponte un pantalón fino y moldea tu erección por encima de la tela para que ella vea la forma.",
+        "difficulty": "medium",
+        "duration": "5-10 min",
+        "intensity": 4,
+        "materials": [
+          "Pantalón de tela fina"
+        ],
+        "tip": "Mueve el glande para que se note la humedad."
+      },
+      {
+        "id": "v19",
+        "name": "El beso de 30 segundos",
+        "description": "Tómala de la nuca y bésala 30 segundos seguidos con los ojos abiertos para que vea tus pupilas.",
+        "difficulty": "easy",
+        "duration": "1 min",
+        "intensity": 2,
+        "materials": [],
+        "tip": "Las pupilas dilatadas son signo de deseo."
+      },
+      {
+        "id": "v20",
+        "name": "Posición de la silla",
+        "description": "Siéntala en una silla de espaldas a ti. Ábrele las piernas y coloca un espejo para que se vea.",
+        "difficulty": "hard",
+        "duration": "15-20 min",
+        "intensity": 5,
+        "materials": [
+          "Silla",
+          "Espejo pequeño"
+        ],
+        "tip": "El espejo en el suelo da un ángulo único."
       }
     ]
   },
@@ -66,62 +248,236 @@
     "id": "olfato",
     "name": "Olfato",
     "icon": "👃",
-    "color": "#7b2ff7",
-    "description": "El olfato está directamente conectado con la memoria y la emoción. Los olores pueden desencadenar recuerdos y deseos instantáneamente.",
+    "color": "#ffd166",
+    "description": "Aromas, feromonas y territorio olfativo para despertar el deseo.",
     "activities": [
       {
         "id": "o1",
-        "name": "Masaje con aceites aromáticos",
-        "description": "Calienta aceite de masaje con gotas de aceite esencial (ylang-ylang, sándalo, jazmín). El aroma relaja mientras el tacto excita. Masajea todo el cuerpo lentamente.",
+        "name": "Perfume de nuca",
+        "description": "Pon tu perfume en la nuca. Siéntate de espaldas a él y pídele que respire hondo mientras te abraza.",
         "difficulty": "easy",
-        "duration": "30-60 min",
-        "materials": ["Aceite de masaje", "Aceites esenciales", "Toalla caliente"],
-        "tip": "El ylang-ylang es considerado afrodisíaco natural. Mezcla 3 gotas en 10ml de aceite base."
+        "duration": "5 min",
+        "intensity": 1,
+        "materials": [
+          "Perfume"
+        ],
+        "tip": "La nuca es una zona erógena olvidada."
       },
       {
         "id": "o2",
-        "name": "Baño aromático",
-        "description": "Prepara un baño con sales de Epsom, aceites esenciales y velas. El vapor transporta los aromas y relaja los músculos. Pueden masajearse mutuamente bajo el agua.",
+        "name": "Aceite de masaje",
+        "description": "Calienta aceite de coco con gotas de sándalo. Unta el pecho y acércalo a su nariz.",
         "difficulty": "easy",
-        "duration": "30-45 min",
-        "materials": ["Sales de Epsom", "Aceites esenciales", "Velas", "Música suave"],
-        "tip": "La lavanda relaja, el eucalipto despierta, el rosa es sensual. Mezcla según el ánimo."
+        "duration": "15-20 min",
+        "intensity": 1,
+        "materials": [
+          "Aceite de coco",
+          "Aceite esencial"
+        ],
+        "tip": "El calor del aceite amplifica el aroma."
       },
       {
         "id": "o3",
-        "name": "Cena erótica con aromas",
-        "description": "Cocinen juntos una cena con especias aromáticas: canela, jengibre, cardamomo, azafrán. El olor de la comida y las especias despiertan los sentidos antes de la cena principal.",
-        "difficulty": "medium",
-        "duration": "60-90 min",
-        "materials": ["Ingredientes frescos", "Especias aromáticas", "Vino o champán"],
-        "tip": "El azafrán es un afrodisíaco antiguo. El chocolate caliente con cardamomo es perfecto para después."
+        "name": "Incienso de jazmín",
+        "description": "Enciende incienso de jazmín. Sostenlo cerca de tu cuerpo para que el humo se impregne en tu piel.",
+        "difficulty": "easy",
+        "duration": "10 min",
+        "intensity": 1,
+        "materials": [
+          "Incienso de jazmín"
+        ],
+        "tip": "El jazmín es afrodisíaco natural."
       },
       {
         "id": "o4",
-        "name": "Perfume de pareja",
-        "description": "Cada uno se pone su perfume favorito antes de encontrarse. Los olores se mezclan durante el abrazo y crean una fragancia única de pareja.",
+        "name": "Baño de vapor",
+        "description": "Prepara la ducha con agua muy caliente y aceite de eucalipto. Métanse juntos y huele su cuello.",
         "difficulty": "easy",
-        "duration": "5 min",
-        "materials": ["Perfume o colonia favorita"],
-        "tip": "Elige un perfume que te recuerde a tu pareja. El olor se vuelve un ancla emocional."
+        "duration": "15-20 min",
+        "intensity": 2,
+        "materials": [
+          "Aceite de eucalipto"
+        ],
+        "tip": "El vapor amplifica los olores."
       },
       {
         "id": "o5",
-        "name": "Incienso y meditación sensorial",
-        "description": "Enciende incienso de sándalo o patchouli. Siéntense frente a frente, cierren los ojos y respiren profundamente. Sin hablar, acérquense lentamente hasta que sus narices se toquen.",
-        "difficulty": "easy",
-        "duration": "15-20 min",
-        "materials": ["Incienso", "Cojines", "Música ambiental"],
-        "tip": "La meditación juntos crea una conexión profunda antes del sexo."
+        "name": "Ropa interior marcada",
+        "description": "Quítate la tanga usada y póntela en la nariz de él suavemente mientras le dices cómo hueles.",
+        "difficulty": "medium",
+        "duration": "2 min",
+        "intensity": 3,
+        "materials": [],
+        "tip": "El olor natural es el más poderoso."
       },
       {
         "id": "o6",
-        "name": "Spray de sábanas",
-        "description": "Rocía las sábanas con un spray de lavanda o almizcle antes de acostarse. El aroma envolvente crea un nido sensual que invita a la intimidad.",
+        "name": "El aroma de la excitación",
+        "description": "Después de masturbarte, pasa tus dedos mojados por su labio superior para que huela tu esencia.",
+        "difficulty": "hard",
+        "duration": "5 min",
+        "intensity": 4,
+        "materials": [],
+        "tip": "El olor de la excitación es adictivo."
+      },
+      {
+        "id": "o7",
+        "name": "Perfume en la entrepierna",
+        "description": "Rocía una gota de perfume en la base de tu pene. Pídele que se arrodille y huela antes de empezar.",
+        "difficulty": "medium",
+        "duration": "5 min",
+        "intensity": 3,
+        "materials": [
+          "Perfume"
+        ],
+        "tip": "Solo una gota, no más."
+      },
+      {
+        "id": "o8",
+        "name": "Aceite de menta",
+        "description": "Ponte aceite de menta en los dedos y acaricia su espalda. El olor fresco contrasta con el calor.",
         "difficulty": "easy",
+        "duration": "10 min",
+        "intensity": 2,
+        "materials": [
+          "Aceite de menta"
+        ],
+        "tip": "El contraste fresco-calor es excitante."
+      },
+      {
+        "id": "o9",
+        "name": "El aroma del sudor",
+        "description": "Después de bailar, siéntate sobre su cara y deja que huela tu zona pélvica mezclada con tu perfume.",
+        "difficulty": "hard",
+        "duration": "5-10 min",
+        "intensity": 5,
+        "materials": [],
+        "tip": "El sudor mezclado con perfume es primal."
+      },
+      {
+        "id": "o10",
+        "name": "Huele mi cabello",
+        "description": "Durante el sexo en cuchara, echa tu cabello hacia atrás para que caiga sobre su rostro.",
+        "difficulty": "easy",
+        "duration": "Variable",
+        "intensity": 2,
+        "materials": [],
+        "tip": "El cabello impregna tu aroma."
+      },
+      {
+        "id": "o11",
+        "name": "Aroma de la barba",
+        "description": "Empapa tu barba con perfume y frota contra su cuello y pecho, dejando tu olor impregnado.",
+        "difficulty": "easy",
+        "duration": "5 min",
+        "intensity": 2,
+        "materials": [
+          "Perfume"
+        ],
+        "tip": "La barba retiene el aroma."
+      },
+      {
+        "id": "o12",
+        "name": "Incienso de sándalo",
+        "description": "Con una pluma, atrapa el humo de incienso de sándalo y pásala por su cuerpo.",
+        "difficulty": "easy",
+        "duration": "10 min",
+        "intensity": 1,
+        "materials": [
+          "Incienso de sándalo",
+          "Pluma"
+        ],
+        "tip": "El sándalo es cálido y sensual."
+      },
+      {
+        "id": "o13",
+        "name": "Huele su ropa interior",
+        "description": "Toma su ropa interior usada y huele frente a ella, haciendo una mueca de placer.",
+        "difficulty": "medium",
         "duration": "2 min",
-        "materials": ["Spray de sábanas aromático"],
-        "tip": "Puedes hacer el tuyo: agua destilada + gotas de aceite esencial en un spray."
+        "intensity": 3,
+        "materials": [],
+        "tip": "La reacción visual es tan importante como el olor."
+      },
+      {
+        "id": "o14",
+        "name": "Perfume en el ombligo",
+        "description": "Pon una gota de perfume en su ombligo. Baja la cabeza y lame subiendo hasta la entrepierna.",
+        "difficulty": "hard",
+        "duration": "10 min",
+        "intensity": 4,
+        "materials": [
+          "Perfume"
+        ],
+        "tip": "El ombligo retiene el aroma."
+      },
+      {
+        "id": "o15",
+        "name": "El ritual del tabaco",
+        "description": "Usa tabaco de liar o madera de cedro. Úntalo en tus manos y acércalas a su rostro.",
+        "difficulty": "easy",
+        "duration": "5 min",
+        "intensity": 2,
+        "materials": [
+          "Tabaco de liar o madera"
+        ],
+        "tip": "Los aromas terrosos son afrodisíacos."
+      },
+      {
+        "id": "o16",
+        "name": "Oler su cuello por detrás",
+        "description": "Póntela en perrito, inclínate sobre ella y respira hondo en su nuca mientras la penetras.",
+        "difficulty": "medium",
+        "duration": "Variable",
+        "intensity": 4,
+        "materials": [],
+        "tip": "Su olor mezclado con tu esfuerzo es único."
+      },
+      {
+        "id": "o17",
+        "name": "Aroma de la lluvia",
+        "description": "Abre la ventana cuando llueva. Abrázala por detrás y huele el aire húmedo mezclado con su piel.",
+        "difficulty": "easy",
+        "duration": "10 min",
+        "intensity": 2,
+        "materials": [
+          "Lluvia"
+        ],
+        "tip": "La lluvia crea un ambiente primal."
+      },
+      {
+        "id": "o18",
+        "name": "Café en tus dedos",
+        "description": "Toma un grano de café molido en la lengua. Dale un beso profundo para que sienta el sabor amargo.",
+        "difficulty": "easy",
+        "duration": "5 min",
+        "intensity": 2,
+        "materials": [
+          "Café molido"
+        ],
+        "tip": "El café despierta los sentidos."
+      },
+      {
+        "id": "o19",
+        "name": "Los fluidos en tu mano",
+        "description": "Mastúrbate hasta que tu mano tenga olor. Luego mete suavemente tu mano en su boca para que lo huela y saboree.",
+        "difficulty": "hard",
+        "duration": "5 min",
+        "intensity": 5,
+        "materials": [],
+        "tip": "El sabor propio genera confianza."
+      },
+      {
+        "id": "o20",
+        "name": "El aroma del deseo en la cocina",
+        "description": "Mientras cocinas, acércate a él y pídele que huela tu boca con ese aroma fuerte.",
+        "difficulty": "easy",
+        "duration": "5 min",
+        "intensity": 2,
+        "materials": [
+          "Comida con ajo/cebolla"
+        ],
+        "tip": "Los olores fuertes recuerdan a sexo sucio."
       }
     ]
   },
@@ -130,61 +486,244 @@
     "name": "Gusto",
     "icon": "👅",
     "color": "#06d6a0",
-    "description": "El gusto y el tacto están íntimamente conectados. La boca es uno de los órganos sexuales más sensibles del cuerpo.",
+    "description": "Sabores, líquidos y texturas comestibles en el cuerpo.",
     "activities": [
       {
         "id": "g1",
-        "name": "Chocolate comestible",
-        "description": "Derrite chocolate blanco o negro y úsalo para pintar el cuerpo del otro. Luego limpia cada gota con la lengua. El chocolate tibio sobre piel fría es una experiencia única.",
+        "name": "Fresa con chocolate",
+        "description": "Toma una fresa con chocolate y pásala por sus labios, cuello y pecho antes de comerla.",
         "difficulty": "easy",
-        "duration": "15-25 min",
-        "materials": ["Chocolate derretido", "Plato hondo"],
-        "tip": "El chocolate blanco es más dulce y sensual, el negro es más intenso y profundo."
+        "duration": "5-10 min",
+        "intensity": 1,
+        "materials": [
+          "Fresas",
+          "Chocolate"
+        ],
+        "tip": "El contraste dulce-caliente es sensual."
       },
       {
         "id": "g2",
-        "name": "Frutas eróticas",
-        "description": "Prepara una bandeja con fresas, uvas, mango, melocotón. Alimenta a tu pareja con las manos, dejando que los jugos escurran por los labios y el mentón.",
+        "name": "Hielo en el cuello",
+        "description": "Toma un cubito de hielo y pásalo por su cuello, clavícula y pecho.",
         "difficulty": "easy",
-        "duration": "15-20 min",
-        "materials": ["Frutas frescas cortadas", "Crema batida (opcional)"],
-        "tip": "Las fresas con crema son clásicas pero efectivas. El mango maduro tiene una textura sensual."
+        "duration": "5 min",
+        "intensity": 1,
+        "materials": [
+          "Hielo"
+        ],
+        "tip": "El contraste frío-calor es excitante."
       },
       {
         "id": "g3",
-        "name": "Hielo y calor",
-        "description": "Usa cubos de hielo para trazar líneas frías por el cuerpo, luego cambia a un masaje con aceite tibio. El contraste de temperaturas es extremadamente estimulante.",
-        "difficulty": "medium",
-        "duration": "15-20 min",
-        "materials": ["Hielo", "Aceite de masaje tibio", "Toalla"],
-        "tip": "Nunca pongas hielo directo en zonas sensibles más de 3 segundos. Trázalo por los costados."
+        "name": "Miel en el pezón",
+        "description": "Pon una gota de miel en su pezón. Lame la miel haciendo círculos con la lengua.",
+        "difficulty": "easy",
+        "duration": "5-10 min",
+        "intensity": 2,
+        "materials": [
+          "Miel"
+        ],
+        "tip": "La miel es pegajosa y lenta."
       },
       {
         "id": "g4",
-        "name": "Vino y besos",
-        "description": "Tomen sorbos de vino tinto o champán y compártanlo besándose. El líquido pasa de boca en boca mientras se besan profundamente.",
+        "name": "Vino en los pezones",
+        "description": "Humedece sus pezones con vino tinto. Inclínate y presiona sus pezones contra tus labios.",
         "difficulty": "easy",
-        "duration": "10-15 min",
-        "materials": ["Vino tinto o champán", "Dos copas"],
-        "tip": "El vino tinto ácido crea un contraste interesante con el sabor de los labios."
+        "duration": "5-10 min",
+        "intensity": 2,
+        "materials": [
+          "Vino tinto"
+        ],
+        "tip": "El vino tinto mancha y es visual."
       },
       {
         "id": "g5",
-        "name": "Nieve de coco",
-        "description": "Unta crema de coco o helado de coco en zonas del cuerpo y limpia con la lengua. La textura fría y cremosa es adictiva.",
-        "difficulty": "easy",
-        "duration": "10-15 min",
-        "materials": ["Crema de coco o helado de coco"],
-        "tip": "La crema de coco tiene una textura perfecta para deslizar sobre la piel."
+        "name": "Sal y miel",
+        "description": "Pasa tu dedo por sal y luego por miel. Recorre su pene y luego chúpalo para sentir el contraste.",
+        "difficulty": "medium",
+        "duration": "10 min",
+        "intensity": 3,
+        "materials": [
+          "Sal",
+          "Miel"
+        ],
+        "tip": "El contraste dulce-salado es adictivo."
       },
       {
         "id": "g6",
-        "name": "Degustación de líquidos corporales",
-        "description": "Un juego de confianza: cada uno prueba los líquidos corporales del otro (saliva, sudor, fluidos) y describe el sabor. Es vulnerable y extremadamente íntimo.",
+        "name": "Chocolate derretido",
+        "description": "Introduce chocolate derretido tibio en su ombligo y baja la cabeza a lamerlo.",
+        "difficulty": "medium",
+        "duration": "15 min",
+        "intensity": 3,
+        "materials": [
+          "Chocolate"
+        ],
+        "tip": "El chocolate tibio relaja y excita."
+      },
+      {
+        "id": "g7",
+        "name": "Crema batida y pene",
+        "description": "Unta crema batida en su pene. Lámelo toda de arriba a abajo, finalizando con el glande.",
+        "difficulty": "medium",
+        "duration": "10-15 min",
+        "intensity": 3,
+        "materials": [
+          "Crema batida"
+        ],
+        "tip": "La crema hace que todo sea más resbaladizo."
+      },
+      {
+        "id": "g8",
+        "name": "El helado derretido",
+        "description": "Toma un helado y deja que se derrita en su abdomen. Baja la cara a lamerlo todo.",
+        "difficulty": "medium",
+        "duration": "10-15 min",
+        "intensity": 3,
+        "materials": [
+          "Helado"
+        ],
+        "tip": "El frío del helado vs el calor de la piel."
+      },
+      {
+        "id": "g9",
+        "name": "Champán en su vulva",
+        "description": "Sirve champán frío sobre su vulva. Baja y lame el burbujeo directamente de su clítoris.",
         "difficulty": "hard",
-        "duration": "10-20 min",
-        "materials": ["Confianza total", "Comunicación abierta"],
-        "tip": "Solo con pareja de confianza. La vulnerabilidad genera una conexión profunda."
+        "duration": "10 min",
+        "intensity": 5,
+        "materials": [
+          "Champán"
+        ],
+        "tip": "El burbujeo crea una sensación única."
+      },
+      {
+        "id": "g10",
+        "name": "Mermelada de fresa",
+        "description": "Unta mermelada en sus testículos. Lame toda la mermelada con movimientos circulares.",
+        "difficulty": "medium",
+        "duration": "10 min",
+        "intensity": 3,
+        "materials": [
+          "Mermelada de fresa"
+        ],
+        "tip": "La textura pegajosa es provocativa."
+      },
+      {
+        "id": "g11",
+        "name": "El sabor del sudor",
+        "description": "Después de bailar, pídele que te lame el cuello. El sabor salado mezclado con tu perfume es crudo.",
+        "difficulty": "easy",
+        "duration": "5 min",
+        "intensity": 2,
+        "materials": [],
+        "tip": "El sudor es natural y afrodisíaco."
+      },
+      {
+        "id": "g12",
+        "name": "Mantequilla de cacahuete",
+        "description": "Unta mantequilla de cacahuete en sus muslos internos. Lame todo evitando el clítoris hasta el final.",
+        "difficulty": "hard",
+        "duration": "15 min",
+        "intensity": 4,
+        "materials": [
+          "Mantequilla de cacahuete"
+        ],
+        "tip": "Evitar el clítoris genera desesperación."
+      },
+      {
+        "id": "g13",
+        "name": "Su saliva en tu boca",
+        "description": "Escupe un poco en su pene. Cuando esté a punto de correrse, bésalo para que pruebe su sabor.",
+        "difficulty": "hard",
+        "duration": "Variable",
+        "intensity": 5,
+        "materials": [],
+        "tip": "El sabor propio genera confianza."
+      },
+      {
+        "id": "g14",
+        "name": "Degustación de frutas",
+        "description": "Coloca rodajas de kiwi, fresa y mango sobre su estómago. Sin manos, recorre su cuerpo con la boca.",
+        "difficulty": "medium",
+        "duration": "15-20 min",
+        "intensity": 3,
+        "materials": [
+          "Fresas",
+          "Kiwi",
+          "Mango"
+        ],
+        "tip": "Besando la piel entre bocado y bocado."
+      },
+      {
+        "id": "g15",
+        "name": "El choque de temperaturas",
+        "description": "Ten agua caliente y fría. Alterna tu lengua caliente y fría en su clítoris.",
+        "difficulty": "hard",
+        "duration": "10 min",
+        "intensity": 4,
+        "materials": [
+          "Agua caliente",
+          "Agua fría"
+        ],
+        "tip": "El contraste térmico es brutal."
+      },
+      {
+        "id": "g16",
+        "name": "Café y beso",
+        "description": "Toma un grano de café en la lengua. Dale un beso profundo para que sienta el amargo mezclado con tu saliva.",
+        "difficulty": "easy",
+        "duration": "5 min",
+        "intensity": 2,
+        "materials": [
+          "Café"
+        ],
+        "tip": "El café despierta los sentidos."
+      },
+      {
+        "id": "g17",
+        "name": "Prueba de su esencia",
+        "description": "Durante el oral, introduce dos dedos, sácalos y chúpalos frente a ella para que vea cómo pruebas su sabor.",
+        "difficulty": "hard",
+        "duration": "Variable",
+        "intensity": 5,
+        "materials": [],
+        "tip": "La visualización amplifica el placer."
+      },
+      {
+        "id": "g18",
+        "name": "Nata y pezones",
+        "description": "Unta nata en sus pezones. Lame despacio haciendo círculos y luego chúpalo con fuerza.",
+        "difficulty": "easy",
+        "duration": "10 min",
+        "intensity": 2,
+        "materials": [
+          "Nata"
+        ],
+        "tip": "Los pezones son zonas muy sensibles."
+      },
+      {
+        "id": "g19",
+        "name": "Miel en su ombligo",
+        "description": "Pon miel en su ombligo. Baja la cabeza y lame subiendo poco a poco hasta su entrepierna.",
+        "difficulty": "medium",
+        "duration": "15 min",
+        "intensity": 3,
+        "materials": [
+          "Miel"
+        ],
+        "tip": "La miel es lenta y pegajosa."
+      },
+      {
+        "id": "g20",
+        "name": "Degustación de fluidos",
+        "description": "Cuando ella esté muy mojada, desliza la lengua y recoge todo. Luego bésala para que pruebe su sabor.",
+        "difficulty": "hard",
+        "duration": "Variable",
+        "intensity": 5,
+        "materials": [],
+        "tip": "El sabor propio genera intimidad extrema."
       }
     ]
   },
@@ -192,62 +731,216 @@
     "id": "oido",
     "name": "Oído",
     "icon": "👂",
-    "color": "#118ab2",
-    "description": "Los oidos son uno de los órganos más sensibles del cuerpo. Los susurros, gemidos y la música pueden intensificar enormemente el placer.",
+    "color": "#3b82f6",
+    "description": "Susurros, gemidos y órdenes susurradas que despiertan el deseo.",
     "activities": [
       {
-        "id": "a1",
-        "name": "Playlist sensual",
-        "description": "Crea una playlist juntos con canciones que les gusten para el sexo. El ritmo de la música puede guiar el ritmo de los movimientos.",
+        "id": "i1",
+        "name": "Susurro al oído",
+        "description": "Susúrrale algo que te gustaría hacerle esta noche. La voz grave y cercana excita.",
+        "difficulty": "easy",
+        "duration": "2 min",
+        "intensity": 1,
+        "materials": [],
+        "tip": "El aliento caliente en el oído es erógeno."
+      },
+      {
+        "id": "i2",
+        "name": "Gemido de aprobación",
+        "description": "Cuando te toque bien, gime su nombre con la boca cerca de su oído, respirando fuerte.",
         "difficulty": "easy",
         "duration": "Variable",
-        "materials": ["Buenos parlantes", "Spotify o similar"],
-        "tip": "Busca playlists como 'Sensual R&B', 'Lo-Fi Sexy', o 'Bass bedrooms'. El bass profundo se siente en el cuerpo."
+        "intensity": 1,
+        "materials": [],
+        "tip": "El nombre dicho con ganas es poderoso."
       },
       {
-        "id": "a2",
-        "name": "Susurros al oído",
-        "description": "Acércate al oído de tu pareja y susúrrale lo que te gustaría hacerle, lo que te está haciendo sentir, o un recuerdo de una vez que fue increíble.",
+        "id": "i3",
+        "name": "Música sensual",
+        "description": "Pon una playlist suave de fondo. La música marca el ritmo de los movimientos.",
         "difficulty": "easy",
-        "duration": "Durante el sexo",
-        "materials": ["Solo tu voz"],
-        "tip": "La voz baja y grave es más erótica que un grito. La cercanía del aliento en la oreja es eléctrica."
+        "duration": "Variable",
+        "intensity": 1,
+        "materials": [
+          "Altavoz"
+        ],
+        "tip": "El bajo profundo se siente en el cuerpo."
       },
       {
-        "id": "a3",
-        "name": "Gemidos guiados",
-        "description": "Uno guía al otro: 'Quiero que gimas cuando te toque aquí'. Los gemidos feedback comunican placer y excitación mutua.",
+        "id": "i4",
+        "name": "Instrucciones de ritmo",
+        "description": "Mientras lo cabalgas, susúrrale: 'más lento... más profundo... así, no pares'.",
         "difficulty": "easy",
-        "duration": "Durante el sexo",
-        "materials": ["Comunicación abierta"],
-        "tip": "No forces los gemidos. Deja que salgan naturales. Un gemido auténtico es 100 veces más excitante."
+        "duration": "Variable",
+        "intensity": 2,
+        "materials": [],
+        "tip": "Tu voz debe ser grave y entrecortada."
       },
       {
-        "id": "a4",
-        "name": "ASMR erótico",
-        "description": "Busca audios o videos ASMR con sonidos sensuales: susurros, rascados, sonidos de piel. Escúchenlos juntos con auriculares antes de dormir.",
-        "difficulty": "easy",
-        "duration": "15-30 min",
-        "materials": ["Auriculares", "Videos ASMR eróticos"],
-        "tip": "El ASMR relaja y crea una sensación de hormigueo que puede convertirse en deseo."
-      },
-      {
-        "id": "a5",
-        "name": "Sonidos del sexo",
-        "description": "En vez de ocultar los sonidos, amplifícalos: los golpes de piel, los gemidos, la respiración pesada. El sonido del sexo es extremadamente excitante.",
-        "difficulty": "easy",
-        "duration": "Durante el sexo",
-        "materials": ["Desinhibición"],
-        "tip": "Sube el volumen de los sonidos naturales. Los gemidos y la respiración pesada son pornografía auditiva."
-      },
-      {
-        "id": "a6",
-        "name": "Teléfono erótico",
-        "description": "Aunque estén en la misma casa, llamen al teléfono del otro y háblenle eróticamente. El efecto del teléfono amplifica la voz y crea distancia emocional que excita.",
+        "id": "i5",
+        "name": "La confesión sucia",
+        "description": "Mientras te penetra, susúrrale la fantasía más sucia que tengas en ese momento.",
         "difficulty": "medium",
-        "duration": "10-20 min",
-        "materials": ["Dos teléfonos", "Habitaciones separadas"],
-        "tip": "La voz por teléfono suena diferente: más grave, más íntima. Úsalo a tu favor."
+        "duration": "Variable",
+        "intensity": 3,
+        "materials": [],
+        "tip": "Lo que dices importa más que cómo lo dices."
+      },
+      {
+        "id": "i6",
+        "name": "Cuenta regresiva",
+        "description": "Mientras lo masturbas, haz una cuenta regresiva desde 10 hasta 1. Si llega al 0 sin correrse, le recompenso.",
+        "difficulty": "medium",
+        "duration": "5-10 min",
+        "intensity": 3,
+        "materials": [],
+        "tip": "El control auditivo genera anticipación."
+      },
+      {
+        "id": "i7",
+        "name": "El sonido de tu saliva",
+        "description": "Haz mucho ruido al hacerle sexo oral: chasquidos, succiones, y un 'pop' al sacar la boca.",
+        "difficulty": "medium",
+        "duration": "Variable",
+        "intensity": 3,
+        "materials": [],
+        "tip": "El sonido ambiental aumenta la tensión."
+      },
+      {
+        "id": "i8",
+        "name": "El juego del eco",
+        "description": "Cada vez que él gima, tú repites su gemido imitando su tono, un segundo después.",
+        "difficulty": "easy",
+        "duration": "Variable",
+        "intensity": 2,
+        "materials": [],
+        "tip": "Es un juego de conexión auditiva profunda."
+      },
+      {
+        "id": "i9",
+        "name": "Teléfono desde la cama",
+        "description": "Llámalo desde tu móvil en la misma cama y susúrrale todo lo que le vas a hacer.",
+        "difficulty": "medium",
+        "duration": "5 min",
+        "intensity": 3,
+        "materials": [
+          "Dos móviles"
+        ],
+        "tip": "La voz distorsionada del teléfono excita de forma diferente."
+      },
+      {
+        "id": "i10",
+        "name": "Silencio absoluto",
+        "description": "Reta a hacer el amor 5 minutos sin emitir ningún sonido. El silencio amplifica los quejidos.",
+        "difficulty": "hard",
+        "duration": "5 min",
+        "intensity": 4,
+        "materials": [],
+        "tip": "El silencio forzado hace los sonidos más intensos."
+      },
+      {
+        "id": "i11",
+        "name": "La orden de mirar",
+        "description": "Mientras él te come, dile: 'mírame a los ojos mientras me lames'. Si desvía la mirada, guíalo.",
+        "difficulty": "medium",
+        "duration": "Variable",
+        "intensity": 3,
+        "materials": [],
+        "tip": "La mirada durante el oral es íntima."
+      },
+      {
+        "id": "i12",
+        "name": "Sonido de nalgadas",
+        "description": "En perrito, dale una nalgada suave pero sonora. El sonido seco y su gemido crean una sinfonía.",
+        "difficulty": "medium",
+        "duration": "Variable",
+        "intensity": 4,
+        "materials": [],
+        "tip": "La resonancia depende de la firmeza."
+      },
+      {
+        "id": "i13",
+        "name": "La promesa audaz",
+        "description": "Baja tu voz hasta hacerla inaudible y susúrrale: 'cuando salga, te voy a poner de rodillas'.",
+        "difficulty": "hard",
+        "duration": "2 min",
+        "intensity": 5,
+        "materials": [],
+        "tip": "Lo que prometes genera anticipación extrema."
+      },
+      {
+        "id": "i14",
+        "name": "Instrucciones táctiles",
+        "description": "Mientras la tocas, susúrrale: 'cierra los ojos y dime con qué parte te estoy tocando'.",
+        "difficulty": "easy",
+        "duration": "10 min",
+        "intensity": 2,
+        "materials": [],
+        "tip": "La atención al detalle auditivo es sensual."
+      },
+      {
+        "id": "i15",
+        "name": "Música y ritmo",
+        "description": "Pon una canción con bajo profundo. penetra al ritmo del bajo. 'Cada vez que suene, te penetrate más fuerte'.",
+        "difficulty": "medium",
+        "duration": "Variable",
+        "intensity": 3,
+        "materials": [
+          "Altavoz"
+        ],
+        "tip": "La sincronización musical es primal."
+      },
+      {
+        "id": "i16",
+        "name": "Preguntas y respuestas",
+        "description": "Mientras le haces oral, para cada 10 segundos y pregúntale: '¿quieres que suba, baje o no pare?'.",
+        "difficulty": "medium",
+        "duration": "10-15 min",
+        "intensity": 3,
+        "materials": [],
+        "tip": "Ella guía con la voz."
+      },
+      {
+        "id": "i17",
+        "name": "El sonido del lubricante",
+        "description": "Abre el bote de lubricante de forma exageradamente sonora frente a ella para que se prepare mentalmente.",
+        "difficulty": "easy",
+        "duration": "1 min",
+        "intensity": 2,
+        "materials": [
+          "Lubricante"
+        ],
+        "tip": "Los sonidos preparan la mente."
+      },
+      {
+        "id": "i18",
+        "name": "ASMR de piel",
+        "description": "Frota tus manos secas sobre su espalda creando fricción. Luego humedece y repite. El contraste la volverá loca.",
+        "difficulty": "easy",
+        "duration": "10 min",
+        "intensity": 2,
+        "materials": [],
+        "tip": "El ASMR táctil es hipnótico."
+      },
+      {
+        "id": "i19",
+        "name": "El gemido de esfuerzo",
+        "description": "Cuando estés a punto de correrse, gime fuerte y profundo, sin taparte. Que escuche tu clímax.",
+        "difficulty": "medium",
+        "duration": "Variable",
+        "intensity": 4,
+        "materials": [],
+        "tip": "El sonido primal de tu clímax la excita."
+      },
+      {
+        "id": "i20",
+        "name": "Voz de mando",
+        "description": "Dale una orden firme y grave: 'ponte de rodillas y no te muevas hasta que yo te diga'.",
+        "difficulty": "hard",
+        "duration": "Variable",
+        "intensity": 5,
+        "materials": [],
+        "tip": "El tono de autoridad actúa sobre la sumisión."
       }
     ]
   },
@@ -255,62 +948,236 @@
     "id": "tacto",
     "name": "Tacto",
     "icon": "✋",
-    "color": "#ffd166",
-    "description": "El tacto es el sentido más primitivo y poderoso. Un solo toque puede comunicar más que mil palabras.",
+    "color": "#7b2ff7",
+    "description": "Presión, temperatura, fricción y texturas extremas en el cuerpo.",
     "activities": [
       {
         "id": "t1",
-        "name": "Masaje tantrico",
-        "description": "Masaje lento y consciente que recorre todo el cuerpo sin llegar a zonas genitales. La frustración de no ser tocado ahí aumenta el deseo exponencialmente.",
-        "difficulty": "medium",
-        "duration": "30-60 min",
-        "materials": ["Aceite de masaje", "Música suave", "Cojines"],
-        "tip": "Recorre TODO el cuerpo: nuca, espalda, brazos, piernas, pies, manos, orejas. Todo es erógeno."
+        "name": "Masaje con velas",
+        "description": "Deja caer cera de vela tibia en su espalda. El contraste calor-dolor es excitante.",
+        "difficulty": "easy",
+        "duration": "15-20 min",
+        "intensity": 1,
+        "materials": [
+          "Vela de cera"
+        ],
+        "tip": "Asegúrate de que la cera no esté muy caliente."
       },
       {
         "id": "t2",
-        "name": "Plumas y texturas",
-        "description": "Usa plumas, seda, terciopelo, encaje para acariciar el cuerpo del otro. Diferentes texturas activan diferentes receptores del tacto.",
+        "name": "Pluma en el cuerpo",
+        "description": "Usa una pluma para recorrer sus costillas, abdomen y muslos internos, evitando zonas genitales.",
         "difficulty": "easy",
-        "duration": "15-25 min",
-        "materials": ["Plumas de ropa", "Pañuelos de seda", "Telas variadas"],
-        "tip": "La seda sobre la piel generates una sensación de 'piel de gallina' que es increíblemente sensual."
+        "duration": "10-15 min",
+        "intensity": 1,
+        "materials": [
+          "Pluma suave"
+        ],
+        "tip": "La anticipación es más poderosa que el toque."
       },
       {
         "id": "t3",
-        "name": "Vendaje sensorial",
-        "description": "Venda los ojos de tu pareja (o usa una máscara de dormir). Al eliminar la vista, el tacto se vuelve 10 veces más intenso.",
-        "difficulty": "medium",
-        "duration": "20-40 min",
-        "materials": ["Venda suave o máscara de dormir"],
-        "tip": "Cuando no puede ver, cada toque es una sorpresa. Toca con diferentes partes: dedos, labios, nariz."
+        "name": "Masaje de pies",
+        "description": "Masajea sus pies con aceite, presionando los puntos que conectan con zonas erógenas.",
+        "difficulty": "easy",
+        "duration": "15-20 min",
+        "intensity": 1,
+        "materials": [
+          "Aceite de masaje"
+        ],
+        "tip": "Los pies tienen puntos que conectan con todo el cuerpo."
       },
       {
         "id": "t4",
-        "name": "Juego de manos guiadas",
-        "description": "Uno cierra los ojos y el otro guía sus manos por su propio cuerpo, mostrándole dónde le gusta ser tocado. Comunicación del placer a través del tacto.",
-        "difficulty": "easy",
-        "duration": "15-25 min",
-        "materials": ["Solo sus manos"],
-        "tip": "No hay respuestas incorrectas. Si algo se siente bien, déjalo. Si no, redirige suavemente."
+        "name": "Hielo y boca caliente",
+        "description": "Toma hielo en la boca 5 segundos. Pásalo por su pezón y luego cubre con tu boca caliente.",
+        "difficulty": "medium",
+        "duration": "10 min",
+        "intensity": 2,
+        "materials": [
+          "Hielo"
+        ],
+        "tip": "El contraste extremo excita los nervios."
       },
       {
         "id": "t5",
-        "name": "Ducha juntos",
-        "description": "Duchen juntos sin tener sexo. Solo acaríciense bajo el agua caliente. El vapor, el calor, y el agua corriendo por los cuerpos crean una experiencia sensorial completa.",
-        "difficulty": "easy",
-        "duration": "15-20 min",
-        "materials": ["Ducha amplia", "Jabón aromático"],
-        "tip": "Enfócate en lavar a tu pareja con cuidado, como si fuera un ritual. Cada caricia es intencional."
+        "name": "Uñas en la espalda",
+        "description": "Durante la penetración, clava uñas suavemente en su espalda y baja lentamente dejando marcas rojas.",
+        "difficulty": "medium",
+        "duration": "Variable",
+        "intensity": 3,
+        "materials": [],
+        "tip": "La mezcla dolor-placer aumenta el ritmo."
       },
       {
         "id": "t6",
-        "name": "Temperatura extrema",
-        "description": "Alterna entre manos frías (sumergidas en agua helada) y manos calientes (calentadas con agua caliente) al tocar el cuerpo. El contraste es eléctrico.",
-        "difficulty": "easy",
+        "name": "Seda en el cuerpo",
+        "description": "Usa un pañuelo de seda para acariciar su pene. La seda es tan suave que crea hipersensibilidad.",
+        "difficulty": "medium",
+        "duration": "10 min",
+        "intensity": 3,
+        "materials": [
+          "Pañuelo de seda"
+        ],
+        "tip": "La textura aterciopelada es única."
+      },
+      {
+        "id": "t7",
+        "name": "Presión en el perineo",
+        "description": "Con un dedo lubricado, masajea su perineo mientras le haces sexo oral. Multiplica el placer.",
+        "difficulty": "hard",
+        "duration": "Variable",
+        "intensity": 4,
+        "materials": [
+          "Lubricante"
+        ],
+        "tip": "Es una zona llena de terminaciones nerviosas."
+      },
+      {
+        "id": "t8",
+        "name": "El juego de las plumas",
+        "description": "Usa una pluma, un cepillo nuevo y tus dedos. Pasa estos tres por su pene en orden aleatorio.",
+        "difficulty": "medium",
         "duration": "10-15 min",
-        "materials": ["Bowl con agua fría", "Bowl con agua caliente"],
-        "tip": "Empieza con frío, luego cambia a caliente. El cuerpo reacciona intensamente al cambio."
+        "intensity": 3,
+        "materials": [
+          "Pluma",
+          "Cepillo nuevo"
+        ],
+        "tip": "Que no sepa qué viene genera anticipación."
+      },
+      {
+        "id": "t9",
+        "name": "Aprieta sus nalgas",
+        "description": "Mientras lo cabalgas de espaldas, agárrale las nalgas con fuerza y aprieta rítmicamente.",
+        "difficulty": "medium",
+        "duration": "Variable",
+        "intensity": 3,
+        "materials": [],
+        "tip": "La presión firme es poderosa."
+      },
+      {
+        "id": "t10",
+        "name": "Mordidas en los hombros",
+        "description": "Muerde la unión de cuello y hombros, alternando mordiscos con lametones.",
+        "difficulty": "medium",
+        "duration": "Variable",
+        "intensity": 3,
+        "materials": [],
+        "tip": "Suave al principio, más fuerte después."
+      },
+      {
+        "id": "t11",
+        "name": "Guía con tus manos",
+        "description": "Toma su pene con dos manos y mueve en direcciones opuestas. Es una torsión que pocos han sentido.",
+        "difficulty": "hard",
+        "duration": "10 min",
+        "intensity": 4,
+        "materials": [],
+        "tip": "Una mano gira izquierda, otra derecha."
+      },
+      {
+        "id": "t12",
+        "name": "El masaje de la Y",
+        "description": "Masajea la zona en forma de Y de su pelvis y muslos internos sin tocar su vagina.",
+        "difficulty": "medium",
+        "duration": "15 min",
+        "intensity": 3,
+        "materials": [
+          "Aceite"
+        ],
+        "tip": "Calienta la zona sin tocar lo prohibido."
+      },
+      {
+        "id": "t13",
+        "name": "Hielo en el clítoris",
+        "description": "Pon hielo en tu boca 5 segundos. Pásalo por su clítoris 2 segundos. Luego chupa con tu boca caliente.",
+        "difficulty": "hard",
+        "duration": "10 min",
+        "intensity": 5,
+        "materials": [
+          "Hielo"
+        ],
+        "tip": "El contraste termal extremo es brutal."
+      },
+      {
+        "id": "t14",
+        "name": "Nalgadas con ritmo",
+        "description": "Póntela en perrito y dale nalgadas siguiendo el ritmo de una canción que esté sonando.",
+        "difficulty": "medium",
+        "duration": "Variable",
+        "intensity": 4,
+        "materials": [
+          "Música"
+        ],
+        "tip": "Una nalgada por tiempo musical."
+      },
+      {
+        "id": "t15",
+        "name": "El masaje de los lóbulos",
+        "description": "Toma sus lóbulos entre tus dedos y masajéalos mientras la penetras. Zona erógena ignorada.",
+        "difficulty": "easy",
+        "duration": "Variable",
+        "intensity": 2,
+        "materials": [],
+        "tip": "Los lóbulos tienen muchísimas terminaciones."
+      },
+      {
+        "id": "t16",
+        "name": "El tacto de tu barba",
+        "description": "Pasa tu barba por su cuello, escote y muslos internos. La fricción la volverá loca.",
+        "difficulty": "easy",
+        "duration": "10 min",
+        "intensity": 2,
+        "materials": [],
+        "tip": "Solo si tienes barba."
+      },
+      {
+        "id": "t17",
+        "name": "La presión con la palma",
+        "description": "Usa la palma entera para presionar su vulva haciendo círculos. La presión amplia estimula todo.",
+        "difficulty": "medium",
+        "duration": "10 min",
+        "intensity": 3,
+        "materials": [],
+        "tip": "No uses solo los dedos."
+      },
+      {
+        "id": "t18",
+        "name": "El terciopelo en su cuerpo",
+        "description": "Pasa un pañuelo de terciopelo por todo su cuerpo: pies, pantorrillas, muslos, vientre, pecho.",
+        "difficulty": "easy",
+        "duration": "15 min",
+        "intensity": 2,
+        "materials": [
+          "Pañuelo de terciopelo"
+        ],
+        "tip": "La textura aterciopelada es la más sensual."
+      },
+      {
+        "id": "t19",
+        "name": "La seda y el pene",
+        "description": "Usa seda para acariciar su pene, deslizando la tela alrededor del glande. Hipersensibilidad total.",
+        "difficulty": "medium",
+        "duration": "10 min",
+        "intensity": 4,
+        "materials": [
+          "Seda"
+        ],
+        "tip": "Casi no se siente, pero es hipnótico."
+      },
+      {
+        "id": "t20",
+        "name": "El contraste de texturas",
+        "description": "Ten pluma, cepillo y dedos. Pasa los tres por su pene en orden aleatorio para que no sepa qué viene.",
+        "difficulty": "hard",
+        "duration": "15 min",
+        "intensity": 5,
+        "materials": [
+          "Pluma",
+          "Cepillo nuevo"
+        ],
+        "tip": "La incertidumbre amplifica la sensación."
       }
     ]
   }

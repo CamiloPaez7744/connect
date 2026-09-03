@@ -73,7 +73,11 @@ export default function GameScreen() {
 
   const categories = gameType === 'truth' ? TRUTH_CATS : DARE_CATS;
 
-  const getAvailableCards = () => {
+  const flipCard = () => {
+    Animated.sequence([
+      Animated.timing(cardAnim, { toValue: 1, duration: 150, useNativeDriver: true }),
+      Animated.timing(cardAnim, { toValue: 0, duration: 150, useNativeDriver: true }),
+    ]).start();
     const data = gameType === 'truth' ? questions : dares;
     let available = data.filter((c: any) => !usedIds.includes(c.id));
     available = available.filter((c: any) => c.intensity === selectedIntensity);
@@ -83,15 +87,6 @@ export default function GameScreen() {
       available = data.filter((c: any) => c.intensity === selectedIntensity);
       if (selectedCategory !== 'all') available = available.filter((c: any) => c.category === selectedCategory);
     }
-    return available;
-  };
-
-  const flipCard = () => {
-    Animated.sequence([
-      Animated.timing(cardAnim, { toValue: 1, duration: 150, useNativeDriver: true }),
-      Animated.timing(cardAnim, { toValue: 0, duration: 150, useNativeDriver: true }),
-    ]).start();
-    const available = getAvailableCards();
     const card = available[Math.floor(Math.random() * available.length)];
     if (card) {
       setCurrentCard(card);
@@ -102,10 +97,8 @@ export default function GameScreen() {
   };
 
   const cardRotate = cardAnim.interpolate({ inputRange: [0, 1], outputRange: ['0deg', '90deg'] });
-  const intensityColor = (i: number) => i <= 2 ? T.success : i <= 3 ? T.warning : T.danger;
-  const intensityLabel = (i: number) => i <= 2 ? 'Suave' : i <= 3 ? 'Medio' : 'Picante';
-  const catInfo = (id: string) => [...TRUTH_CATS, ...DARE_CATS].find(c => c.id === id) || TRUTH_CATS[0];
   const levelInfo = (i: number) => INTENSITY_LEVELS.find(l => l.id === i) || INTENSITY_LEVELS[0];
+  const catInfo = (id: string) => [...TRUTH_CATS, ...DARE_CATS].find(c => c.id === id) || TRUTH_CATS[0];
 
   return (
     <View style={s.container}>
@@ -126,7 +119,6 @@ export default function GameScreen() {
         </View>
       </View>
 
-      {/* Intensity selector */}
       {showIntensity && (
         <View style={s.intensityWrap}>
           <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={s.intensityScroll}>
@@ -147,7 +139,6 @@ export default function GameScreen() {
         </View>
       )}
 
-      {/* Type */}
       <View style={s.typeRow}>
         <TouchableOpacity style={[s.typeBtn, gameType === 'truth' && s.typeBtnActive, gameType === 'truth' && { boxShadow: '0 0 16px rgba(76,201,240,0.25)' }]} onPress={() => { setGameType('truth'); setSelectedCategory('all'); }}>
           <Ionicons name="chatbubble" size={18} color={gameType === 'truth' ? '#fff' : T.textMuted} />
@@ -159,7 +150,6 @@ export default function GameScreen() {
         </TouchableOpacity>
       </View>
 
-      {/* Categories */}
       {showFilters && (
         <View style={s.catWrap}>
           <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={s.catScroll}>
@@ -176,7 +166,6 @@ export default function GameScreen() {
         </View>
       )}
 
-      {/* Card */}
       <View style={s.cardArea}>
         {showCard && currentCard ? (
           <Animated.View style={[s.gameCard, { transform: [{ rotateY: cardRotate }] }, isDesktop && { maxWidth: 500 }, { boxShadow: gameType === 'truth' ? '0 0 20px rgba(76,201,240,0.2)' : '0 0 20px rgba(247,37,133,0.2)' }]}>
@@ -204,13 +193,11 @@ export default function GameScreen() {
         )}
       </View>
 
-      {/* Draw */}
       <TouchableOpacity style={[s.drawBtn, gameType === 'truth' ? { backgroundColor: '#4cc9f0', boxShadow: '0 0 16px rgba(76,201,240,0.3)' } : { backgroundColor: '#f72585', boxShadow: '0 0 16px rgba(247,37,133,0.3)' }]} onPress={flipCard}>
         <Ionicons name="refresh" size={20} color="#fff" />
         <Text style={s.drawBtnText}>{showCard ? 'Otra carta' : 'Sacar carta'}</Text>
       </TouchableOpacity>
 
-      {/* History */}
       {history.length > 0 && (
         <View style={s.historySection}>
           <Text style={s.historyTitle}>Historial ({history.length})</Text>
