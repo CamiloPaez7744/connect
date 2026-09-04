@@ -39,7 +39,11 @@ export default function SensesScreen() {
   const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
-    fetch('/data/senses.json').then(r => r.json()).then(d => setSenses(d)).catch(() => setSenses(require('../../data/senses.json')));
+    if (Platform.OS === 'web') {
+      fetch('/data/senses.json').then(r => r.json()).then(d => setSenses(d)).catch(() => setSenses(require('../../data/senses.json')));
+    } else {
+      setSenses(require('../../data/senses.json'));
+    }
   }, []);
 
   useEffect(() => {

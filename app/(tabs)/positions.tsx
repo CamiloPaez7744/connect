@@ -111,10 +111,14 @@ export default function PositionsScreen() {
   const [isRolling, setIsRolling] = useState(false);
 
   useEffect(() => {
-    fetch('/data/positions.json')
-      .then(r => r.json())
-      .then(d => setPositions(d))
-      .catch(() => setPositions(require('../../data/positions.json')));
+    if (Platform.OS === 'web') {
+      fetch('/data/positions.json')
+        .then(r => r.json())
+        .then(d => setPositions(d))
+        .catch(() => setPositions(require('../../data/positions.json')));
+    } else {
+      setPositions(require('../../data/positions.json'));
+    }
   }, []);
 
   useEffect(() => {

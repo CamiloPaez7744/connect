@@ -55,8 +55,13 @@ export default function GameScreen() {
   const [dares, setDares] = useState<any[]>([]);
 
   useEffect(() => {
-    fetch('/data/questions.json').then(r => r.json()).then(d => setQuestions(d)).catch(() => setQuestions(require('../../data/questions.json')));
-    fetch('/data/dares.json').then(r => r.json()).then(d => setDares(d)).catch(() => setDares(require('../../data/dares.json')));
+    if (Platform.OS === 'web') {
+      fetch('/data/questions.json').then(r => r.json()).then(d => setQuestions(d)).catch(() => setQuestions(require('../../data/questions.json')));
+      fetch('/data/dares.json').then(r => r.json()).then(d => setDares(d)).catch(() => setDares(require('../../data/dares.json')));
+    } else {
+      setQuestions(require('../../data/questions.json'));
+      setDares(require('../../data/dares.json'));
+    }
     try {
       const explicit = localStorage?.getItem('settings_explicitMode');
       if (explicit === 'false') setMaxIntensity(3);
