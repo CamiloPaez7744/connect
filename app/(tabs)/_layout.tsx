@@ -1,10 +1,12 @@
 import { Tabs } from 'expo-router';
 import { Platform, useWindowDimensions, View, Text, StyleSheet } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { T, F, BP, GLASS, SHADOW } from '../../src/tokens';
 
 export default function TabLayout() {
   const { width } = useWindowDimensions();
+  const insets = useSafeAreaInsets();
   const isDesktop = width >= BP.lg;
 
   return (
@@ -17,8 +19,8 @@ export default function TabLayout() {
           backgroundColor: GLASS.tabBar.backgroundColor,
           borderTopColor: GLASS.tabBar.borderTopColor,
           borderTopWidth: 1,
-          height: Platform.OS === 'ios' ? 88 : 64,
-          paddingBottom: Platform.OS === 'ios' ? 28 : 8,
+          height: 64 + insets.bottom,
+          paddingBottom: insets.bottom,
           paddingTop: 8,
           ...SHADOW.sm,
         },

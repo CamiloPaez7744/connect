@@ -3,6 +3,7 @@ import {
   View, Text, StyleSheet, TouchableOpacity, ScrollView,
   TextInput, useWindowDimensions, Image, Modal, Animated, Platform
 } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { T, S, R, F, FS, BP, SHARED, GLASS, SHADOW, NEON, useResponsive } from '../../src/tokens';
 import { imageMap } from '../../src/imageMap';
@@ -76,6 +77,7 @@ const VIEW_MODES: { key: ViewMode; icon: string; label: string }[] = [
 
 export default function PositionsScreen() {
   const { width } = useWindowDimensions();
+  const insets = useSafeAreaInsets();
   const R2 = useResponsive(width);
   const isDesktop = width >= BP.lg;
 
@@ -205,6 +207,15 @@ export default function PositionsScreen() {
       return matchSearch && matchCat;
     });
   }, [search, selectedCategory, positions]);
+
+  const shuffledFiltered = useMemo(() => {
+    const arr = [...filtered];
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }, [filtered]);
 
   const mylistPositions = useMemo(() => {
     return positions.filter(p => myListTab === 'favorites' ? favorites.includes(p.id) : myListTab === 'done' ? done.includes(p.id) : myListTab === 'toTry' ? toTry.includes(p.id) : skipped.includes(p.id));
@@ -368,7 +379,7 @@ export default function PositionsScreen() {
     return (
       <View style={st.container}>
         <BackgroundGradient />
-        <View style={st.header}>
+        <View style={[st.header, { paddingTop: insets.top + 48 }]}>
           <Text style={st.title}>Posiciones</Text>
           <Text style={st.subtitle}>519 posiciones para explorar</Text>
         </View>
@@ -399,7 +410,7 @@ export default function PositionsScreen() {
     return (
       <View style={st.container}>
         <BackgroundGradient />
-        <View style={st.header}>
+        <View style={[st.header, { paddingTop: insets.top + 48 }]}>
           <View style={st.headerRow}>
             <TouchableOpacity onPress={() => { setRandomPos(null); setSubView('menu'); }}>
               <Ionicons name="arrow-back" size={24} color={T.text} />
@@ -477,7 +488,7 @@ export default function PositionsScreen() {
     return (
       <View style={st.container}>
         <BackgroundGradient />
-        <View style={st.mylistHeader}>
+        <View style={[st.mylistHeader, { paddingTop: insets.top + 48 }]}>
           <View style={st.headerRow}>
             <TouchableOpacity onPress={() => setSubView('menu')}>
               <Ionicons name="arrow-back" size={24} color={T.text} />
@@ -648,7 +659,7 @@ export default function PositionsScreen() {
   return (
     <View style={st.container}>
       <BackgroundGradient />
-      <View style={st.header}>
+      <View style={[st.header, { paddingTop: insets.top + 48 }]}>
         <View style={st.headerRow}>
           <TouchableOpacity onPress={() => setSubView('menu')}>
             <Ionicons name="arrow-back" size={24} color={T.text} />
@@ -699,7 +710,7 @@ export default function PositionsScreen() {
 
       {viewMode === 'stack' ? (
         <CardStack
-          items={filtered}
+          items={shuffledFiltered}
           onCardPress={openPosition}
           onFavorite={toggleFavorite}
           onSwipeRight={(item) => { if (!toTry.includes(item.id)) toggleToTry(item.id); }}
@@ -766,7 +777,7 @@ const s = StyleSheet.create({
 
 const st = StyleSheet.create({
   container: { flex: 1, backgroundColor: T.bg },
-  header: { paddingHorizontal: S.lg, paddingTop: Platform.OS === 'ios' ? 60 : 48, paddingBottom: S.sm },
+  header: { paddingHorizontal: S.lg, paddingTop: 48, paddingBottom: S.sm },
   headerRow: { flexDirection: 'row', alignItems: 'center', gap: S.md },
   title: { fontSize: FS['3xl'], fontFamily: F.display, color: T.text },
   subtitle: { fontSize: FS.sm, fontFamily: F.regular, color: T.textSecondary, marginTop: 2 },
