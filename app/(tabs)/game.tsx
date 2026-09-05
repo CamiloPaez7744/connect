@@ -56,6 +56,7 @@ export default function GameScreen() {
   const [dares, setDares] = useState<any[]>([]);
   const [herName, setHerName] = useState('');
   const [hisName, setHisName] = useState('');
+  const [gameMode, setGameMode] = useState<'pareja' | 'grupo'>('pareja');
 
   useEffect(() => {
     if (Platform.OS === 'web') {
@@ -74,6 +75,8 @@ export default function GameScreen() {
         const s = await AsyncStorage.getItem('couple_hisName');
         if (h) setHerName(h);
         if (s) setHisName(s);
+        const mode = await AsyncStorage.getItem('settings_gameMode');
+        if (mode === 'pareja' || mode === 'grupo') setGameMode(mode);
       } catch {}
     })();
   }, []);
@@ -83,7 +86,7 @@ export default function GameScreen() {
     setUsedIds([]);
     setShowCard(false);
     setCurrentCard(null);
-  }, [gameType]);
+  }, [gameType, gameMode]);
 
   const categories = gameType === 'truth' ? TRUTH_CATS : DARE_CATS;
 
@@ -93,12 +96,12 @@ export default function GameScreen() {
       Animated.timing(cardAnim, { toValue: 0, duration: 150, useNativeDriver: true }),
     ]).start();
     const data = gameType === 'truth' ? questions : dares;
-    let available = data.filter((c: any) => !usedIds.includes(c.id));
+    let available = data.filter((c: any) => !usedIds.includes(c.id) && c.mode === gameMode);
     available = available.filter((c: any) => c.intensity === selectedIntensity);
     if (selectedCategory !== 'all') available = available.filter((c: any) => c.category === selectedCategory);
     if (available.length === 0) {
       setUsedIds([]);
-      available = data.filter((c: any) => c.intensity === selectedIntensity);
+      available = data.filter((c: any) => c.mode === gameMode && c.intensity === selectedIntensity);
       if (selectedCategory !== 'all') available = available.filter((c: any) => c.category === selectedCategory);
     }
     const card = available[Math.floor(Math.random() * available.length)];
@@ -126,8 +129,9 @@ export default function GameScreen() {
       <BackgroundGradient />
       <View style={s.header}>
         <View style={s.headerRow}>
-          <View>
+          <View style={{ flex: 1 }}>
             <Text style={s.title}>Verdad o Reto</Text>
+            <Text style={s.modeIndicator}>{gameMode === 'pareja' ? '💑 Modo Pareja' : '👥 Modo Grupo'}</Text>
           </View>
           <View style={s.headerBtns}>
             <TouchableOpacity style={s.filterBtn} onPress={() => { setShowIntensity(p => !p); setShowFilters(false); }}>
@@ -241,6 +245,7 @@ const s = StyleSheet.create({
   header: { paddingHorizontal: S.lg, paddingTop: Platform.OS === 'ios' ? 60 : 48, paddingBottom: S.sm },
   headerRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
   title: { fontSize: FS['3xl'], fontFamily: F.display, color: T.text },
+  modeIndicator: { fontSize: FS.xs, fontFamily: F.medium, color: T.textMuted, marginTop: 2 },
   headerBtns: { flexDirection: 'row', gap: S.sm },
 
   filterBtn: {

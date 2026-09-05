@@ -2049,5 +2049,4534 @@
     "category": "intimidad",
     "intensity": 5,
     "mode": "pareja"
+  },
+  {
+    "id": 294,
+    "question": "Si pudieras revivir un momento nuestro, ¿cuál sería?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 295,
+    "question": "¿Qué cosa hago sin darme cuenta que te gusta?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 296,
+    "question": "¿Qué hobby mío te gustaría que compartiéramos juntos?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 297,
+    "question": "¿Qué canción te recuerda a mí y por qué?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 298,
+    "question": "¿Cuál fue tu primera impresión de mí la primera vez que nos vimos?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 299,
+    "question": "¿Qué dirías que es mi mayor encanto?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 300,
+    "question": "¿Qué es lo que más te emociona de vernos?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 301,
+    "question": "¿Cuál es tu recuerdo favorito de los dos?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 302,
+    "question": "¿Qué apodo me pondrías si pudieras elegir uno nuevo?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 303,
+    "question": "¿Qué parte de mi cuerpo te gustaría tocar sin que te diga nada?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 304,
+    "question": "¿Qué te hace sentir verdaderamente viva/o?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 305,
+    "question": "¿Qué es algo de ti que crees que nadie más ve?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 306,
+    "question": "¿Qué es algo que nunca te han preguntado y te gustaría que alguien te preguntara?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 307,
+    "question": "¿Qué miedo tienes que no le contarías a nadie más?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 308,
+    "question": "¿Cuál es la mejor decisión que has tomado en tu vida?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 309,
+    "question": "¿Qué significa para ti la palabra 'hogar'?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 310,
+    "question": "¿Qué es lo que más valoras en una relación?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 311,
+    "question": "¿Qué sueño tienes que todavía no me has contado?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 312,
+    "question": "¿Qué es algo que te gustaría cambiar de ti mismo/a?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 313,
+    "question": "¿Qué es algo que te da vergüenza admitir?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 314,
+    "question": "¿Cuál es tu mayor inseguridad cuando estamos solos?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 315,
+    "question": "¿Cuál fue el momento en que supiste que sentías algo real por mí?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 316,
+    "question": "¿Qué fantasía secreta tienes que te da nervios contar?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 317,
+    "question": "¿Qué es algo íntimo sobre ti que solo las personas más cercanas conocen?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 318,
+    "question": "¿Qué es lo que más te inquieta de nuestra relación?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 319,
+    "question": "¿Qué pensaste la primera vez que te dije que te quería?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 320,
+    "question": "¿Qué es algo que te gustaría que yo hiciera diferente en la intimidad?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 321,
+    "question": "¿Alguna vez has llorado por mí sin que yo lo supiera?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 322,
+    "question": "¿Qué es algo que te gustaría que mejoráramos juntos?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 323,
+    "question": "¿Qué sería un deal-breaker absoluto para ti en una relación?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 324,
+    "question": "¿Cuál es tu mayor secreto que no le has contado a nadie?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 325,
+    "question": "¿Qué zona de tu cuerpo es la más sensible que nadie ha explorado bien?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 326,
+    "question": "¿Qué es algo extremadamente personal que te gustaría que yo entendiera de ti?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 327,
+    "question": "¿Qué experiencia sexual te marcó de alguna manera?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 328,
+    "question": "¿Qué fantasía recurrente tienes que involucra a los dos?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 329,
+    "question": "¿Qué es lo que más te excita de mí que jamás me has dicho?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 330,
+    "question": "¿Qué es algo que te gustaría probar en la cama pero dares?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 331,
+    "question": "¿Qué hay en tu mente cuando nos besamos con pasión?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 332,
+    "question": "¿Qué es lo que más te prende cuando estás sola/o?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 333,
+    "question": "¿Qué pensaste la primera vez que viste mi cuerpo desnudo?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 334,
+    "question": "¿Alguna vez has tenido un pensamiento sobre mí que te dio miedo tenerte?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 335,
+    "question": "¿Qué parte de tu sexualidad escondes del mundo?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 336,
+    "question": "¿Qué es lo más atrevido que harías si supieras que no hay consecuencias?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 337,
+    "question": "¿Qué es el secreto más oscuro de tu vida que jamás me has confesado?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 338,
+    "question": "¿Qué es algo que te gustaría que hiciéramos sin ningún límite?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 339,
+    "question": "¿Qué es lo que más necesitas de mí en la intimidad que nunca pides?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 340,
+    "question": "¿Qué es algo que si yo supiera podría cambiar todo entre nosotros?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 341,
+    "question": "¿Qué es lo que más te excita que nunca te atreves a pedir?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 342,
+    "question": "¿Qué hay en tu pasado íntimo que te da miedo que yo descubra?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 343,
+    "question": "¿Cuál es tu mayor arrepentimiento sexual?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 344,
+    "question": "¿Cuál es tu estación del año favorita y por qué?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 345,
+    "question": "¿Qué habilidad random tienes que nadie sospecha?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 346,
+    "question": "¿Qué palabra usas demasiado seguido?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 347,
+    "question": "¿Cuál es la peor excusa que has dado para no salir?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 348,
+    "question": "¿Qué serie o película puedes ver mil veces?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 349,
+    "question": "¿Qué es lo primero que haces cuando llegas a una fiesta?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 350,
+    "question": "¿Cuál es tu comida comfort favorita?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 351,
+    "question": "¿Cuál es tuPlace favorito para salir con amigos?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 352,
+    "question": "¿Cuál es tu emoji más usado en el celular?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 353,
+    "question": "¿Qué género de música escuchas cuando estás triste?",
+    "category": "descubrimiento",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 354,
+    "question": "¿Cuál es tu mayor contradictorio? (ej: vegano que ama el chicharrón)",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 355,
+    "question": "¿Qué es algo que todos hacen pero a ti te parece absurdo?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 356,
+    "question": "¿Alguna vez has fingido estar dormido/a para evitar una conversación?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 357,
+    "question": "¿Qué hábito tienes que te da pena admitir?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 358,
+    "question": "¿Cuál es tu mayor fear en la vida?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 359,
+    "question": "¿Qué clase de persona no soportas?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 360,
+    "question": "¿Cuál es la mayor tontería que has hecho estando borracho/a?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 361,
+    "question": "¿Qué es lo que más te molesta de la gente?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 362,
+    "question": "¿Qué secreto le guardarías a tu mejor amigo/a por siempre?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 363,
+    "question": "¿Cuál es tu mayor vergüenza en público?",
+    "category": "descubrimiento",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 364,
+    "question": "¿Qué pensaste la primera vez que conociste al grupo?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 365,
+    "question": "¿Cuál es la peor decisión tomada bajo los efectos del alcohol?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 366,
+    "question": "¿Cuál es la peor cita que has tenido en tu vida?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 367,
+    "question": "¿Cuál es tu mayor arrepentimiento de juventud?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 368,
+    "question": "¿Cuál es la cosa más rara que te gusta sexualmente?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 369,
+    "question": "¿Qué es algo que te gustaría hacer antes de morir y nunca has contado?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 370,
+    "question": "¿Alguna vez has mentido para impresionar a alguien? ¿De qué?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 371,
+    "question": "¿Alguna vez has besado a alguien de este grupo? ¿Quién?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 372,
+    "question": "¿Qué confesión te daría vergüenza hacer delante de todos?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 373,
+    "question": "¿Qué es algo que haces cuando estás completamente solo/a?",
+    "category": "descubrimiento",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 374,
+    "question": "¿Qué es algo que te gustaría experimentar pero nunca te has atrevido a pedir?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 375,
+    "question": "¿Qué es lo más atrevido que has hecho bajo los efectos del alcohol?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 376,
+    "question": "¿Cuál fue tu momento más embarrassante en la universidad/trabajo?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 377,
+    "question": "¿Cuál es tu mayor secreto sexual que no le has contado a tu pareja?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 378,
+    "question": "¿Alguna vez has mandado un mensaje al grupo equivocado con contenido íntimo?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 379,
+    "question": "¿Cuál es tu mayor fantasia que nunca has contado a nadie?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 380,
+    "question": "¿Qué es lo más picante que has hecho en público?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 381,
+    "question": "¿Qué es algo que te gustaría hacer con alguien de aquí pero no te atreves?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 382,
+    "question": "¿Alguna vez has tenido una crush en alguien del grupo?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 383,
+    "question": "¿Alguna vez has tenido un sueño erótico con alguien del grupo?",
+    "category": "descubrimiento",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 384,
+    "question": "¿Cuál es tu mayor confesión sexual que no le has contado a nadie?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 385,
+    "question": "¿Cuál es tu mayor fantasía reprimida?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 386,
+    "question": "¿Cuál es tu mayor tabú sexual que jamás has confesado?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 387,
+    "question": "¿Qué es lo más arriesgado que has hecho sexualmente?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 388,
+    "question": "¿Alguna vez has tenido una experiencia que te cambió la perspectiva sexual?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 389,
+    "question": "¿Alguna vez has tenido una relación secreta con alguien cercano?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 390,
+    "question": "¿Qué es algo que si supieran todos cambiaría cómo te ven?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 391,
+    "question": "¿Qué es lo que más te excita que nunca te atreves a decir en voz alta?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 392,
+    "question": "¿Qué es lo más extremo que has hecho sexualmente?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 393,
+    "question": "¿Qué es algo que te gustaría hacer sin restricciones morales?",
+    "category": "descubrimiento",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 394,
+    "question": "¿Qué hora del día es tu favorita para estar conmigo?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 395,
+    "question": "¿Qué es algo que te haría sonreír ahora mismo?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 396,
+    "question": "¿Qué color de flores te gusta más?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 397,
+    "question": "¿Qué pequeña cosa te haría sentir muy querido/a hoy?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 398,
+    "question": "¿Qué es una actividad que te gustaría probar conmigo?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 399,
+    "question": "¿Qué comida te gustaría que cocinara para ti?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 400,
+    "question": "¿Qué es algo que te gustaría recibir de mí sin pedirlo?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 401,
+    "question": "¿Qué gestures de afecto son los que más valoras?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 402,
+    "question": "¿Qué lugar te gustaría conocer conmigo?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 403,
+    "question": "¿Qué es algo que te gustaría que hiciéramos juntos este fin de semana?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 404,
+    "question": "¿Qué es algo que te gustaría que mejoráramos en nuestra rutina?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 405,
+    "question": "¿Qué excursión te gustaría hacer conmigo?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 406,
+    "question": "¿Qué regalo te emocionaría recibir de mí?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 407,
+    "question": "¿Qué es algo romántico que nunca te han hecho pero te gustaría?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 408,
+    "question": "¿Qué canción te gustaría que fuera nuestra canción?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 409,
+    "question": "¿Qué tipo de planes te emocionan más: aventura o relax?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 410,
+    "question": "¿Qué es algo que te gustaría que repitiéramos?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 411,
+    "question": "¿Qué es algo que te gustaría que sorprendiera?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 412,
+    "question": "¿Qué momento del día disfrutas más conmigo?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 413,
+    "question": "¿Qué libro o película te gustaría que viéramos juntos?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 414,
+    "question": "¿Qué juego de roles te gustaría que intentáramos?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 415,
+    "question": "¿Qué lugar público te gustaría que hiciéramos algo atrevido?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 416,
+    "question": "¿Qué es algo que te gustaría que practicáramos juntos?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 417,
+    "question": "¿Qué es algo que te gustaría que fuéramos más atrevidos en la intimidad?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 418,
+    "question": "¿Qué fantasía recurrente tienes sobre nosotros?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 419,
+    "question": "¿Qué es algo que te gustaría que probáramos sin límites?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 420,
+    "question": "¿Qué es algo nuevo que te gustaría que experimentáramos juntos?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 421,
+    "question": "¿Qué es algo que te gustaría que probáramos en la cama?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 422,
+    "question": "¿Qué momento íntimo te gustaría revivir y mejorar?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 423,
+    "question": "¿Qué fantasia te gustaría que convirtiéramos en realidad?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 424,
+    "question": "¿Qué es algo que te gustaría que me atreviera a hacer?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 425,
+    "question": "¿Qué es lo más explícito que te gustaría que hiciéramos?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 426,
+    "question": "¿Qué posición sexual es la que más te excita de soñar?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 427,
+    "question": "¿Qué te pondría más caliente:dominancia o sumisión?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 428,
+    "question": "¿Qué fantasía sexual intensa tienes que involucra a los dos?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 429,
+    "question": "¿Qué fantasía de grupo te gustaría que compartiéramos?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 430,
+    "question": "¿Qué es algo que te gustaría que mezcláramos con juego de roles?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 431,
+    "question": "¿Qué zona de tu cuerpo quieres que explore a fondo?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 432,
+    "question": "¿Qué es algo que te gustaría que probáramos con juguetes?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 433,
+    "question": "¿Qué es algo que te gustaría que durara horas?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 434,
+    "question": "¿Qué zona erógena desconocida quieres que descubra en ti?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 435,
+    "question": "¿Qué es algo que si hiciéramos cambiaría nuestra vida sexual para siempre?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 436,
+    "question": "¿Qué es lo más extremo que te gustaría que hiciéramos juntos?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 437,
+    "question": "¿Qué fantasía dark tienes que te da confesar?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 438,
+    "question": "¿Qué es algo que te gustaría que probáramos con restricciones?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 439,
+    "question": "¿Qué fantasía prohibida tienes que involucra escenario y roles?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 440,
+    "question": "¿Qué es algo que te gustaría que durara toda la noche sin parar?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 441,
+    "question": "¿Qué tabú sexual te gustaría que rompiéramos?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 442,
+    "question": "¿Qué es lo que más te excita que nunca te atreves a pedirme?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 443,
+    "question": "¿Qué es tu mayor fantasía que nunca has confesado?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 444,
+    "question": "¿Qué tipo de plan prefieres: playa, montaña o ciudad?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 445,
+    "question": "¿Qué actividad te gustaría que hiciéramos todos juntos?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 446,
+    "question": "¿Qué food challenge te gustaría que intentáramos?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 447,
+    "question": "¿Qué deporte o actividad grupal te gustaría probar?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 448,
+    "question": "¿Qué juego de mesa te gustaría que jugáramos?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 449,
+    "question": "¿Qué música pondrías para la fiesta ideal?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 450,
+    "question": "¿Qué plan espontáneo te gustaría que improvisáramos?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 451,
+    "question": "¿Qué habilidad te gustaría que te enseñaran?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 452,
+    "question": "¿Qué prefieres: maratón de películas o salir a bailar?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 453,
+    "question": "¿Cuál es tu lugar soñado para ir con amigos?",
+    "category": "deseos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 454,
+    "question": "¿Cuál es tu mayor sueño que nunca has contado?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 455,
+    "question": "¿Qué plan random te gustaría que hiciéramos esta noche?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 456,
+    "question": "¿Qué es algo que te gustaría que experience juntos?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 457,
+    "question": "¿Qué viaje soñado te gustaría hacer con este grupo?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 458,
+    "question": "¿Qué festival o evento te gustaría que asistiéramos?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 459,
+    "question": "¿Qué.meta personal te gustaría que te apoyaramos a cumplir?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 460,
+    "question": "¿Qué es algo que te gustaría que supieran de ti todos?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 461,
+    "question": "¿Qué es algo que te gustaría que fuéramos más aventureros?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 462,
+    "question": "¿Qué es algo que te gustaría hacer antes de cumplir 30/40?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 463,
+    "question": "¿Qué nuevo hobby te gustaría que empezáramos?",
+    "category": "deseos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 464,
+    "question": "¿Qué es algo que te gustaría que probáramos como grupo?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 465,
+    "question": "¿Qué cosa vergonzosa te gustaría que supieran de ti?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 466,
+    "question": "¿Qué es algo que te gustaría que sepamos de ti sin juzgarnos?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 467,
+    "question": "¿Qué te gustaría que hiciéramos para salir de la zona de comfort?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 468,
+    "question": "¿Qué es algo que nunca has contado y necesitas sacar?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 469,
+    "question": "¿Qué desafío te gustaría que nos propusiéramos?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 470,
+    "question": "¿Cuál es tu mayor secreto que te gustaría confesar?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 471,
+    "question": "¿Qué confesión te gustaría hacer delante de todos?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 472,
+    "question": "¿Qué historia vergonzosa te gustaría que contáramos?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 473,
+    "question": "¿Qué confesión amorosa te gustaría hacer aquí?",
+    "category": "deseos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 474,
+    "question": "¿Qué fantasía te gustaría que supieran todos?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 475,
+    "question": "¿Alguna vez has besado a alguien de aquí? ¿Cómo fue?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 476,
+    "question": "¿Qué es lo más picante que has hecho sin que nadie supiera?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 477,
+    "question": "¿Cuál es tu mayor confesión sexual delante de todos?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 478,
+    "question": "¿Alguna vez has tenido una experiencia con alguien del grupo?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 479,
+    "question": "¿Qué fantasía grupal tienes que nunca has contado?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 480,
+    "question": "¿Qué es algo que te gustaría que hiciéramos en grupo?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 481,
+    "question": "¿Qué es algo que te gustaría que experimentáramos juntos?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 482,
+    "question": "¿Cuál es tu mayor secreto sexual que nunca has contado?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 483,
+    "question": "¿Qué es lo más atrevido que has hecho en público?",
+    "category": "deseos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 484,
+    "question": "¿Qué es algo que cambiaría cómo todos te ven si lo supieran?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 485,
+    "question": "¿Qué tabú sexual te gustaría que rompiéramos como grupo?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 486,
+    "question": "¿Cuál es tu mayor confesión de todas las que podrías hacer?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 487,
+    "question": "¿Cuál es tu mayor fantasía sexual que involucra al grupo?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 488,
+    "question": "¿Qué es lo más extremo que has hecho que nadie aquí sabe?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 489,
+    "question": "¿Qué experiencia sexual extrema has tenido que no le has contado a nadie?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 490,
+    "question": "¿Qué fantasía reprimida tienes que nunca has atrevido a contar?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 491,
+    "question": "¿Cuál es el secreto más oscuro de tu vida sexual?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 492,
+    "question": "¿Qué es algo que si confesarías te daría libertad?",
+    "category": "deseos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 493,
+    "question": "¿Qué gesto de afecto es el que más extrañas cuando no estamos juntos?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 494,
+    "question": "¿Cómo prefieres que te muestre mi cariño en público?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 495,
+    "question": "¿Cómo te gusta que te despierte por la mañana?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 496,
+    "question": "¿Qué es algo pequeño que hago que te llena el corazón?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 497,
+    "question": "¿Qué es algo que te gustaría que hiciera más seguido?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 498,
+    "question": "¿Qué es algo que te hace sentir seguro/a conmigo?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 499,
+    "question": "¿Qué momento de ternura recuerdas con más cariño?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 500,
+    "question": "¿Qué es algo que te hace sentir profundamente amado/a?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 501,
+    "question": "¿Qué es lo que más valoras de nuestra relación?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 502,
+    "question": "¿Qué palabra o frase tuya me hace sentir especial?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 503,
+    "question": "¿Qué es algo personal que te gustaría que entendiera de ti?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 504,
+    "question": "¿Qué es algo que te gustaría que compartiéramos más?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 505,
+    "question": "¿Cómo te gusta que te apoye en los momentos difíciles?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 506,
+    "question": "¿Qué es algo que te gustaría que fuéramos más honestos?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 507,
+    "question": "¿Qué es algo de tu pasado que te gustaría que conociera?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 508,
+    "question": "¿Qué es algo que te gustaría que cambia de nosotros?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 509,
+    "question": "¿Qué miedo tienes que te gustaría que superáramos juntos?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 510,
+    "question": "¿Cómo manejas el estrés y qué puedo hacer para ayudarte?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 511,
+    "question": "¿Qué necesita tu corazón que nunca pides?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 512,
+    "question": "¿Qué significa la vulnerabilidad para ti en una relación?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 513,
+    "question": "¿Qué momento de debilidad has tenido que no me has contado?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 514,
+    "question": "¿Qué necesidad íntima tienes que no te atreves a pedir?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 515,
+    "question": "¿Qué necesidad emotional tienes que sientes que no te escucho?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 516,
+    "question": "¿Qué es algo que te gustaría que entiendas sin que lo explique?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 517,
+    "question": "¿Qué es algo que te gustaría que fuéramos más valientes?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 518,
+    "question": "¿Qué es algo que te gustaría que dedicáramos tiempo a mejorar?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 519,
+    "question": "¿Cómo puedo hacer que te sientas más amado/a?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 520,
+    "question": "¿Qué herida del pasado necesitas que sanemos juntos?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 521,
+    "question": "¿Qué es algo que te gustaría que habláramos sin filtros?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 522,
+    "question": "¿Qué es algo que te da miedo confesarme pero necesitas decir?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 523,
+    "question": "¿Cómo prefieres que te toque cuando necesitas consuelo?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 524,
+    "question": "¿Qué es algo que te gustaría que hagamos para fortalecer nuestro vínculo?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 525,
+    "question": "¿Qué es algo profundamente personal que te gustaría que souberas de mí?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 526,
+    "question": "¿Qué es algo que te gustaría que sintiéramos juntos sin palabras?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 527,
+    "question": "¿Qué zona emocional necesita más atención de mí?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 528,
+    "question": "¿Qué es algo que te gustaría que explore de ti emocionalmente?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 529,
+    "question": "¿Qué significa para ti la vulnerabilidad sexual?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 530,
+    "question": "¿Qué es la conexión emocional que más anhelas en la intimidad?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 531,
+    "question": "¿Qué es algo que te gustaría que mejoráramos en nuestra conexión?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 532,
+    "question": "¿Qué fantasía emotional tienes que involucra conexión profunda?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 533,
+    "question": "¿Cuál es tu mayor miedo en la intimidad que nunca has confesado?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 534,
+    "question": "¿Qué es lo que más necesitas de mí que nunca pides?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 535,
+    "question": "¿Qué fantasía emotional intensa tienes que nunca has confesado?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 536,
+    "question": "¿Qué zona de tu corazón necesita que me adentre?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 537,
+    "question": "¿Qué es algo que te gustaría que transformemos en nuestra relación?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 538,
+    "question": "¿Qué significa para ti la entrega total en la intimidad?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 539,
+    "question": "¿Qué es algo que te gustaría que hagamos para llegar al siguiente nivel?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 540,
+    "question": "¿Qué es lo más vulnerable que puedes ser conmigo?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 541,
+    "question": "¿Qué es algo que te gustaría que experimentemos sin ningún filtro?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 542,
+    "question": "¿Qué necesita tu alma que nunca te atreves a pedir?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 543,
+    "question": "¿Qué es algo que te da paz mental?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 544,
+    "question": "¿Cómo te gusta que te cuiden?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 545,
+    "question": "¿Qué es algo que te hace sentir parte del grupo?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 546,
+    "question": "¿Qué calidad admiras más en una amistad?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 547,
+    "question": "¿Qué significa para ti la amistad?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 548,
+    "question": "¿Qué es algo que valoras de tus amistades?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 549,
+    "question": "¿Cómo te gusta que te demuestren cariño?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 550,
+    "question": "¿Cómo prefieres que te apoyen cuando estás mal?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 551,
+    "question": "¿Qué es algo que te gusta de la gente que te rodea?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 552,
+    "question": "¿Qué es algo que te hace sentir cómodo/a con este grupo?",
+    "category": "intimidad",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 553,
+    "question": "¿Qué es algo de ti que sientes que nadie entiende?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 554,
+    "question": "¿Qué es algo que te gustaría que cambiáramos en el grupo?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 555,
+    "question": "¿Cómo manejas la tristeza y cómo podemos ayudarte?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 556,
+    "question": "¿Qué es algo personal que te gustaría que supieran de ti?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 557,
+    "question": "¿Qué significa la lealtad para ti en una amistad?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 558,
+    "question": "¿Qué es algo que te gustaría que supieran todos de ti?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 559,
+    "question": "¿Qué necesidad emotional tienes que nunca pides?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 560,
+    "question": "¿Qué necesita tu corazón que nunca pides a nadie?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 561,
+    "question": "¿Cómo prefieres que te apoyen en los momentos difíciles?",
+    "category": "intimidad",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 562,
+    "question": "¿Qué es algo que te da vergüenza que supieran?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 563,
+    "question": "¿Qué confesión personal te gustaría hacer aquí?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 564,
+    "question": "¿Qué es algo que te gustaría que habláramos sin Tabúes?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 565,
+    "question": "¿Qué herida pasada necesitas sanar con el apoyo del grupo?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 566,
+    "question": "¿Qué es algo que te gustaría que understand sin explicar?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 567,
+    "question": "¿Qué necesidad emotional tienes que ignoras?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 568,
+    "question": "¿Qué es algo que sientes que no te escuchan?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 569,
+    "question": "¿Qué es algo que te gustaría que fuéramos más vulnerables?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 570,
+    "question": "¿Cómo podemos ser mejores amigos para ti?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 571,
+    "question": "¿Cuál es tu mayor inseguridad que no le cuentas a nadie?",
+    "category": "intimidad",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 572,
+    "question": "¿Qué es algo que cambiaría cómo te ven si lo supieran?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 573,
+    "question": "¿Cuál es tu mayor secreto personal que nunca has contado?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 574,
+    "question": "¿Cuál es tu mayor miedo que te gustaría que superáramos?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 575,
+    "question": "¿Qué es algo que te gustaría que sepas que confías en ti?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 576,
+    "question": "¿Qué confesión sexual te gustaría hacer aquí?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 577,
+    "question": "¿Cuál es tu mayor arrepentimiento que nunca has confesado?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 578,
+    "question": "¿Qué es algo que te gustaría que experience juntos para conocernos mejor?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 579,
+    "question": "¿Qué es algo que te gustaría que supieran sin juzgarte?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 580,
+    "question": "¿Qué confesión íntima te gustaría hacer delante de todos?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 581,
+    "question": "¿Qué es algo que te gustaría que hiciéramos para fortalecer la amistad?",
+    "category": "intimidad",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 582,
+    "question": "¿Qué es lo más vulnerable que puedes confesar aquí?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 583,
+    "question": "¿Cuál es tu mayor verdad que nunca has atrevido a decir?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 584,
+    "question": "¿Qué es algo que cambiaría la forma en que el grupo te ve?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 585,
+    "question": "¿Qué es lo más arriesgado que has hecho que cambió tu vida?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 586,
+    "question": "¿Qué confesión extrema te gustaría hacer sin consecuencias?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 587,
+    "question": "¿Qué tabú personal te gustaría que rompiéramos?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 588,
+    "question": "¿Cuál es el secreto que más te pesa en el alma?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 589,
+    "question": "¿Qué fantasía personal nunca has confesado a nadie?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 590,
+    "question": "¿Qué es algo que si supieran todos cambiaría su relación contigo?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 591,
+    "question": "¿Cuál es tu mayor confesión de vida que cambiaría todo?",
+    "category": "intimidad",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 592,
+    "question": "¿Qué es algo que te gusta que susurre al oído?",
+    "category": "caliente",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 593,
+    "question": "¿Qué parte de mi cuerpo te gusta tocar más?",
+    "category": "caliente",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 594,
+    "question": "¿Qué gesture me pone más sexy a tus ojos?",
+    "category": "caliente",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 595,
+    "question": "¿Qué parte de mi cuerpo quieres que te muestre?",
+    "category": "caliente",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 596,
+    "question": "¿Qué es algo que te gusta que te haga cuando estamos solos?",
+    "category": "caliente",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 597,
+    "question": "¿Cómo te gusta que te bese?",
+    "category": "caliente",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 598,
+    "question": "¿Qué ropa interior crees que es la más sexy?",
+    "category": "caliente",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 599,
+    "question": "¿Qué momento del día estás más dispuesta/o?",
+    "category": "caliente",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 600,
+    "question": "¿Qué música te pone de buen humor para la intimidad?",
+    "category": "caliente",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 601,
+    "question": "¿Qué te gusta más: luces apagadas o encendidas?",
+    "category": "caliente",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 602,
+    "question": "¿Cómo te gusta que te toque cuando estamos en la cama?",
+    "category": "caliente",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 603,
+    "question": "¿Qué posición sexual es tu favorita?",
+    "category": "caliente",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 604,
+    "question": "¿Qué ritmo prefieres: lento y sensual o rápido y apasionado?",
+    "category": "caliente",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 605,
+    "question": "¿Qué es algo que te gustaría que experimentáramos?",
+    "category": "caliente",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 606,
+    "question": "¿Qué zona de tu cuerpo es la más sensible?",
+    "category": "caliente",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 607,
+    "question": "¿Qué es algo que te gustaría que hiciéramos más seguido?",
+    "category": "caliente",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 608,
+    "question": "¿Qué es algo que te prende rápidamente?",
+    "category": "caliente",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 609,
+    "question": "¿Qué te gusta más: dominar o dejarte llevar?",
+    "category": "caliente",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 610,
+    "question": "¿Qué fantasía pequeña te gustaría que hiciéramos realidad?",
+    "category": "caliente",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 611,
+    "question": "¿Qué lugar unconventional te gustaría que hiciéramos el amor?",
+    "category": "caliente",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 612,
+    "question": "¿Qué restricción te gustaría que nos impusiéramos?",
+    "category": "caliente",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 613,
+    "question": "¿Qué fantasia recurrente tienes que nunca has contado?",
+    "category": "caliente",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 614,
+    "question": "¿Qué fantasia intensa tienes sobre nosotros?",
+    "category": "caliente",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 615,
+    "question": "¿Qué es algo que te gustaría que hagamos durante más tiempo?",
+    "category": "caliente",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 616,
+    "question": "¿Qué fantasía de dominación te gustaría que exploráramos?",
+    "category": "caliente",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 617,
+    "question": "¿Qué es algo atrevido que te gustaría que hiciéramos en un lugar público?",
+    "category": "caliente",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 618,
+    "question": "¿Qué es algo que te gustaría que variáramos en la intimidad?",
+    "category": "caliente",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 619,
+    "question": "¿Qué zona erógena quieres que explore a fondo?",
+    "category": "caliente",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 620,
+    "question": "¿Qué fantasia de deseo mutuo tienes que nunca has confesado?",
+    "category": "caliente",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 621,
+    "question": "¿Qué fantasia sexual intensa tienes que involucra escenario?",
+    "category": "caliente",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 622,
+    "question": "¿Qué posición sexual intensa te gustaría que intentáramos?",
+    "category": "caliente",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 623,
+    "question": "¿Qué es algo que te gustaría que durara toda la noche?",
+    "category": "caliente",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 624,
+    "question": "¿Qué te prende más: dominancia o sumisión total?",
+    "category": "caliente",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 625,
+    "question": "¿Qué es algo que te gustaría que me atreviera a hacerte?",
+    "category": "caliente",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 626,
+    "question": "¿Qué fantasia BDSM te gustaría que exploráramos?",
+    "category": "caliente",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 627,
+    "question": "¿Qué zona prohibida quieres que explore sin límites?",
+    "category": "caliente",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 628,
+    "question": "¿Qué restricción extrema te gustaría que probáramos?",
+    "category": "caliente",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 629,
+    "question": "¿Qué deseo más profundo y oscuro tienes que nunca has dicho?",
+    "category": "caliente",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 630,
+    "question": "¿Qué fantasia dark tienes que te da confesar?",
+    "category": "caliente",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 631,
+    "question": "¿Qué es lo más extremo que te gustaría que hiciéramos?",
+    "category": "caliente",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 632,
+    "question": "¿Qué fantasia de poder total tienes que nunca has confesado?",
+    "category": "caliente",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 633,
+    "question": "¿Qué es algo que si hiciéramos cambiaría todo?",
+    "category": "caliente",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 634,
+    "question": "¿Qué es tu fantasia más explícita que nunca has contado?",
+    "category": "caliente",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 635,
+    "question": "¿Qué es algo que te excita pensar pero dares?",
+    "category": "caliente",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 636,
+    "question": "¿Qué es lo más picante que has soñado recientemente?",
+    "category": "caliente",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 637,
+    "question": "¿Qué confesión picante te gustaría hacer aquí?",
+    "category": "caliente",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 638,
+    "question": "¿Qué es algo que te gustaría que hiciéramos como grupo para salir de zona de comfort?",
+    "category": "caliente",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 639,
+    "question": "¿Alguna vez has tenido un crush que no le contaste a nadie?",
+    "category": "caliente",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 640,
+    "question": "¿Alguna vez has sentido atracción por alguien del grupo?",
+    "category": "caliente",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 641,
+    "question": "¿Qué es lo más atrevido que has hecho en una fiesta?",
+    "category": "caliente",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 642,
+    "question": "¿Cuál ha sido tu beso más memorable? ¿Con quién?",
+    "category": "caliente",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 643,
+    "question": "¿Cuál es tu mayor hito romántico/sexual que nadie aquí sabe?",
+    "category": "caliente",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 644,
+    "question": "¿Qué fantasía grupal no sexual te gustaría que viviéramos?",
+    "category": "caliente",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 645,
+    "question": "¿Cuál ha sido tu experiencia sexual más memorable?",
+    "category": "caliente",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 646,
+    "question": "¿Qué es algo que te gustaría que hiciéramos como grupo para desafiar límites?",
+    "category": "caliente",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 647,
+    "question": "¿Qué fantasía grupal sensual tienes que nunca has contado?",
+    "category": "caliente",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 648,
+    "question": "¿Alguna vez has tenido una experiencia con más de una persona?",
+    "category": "caliente",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 649,
+    "question": "¿Qué fantasia sexual tienes que involucra a alguien que conoces?",
+    "category": "caliente",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 650,
+    "question": "¿Alguna vez has besado a alguien del grupo? ¿Cómo fue?",
+    "category": "caliente",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 651,
+    "question": "¿Qué es algo que cambiaría todo si lo confesaras?",
+    "category": "caliente",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 652,
+    "question": "¿Cuál es tu mayor fantasia sexual que involucra al grupo?",
+    "category": "caliente",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 653,
+    "question": "¿Qué confesión sexual extrema te gustaría hacer aquí?",
+    "category": "caliente",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 654,
+    "question": "¿Qué es lo más extremo que has hecho que nadie sabe?",
+    "category": "caliente",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 655,
+    "question": "¿Qué experiencia extrema has tenido que nadie aquí conoce?",
+    "category": "caliente",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 656,
+    "question": "¿Qué es algo que si dijeras cambiaría tu relación con el grupo?",
+    "category": "caliente",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 657,
+    "question": "¿Qué fantasía reprimida tienes que nunca has contado?",
+    "category": "caliente",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 658,
+    "question": "¿Qué lugar soñado te gustaría que visitáramos juntos?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 659,
+    "question": "¿Qué libro o película te gustaría que life?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 660,
+    "question": "¿Qué actividad de aventura te gustaría que probáramos?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 661,
+    "question": "¿Qué scenario ficticio te gustaría que recreáramos?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 662,
+    "question": "¿Qué era histórica te gustaría que visitáramos en una máquina del tiempo?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 663,
+    "question": "¿Qué destino exótico te gustaría que conocéramos?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 664,
+    "question": "¿Qué escenario romantico te gustaría que recreate?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 665,
+    "question": "¿Qué viaje soñado te gustaría que hiciéramos?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 666,
+    "question": "¿Qué aventura te gustaría que viviéramos?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 667,
+    "question": "¿Qué experiencia única te gustaría que compartiéramos?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 668,
+    "question": "¿Qué situation romántica de ficción te gustaría que experience?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 669,
+    "question": "¿Qué scenario de fantasía te gustaría que recreáramos?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 670,
+    "question": "¿Qué aventura épica te gustaría que viviéramos?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 671,
+    "question": "¿Qué fantasia de viaje tienes que involucra los dos?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 672,
+    "question": "¿Qué viaje en el tiempo te gustaría que hiciéramos?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 673,
+    "question": "¿Qué escenario soñado te gustaría que hagamos realidad?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 674,
+    "question": "¿Qué aventura de adrenalin te gustaría que probáramos?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 675,
+    "question": "¿Qué aventura mágica te gustaría que viviéramos?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 676,
+    "question": "¿Qué scenario de película te gustaría que recreáramos?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 677,
+    "question": "¿Qué mundo ficticio te gustaría que habitáramos?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 678,
+    "question": "¿Qué aventura secreta te gustaría que viviéramos?",
+    "category": "fantasias",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 679,
+    "question": "¿Qué fantasia de poder compartido te gustaría que exploráramos?",
+    "category": "fantasias",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 680,
+    "question": "¿Qué aventura prohibida te gustaría que viviéramos?",
+    "category": "fantasias",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 681,
+    "question": "¿Qué fantasia de poder te gustaría que experimentáramos?",
+    "category": "fantasias",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 682,
+    "question": "¿Qué scenario de seducción te gustaría que recreáramos?",
+    "category": "fantasias",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 683,
+    "question": "¿Qué scenario exótico te gustaría que recreáramos?",
+    "category": "fantasias",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 684,
+    "question": "¿Qué fantasia de roleplay te gustaría que intentáramos?",
+    "category": "fantasias",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 685,
+    "question": "¿Qué aventura sexual suave te gustaría que probáramos?",
+    "category": "fantasias",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 686,
+    "question": "¿Qué scenario de tentación te gustaría que recreáramos?",
+    "category": "fantasias",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 687,
+    "question": "¿Qué aventura sexual sin límites te gustaría que probáramos?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 688,
+    "question": "¿Qué scenario de fantasía caliente te gustaría que hiciéramos realidad?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 689,
+    "question": "¿Qué aventura sexual te gustaría que durara horas?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 690,
+    "question": "¿Qué fantasia de deseo total tienes que nunca has confesado?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 691,
+    "question": "¿Qué fantasia sexual que involucra roles te gustaría que intentáramos?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 692,
+    "question": "¿Qué fantasia sexual explícita tienes que involucra escenario elaborado?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 693,
+    "question": "¿Qué scenario de placer extremo te gustaría que recreáramos?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 694,
+    "question": "¿Qué scenario de fantasía intensa te gustaría que recreáramos?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 695,
+    "question": "¿Qué scenario de pasión intensa te gustaría que viviéramos?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 696,
+    "question": "¿Qué fantasia de surrender total tienes que nunca has contado?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 697,
+    "question": "¿Qué scenario de fantasía extrema te gustaría que recreáramos?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 698,
+    "question": "¿Qué fantasia que desafía todos los límites tienes que nunca has contado?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 699,
+    "question": "¿Qué fantasia de poder total tienes que nunca has contado?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 700,
+    "question": "¿Qué fantasia de surrender extremo tienes que nunca has confesado?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 701,
+    "question": "¿Qué scenario de fantasía prohibida te gustaría que recreáramos?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 702,
+    "question": "¿Qué aventura sexual sin tabúes te gustaría que probáramos?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 703,
+    "question": "¿Qué scenario de deseo absoluto te gustaría que recreáramos?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 704,
+    "question": "¿Qué aventura sexual prohibida te gustaría que viviéramos?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 705,
+    "question": "¿Qué fantasia más explícita tienes que nunca has confesado?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 706,
+    "question": "¿Qué fantasia dark que nunca has atrevido a contar te gustaría que hiciéramos?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 707,
+    "question": "¿Qué challenge grupal te gustaría que nos propusiéramos?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 708,
+    "question": "¿Qué aventura de team building te gustaría que hiciéramos?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 709,
+    "question": "¿Qué activity al aire libre te gustaría que probáramos?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 710,
+    "question": "¿Qué destino de vacaciones soñado te gustaría que visitáramos?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 711,
+    "question": "¿Qué destino soñado te gustaría que visitáramos todos?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 712,
+    "question": "¿Qué activity de grupo te gustaría que probáramos?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 713,
+    "question": "¿Qué plan random te gustaría que improvisáramos?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 714,
+    "question": "¿Qué aventura grupal te gustaría que viviéramos?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 715,
+    "question": "¿Qué plan aventurero te gustaría que hiciéramos?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 716,
+    "question": "¿Qué juego o activity grupal te gustaría que intentáramos?",
+    "category": "fantasias",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 717,
+    "question": "¿Qué aventura grupal te gustaría que planificáramos?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 718,
+    "question": "¿Qué destino exótico te gustaría que conocéramos todos?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 719,
+    "question": "¿Qué viaje de amistad te gustaría que hiciéramos?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 720,
+    "question": "¿Qué activity única te gustaría que compartiéramos?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 721,
+    "question": "¿Qué plan spontaneo te gustaría que hiciéramos?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 722,
+    "question": "¿Qué aventura de amistad te gustaría que experience?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 723,
+    "question": "¿Qué viaje grupal soñado te gustaría que hiciéramos?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 724,
+    "question": "¿Qué scenario de película te gustaría que recreáramos en grupo?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 725,
+    "question": "¿Qué activity grupal te gustaría que intentáramos?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 726,
+    "question": "¿Qué aventura de team building te gustaría que planeáramos?",
+    "category": "fantasias",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 727,
+    "question": "¿Qué challenge grupal te gustaría que superáramos?",
+    "category": "fantasias",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 728,
+    "question": "¿Qué activity atrevida te gustaría que probáramos?",
+    "category": "fantasias",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 729,
+    "question": "¿Qué desafío grupal te gustaría que nos propusiéramos?",
+    "category": "fantasias",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 730,
+    "question": "¿Qué aventura grupal intensa te gustaría que viviéramos?",
+    "category": "fantasias",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 731,
+    "question": "¿Qué challenge de confianza te gustaría que nos propusiéramos?",
+    "category": "fantasias",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 732,
+    "question": "¿Qué plan atrevido te gustaría que improvisáramos?",
+    "category": "fantasias",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 733,
+    "question": "¿Qué activity fuera de zona de comfort te gustaría que hiciéramos?",
+    "category": "fantasias",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 734,
+    "question": "¿Qué confesión grupal te gustaría que hiciéramos?",
+    "category": "fantasias",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 735,
+    "question": "¿Qué aventura de desinhibición te gustaría que viviéramos?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 736,
+    "question": "¿Qué activity sensual grupal te gustaría que probáramos?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 737,
+    "question": "¿Qué scenario atrevido te gustaría que recreáramos?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 738,
+    "question": "¿Qué aventura grupal te gustaría que experienceáramos?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 739,
+    "question": "¿Qué challenge de confianza intensa te gustaría que superáramos?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 740,
+    "question": "¿Qué scenario de fantasía grupal te gustaría que recreáramos?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 741,
+    "question": "¿Qué plan atrevido te gustaría que hiciéramos?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 742,
+    "question": "¿Qué activity de conexión grupal te gustaría que probáramos?",
+    "category": "fantasias",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 743,
+    "question": "¿Qué aventura de desinhibición total te gustaría que viviéramos?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 744,
+    "question": "¿Qué plan grupal te gustaría que hiciéramos sin límites?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 745,
+    "question": "¿Qué confesión grupal extrema te gustaría que hiciéramos?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 746,
+    "question": "¿Qué aventura grupal extrema te gustaría que experienceáramos?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 747,
+    "question": "¿Qué activity extrema grupal te gustaría que probáramos?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 748,
+    "question": "¿Qué activity grupal te gustaría que probáramos sin restricciones?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 749,
+    "question": "¿Qué challenge grupal extremo te gustaría que superáramos?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 750,
+    "question": "¿Qué challenge de confianza absoluta te gustaría que nos propusiéramos?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 751,
+    "question": "¿Qué scenario de fantasía grupal extrema te gustaría que recreáramos?",
+    "category": "fantasias",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 752,
+    "question": "¿Qué game de cartas te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 753,
+    "question": "¿Qué juego de azar te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 754,
+    "question": "¿Qué sport o activity física te gustaría que intentáramos?",
+    "category": "juegos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 755,
+    "question": "¿Qué puzzle te gustaría que resolvéramos juntos?",
+    "category": "juegos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 756,
+    "question": "¿Qué juego de mesa te gustaría que jugáramos juntos?",
+    "category": "juegos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 757,
+    "question": "¿Qué activity creativa te gustaría que hiciéramos?",
+    "category": "juegos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 758,
+    "question": "¿Qué activity de cocina te gustaría que intentáramos?",
+    "category": "juegos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 759,
+    "question": "¿Qué juego de preguntas te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 760,
+    "question": "¿Qué challenge gracioso te gustaría que nos propusiéramos?",
+    "category": "juegos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 761,
+    "question": "¿Qué game de video te gustaría que jugáramos juntos?",
+    "category": "juegos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 762,
+    "question": "¿Qué game de seducción te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 763,
+    "question": "¿Qué challenge creativo te gustaría que nos propusiéramos?",
+    "category": "juegos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 764,
+    "question": "¿Qué juego de competencia te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 765,
+    "question": "¿Qué activity de aventura te gustaría que probáramos?",
+    "category": "juegos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 766,
+    "question": "¿Qué challenge grupal te gustaría que hiciéramos en pareja?",
+    "category": "juegos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 767,
+    "question": "¿Qué challenge de cocina te gustaría que intentáramos?",
+    "category": "juegos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 768,
+    "question": "¿Qué activity de team building te gustaría que hiciéramos?",
+    "category": "juegos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 769,
+    "question": "¿Qué game de estrategia te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 770,
+    "question": "¿Qué juego de truth or dare te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 771,
+    "question": "¿Qué game de roles intensos te gustaría que intentáramos?",
+    "category": "juegos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 772,
+    "question": "¿Qué challenge de conexión te gustaría que superáramos?",
+    "category": "juegos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 773,
+    "question": "¿Qué game de fantasía te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 774,
+    "question": "¿Qué juego de seducción intensa te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 775,
+    "question": "¿Qué juego de verdad te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 776,
+    "question": "¿Qué activity de exploración te gustaría que intentáramos?",
+    "category": "juegos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 777,
+    "question": "¿Qué challenge de creatividad te gustaría que nos propusiéramos?",
+    "category": "juegos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 778,
+    "question": "¿Qué juego de desafíos te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 779,
+    "question": "¿Qué activity atrevida te gustaría que hiciéramos?",
+    "category": "juegos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 780,
+    "question": "¿Qué activity sensual te gustaría que hiciéramos?",
+    "category": "juegos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 781,
+    "question": "¿Qué challenge de intimidad te gustaría que nos propusiéramos?",
+    "category": "juegos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 782,
+    "question": "¿Qué juego sexual te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 783,
+    "question": "¿Qué activity de exploración sexual te gustaría que intentáramos?",
+    "category": "juegos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 784,
+    "question": "¿Qué challenge íntimo te gustaría que nos propusiéramos?",
+    "category": "juegos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 785,
+    "question": "¿Qué challenge de deseo te gustaría que superáramos?",
+    "category": "juegos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 786,
+    "question": "¿Qué game de fantasías te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 787,
+    "question": "¿Qué game de roles sexuales te gustaría que intentáramos?",
+    "category": "juegos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 788,
+    "question": "¿Qué juego de seducción explícita te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 789,
+    "question": "¿Qué juego de dominación suave te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 790,
+    "question": "¿Qué activity sin restricciones te gustaría que hiciéramos?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 791,
+    "question": "¿Qué game de poder total te gustaría que intentáramos?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 792,
+    "question": "¿Qué challenge sin límites te gustaría que nos propusiéramos?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 793,
+    "question": "¿Qué game de deseo absoluto te gustaría que intentáramos?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 794,
+    "question": "¿Qué challenge de surrender total te gustaría que superáramos?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 795,
+    "question": "¿Qué juego sexual extremo te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 796,
+    "question": "¿Qué activity sin tabúes te gustaría que hiciéramos?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 797,
+    "question": "¿Qué juego de BDSM te gustaría que exploráramos?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 798,
+    "question": "¿Qué challenge de límites cero te gustaría que nos propusiéramos?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 799,
+    "question": "¿Qué juego de fantasías extremas te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 800,
+    "question": "¿Qué game de preguntas grupal te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 801,
+    "question": "¿Qué game de cartas te gustaría que jugáramos todos?",
+    "category": "juegos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 802,
+    "question": "¿Qué activity creativa grupal te gustaría que hiciéramos?",
+    "category": "juegos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 803,
+    "question": "¿Qué sport grupal te gustaría que intentáramos?",
+    "category": "juegos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 804,
+    "question": "¿Qué activity grupal te gustaría que probáramos?",
+    "category": "juegos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 805,
+    "question": "¿Qué juego de azar grupal te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 806,
+    "question": "¿Qué juego de equipo te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 807,
+    "question": "¿Qué juego de mesa grupal te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 808,
+    "question": "¿Qué challenge gracioso te gustaría que hiciéramos?",
+    "category": "juegos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 809,
+    "question": "¿Qué juego de estrategia grupal te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 810,
+    "question": "¿Qué challenge de team building te gustaría que nos propusiéramos?",
+    "category": "juegos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 811,
+    "question": "¿Qué activity de aventura grupal te gustaría que probáramos?",
+    "category": "juegos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 812,
+    "question": "¿Qué challenge creativo te gustaría que superáramos?",
+    "category": "juegos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 813,
+    "question": "¿Qué game de seducción grupal te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 814,
+    "question": "¿Qué juego de competencia grupal te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 815,
+    "question": "¿Qué truth or dare grupal te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 816,
+    "question": "¿Qué game de roles grupal te gustaría que intentáramos?",
+    "category": "juegos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 817,
+    "question": "¿Qué truth or dare atrevido te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 818,
+    "question": "¿Qué juego de roles grupal te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 819,
+    "question": "¿Qué challenge grupal atrevido te gustaría que nos propusiéramos?",
+    "category": "juegos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 820,
+    "question": "¿Qué game de verdad grupal te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 821,
+    "question": "¿Qué challenge grupal te gustaría que hiciéramos?",
+    "category": "juegos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 822,
+    "question": "¿Qué challenge de confianza grupal te gustaría que superáramos?",
+    "category": "juegos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 823,
+    "question": "¿Qué game de confesiones te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 824,
+    "question": "¿Qué activity atrevida te gustaría que intentáramos?",
+    "category": "juegos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 825,
+    "question": "¿Qué truth or dare sensual grupal te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 826,
+    "question": "¿Qué juego de verdad sensual te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 827,
+    "question": "¿Qué game de confesiones íntimas te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 828,
+    "question": "¿Qué game de roles atrevidos te gustaría que intentáramos?",
+    "category": "juegos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 829,
+    "question": "¿Qué activity de desinhibición te gustaría que hiciéramos?",
+    "category": "juegos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 830,
+    "question": "¿Qué juego de confesiones te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 831,
+    "question": "¿Qué juego de confesiones extremas te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 832,
+    "question": "¿Qué challenge sin límites grupal te gustaría que superáramos?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 833,
+    "question": "¿Qué juego de verdad extremo te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 834,
+    "question": "¿Qué challenge grupal te gustaría que hiciéramos sin límites?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 835,
+    "question": "¿Qué activity grupal sin restricciones te gustaría que probáramos?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 836,
+    "question": "¿Qué game de roles extremos te gustaría que intentáramos?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 837,
+    "question": "¿Qué activity de desinhibición total te gustaría que hiciéramos?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 838,
+    "question": "¿Qué game de confesiones extremas te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 839,
+    "question": "¿Qué truth or dare extremo te gustaría que jugáramos?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 840,
+    "question": "¿Qué challenge grupal extremo te gustaría que nos propusiéramos?",
+    "category": "juegos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 841,
+    "question": "¿Cuál fue tu recuerdo favorito de nuestra primera cita?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 842,
+    "question": "¿Qué vacaciones juntos fue tu favorita y por qué?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 843,
+    "question": "¿Qué recuerdo te saca una sonrisa cuando estás triste?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 844,
+    "question": "¿Qué momento juntos te gustaría revivir?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 845,
+    "question": "¿Cuál es tu momento más tierno que recuerdas de nosotros?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 846,
+    "question": "¿Cuál fue la primera vez que nos dimos un beso y cómo fue?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 847,
+    "question": "¿Cuál fue el momento en que supiste que me querías?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 848,
+    "question": "¿Cuál fue la mejor sorpresa que te he dado?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 849,
+    "question": "¿Qué recuerdo te hace sentir más orgulloso/a de nosotros?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 850,
+    "question": "¿Qué momento juntos te hace sonreír siempre?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "pareja"
+  },
+  {
+    "id": 851,
+    "question": "¿Cuál fue el momento más divertido que hemos tenido juntos?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 852,
+    "question": "¿Cuál fue el viaje que más te gustó y por qué?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 853,
+    "question": "¿Qué recuerdo te hace reír cada vez que lo piensas?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 854,
+    "question": "¿Qué momento difícil hemos superado que te enorgullece?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 855,
+    "question": "¿Cuál fue el momento más romántico que has vivido conmigo?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 856,
+    "question": "¿Qué evento juntos marcó un antes y un después?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 857,
+    "question": "¿Qué recuerdo te da más nostalgia de nosotros?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 858,
+    "question": "¿Cuál fue la primera vez que nos quedamos dormidos juntos?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 859,
+    "question": "¿Qué canción te recuerda a un momento especial nuestro?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 860,
+    "question": "¿Cuál fue la mejor cena que hemos tenido juntos?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "pareja"
+  },
+  {
+    "id": 861,
+    "question": "¿Qué momento íntimo recuerdas con más cariño?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 862,
+    "question": "¿Cuál fue el momento en que todo cambió para mejor?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 863,
+    "question": "¿Qué recuerdo te emociona cada vez que lo cuentas?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 864,
+    "question": "¿Qué aventura juntos fue la más emocionante?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 865,
+    "question": "¿Cuál fue la discusión más fuerte que tuvimos y cómo la resolvimos?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 866,
+    "question": "¿Qué recuerdo te da más paz cuando lo recuerdas?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 867,
+    "question": "¿Cuál fue el momento más difícil que hemos superado?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 868,
+    "question": "¿Cuál fue el momento más vulnerable que hemos compartido?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 869,
+    "question": "¿Qué recuerdo te gustaría que nunca olvidáramos?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 870,
+    "question": "¿Cuál fue la primera vez que dijiste 'te quiero'?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "pareja"
+  },
+  {
+    "id": 871,
+    "question": "¿Cuál fue la vez que más intense fue la conexión?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 872,
+    "question": "¿Cuál fue la experiencia que nos hizo sentir más conectados?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 873,
+    "question": "¿Qué noche juntos fue la más inolvidable?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 874,
+    "question": "¿Qué recuerdo íntimo es tu favorito y por qué?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 875,
+    "question": "¿Cuál fue el momento de pasión que superó tus expectativas?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 876,
+    "question": "¿Qué momento sexual recuerdas con más detalles?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 877,
+    "question": "¿Cuál fue tu momento más apasionado conmigo?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 878,
+    "question": "¿Qué recuerdo te gustaría repetir ahora mismo?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 879,
+    "question": "¿Qué recuerdo sensual te enciende solo de pensarlo?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 880,
+    "question": "¿Cuál fue la experiencia que nos acercó más?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "pareja"
+  },
+  {
+    "id": 881,
+    "question": "¿Qué recuerdo de deseo total te emociona solo de pensarlo?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 882,
+    "question": "¿Cuál fue la experiencia más atrevida que hemos tenido?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 883,
+    "question": "¿Cuál fue el momento que nos hizo sentir más libres?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 884,
+    "question": "¿Qué noche juntos fue la más salvaje?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 885,
+    "question": "¿Cuál fue la vez que todo fue perfecto sin límites?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 886,
+    "question": "¿Qué recuerdo de conexión total te gustaría revivir?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 887,
+    "question": "¿Qué momento de pasión absoluta recuerdas con más fuerza?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 888,
+    "question": "¿Cuál es tu recuerdo sexual más intenso?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 889,
+    "question": "¿Cuál fue la experiencia que superó todos tus límites?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 890,
+    "question": "¿Qué noche juntos fue la más extrema?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "pareja"
+  },
+  {
+    "id": 891,
+    "question": "¿Cuál fue tu momento favorito del último viaje grupal?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 892,
+    "question": "¿Qué momento grupal te hace sonreír siempre?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 893,
+    "question": "¿Cuál fue la mejor fiesta a la que has ido con amigos?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 894,
+    "question": "¿Cuál fue el primer plan grupal que tuvimos?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 895,
+    "question": "¿Cuál fue tu recuerdo favorito de cuando éramos más jóvenes?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 896,
+    "question": "¿Qué recuerdo te da nostalgia de tu infancia?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 897,
+    "question": "¿Cuál fue la mejor canción que cantamos todos juntos?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 898,
+    "question": "¿Qué aventura con amigos fue la más divertida?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 899,
+    "question": "¿Qué momento de amigos te gustaría revivir?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 900,
+    "question": "¿Qué recuerdo te hace reír cada vez que lo cuentas?",
+    "category": "recuerdos",
+    "intensity": 1,
+    "mode": "grupo"
+  },
+  {
+    "id": 901,
+    "question": "¿Qué canción nos une como grupo?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 902,
+    "question": "¿Cuál fue la vez más graciosa que tuvimos juntos?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 903,
+    "question": "¿Cuál fue la primera vez que nos conocimos todos?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 904,
+    "question": "¿Qué recuerdo te da más alegría de la amistad?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 905,
+    "question": "¿Cuál fue el momento más divertido de la última reunión?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 906,
+    "question": "¿Qué momento difícil superaste con apoyo del grupo?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 907,
+    "question": "¿Cuál fue la mejor sorpresa grupal que te han hecho?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 908,
+    "question": "¿Qué recuerdo de amistad es tu favorito?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 909,
+    "question": "¿Qué evento grupal marcó un antes y un después?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 910,
+    "question": "¿Cuál fue el mejor viaje grupal que has tenido?",
+    "category": "recuerdos",
+    "intensity": 2,
+    "mode": "grupo"
+  },
+  {
+    "id": 911,
+    "question": "¿Cuál fue la peor aventura que tuvimos y fue épica?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 912,
+    "question": "¿Cuál fue la confesión más inesperada que alguien hizo?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 913,
+    "question": "¿Qué noche de locuras fue la más memorable?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 914,
+    "question": "¿Cuál fue el momento en que nos unimos más como grupo?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 915,
+    "question": "¿Qué recuerdo grupal te emociona cada vez que lo cuentas?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 916,
+    "question": "¿Qué recuerdo te gustaría que el grupo recordara siempre?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 917,
+    "question": "¿Qué momentazo de amistad recuerdas con más fuerza?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 918,
+    "question": "¿Qué recuerdo te da más risa de la universidad/trabajo?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 919,
+    "question": "¿Cuál fue el momento más embarazoso que hemos vivido juntos?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 920,
+    "question": "¿Cuál fue la vez que nos metimos en un lío y salimos bien?",
+    "category": "recuerdos",
+    "intensity": 3,
+    "mode": "grupo"
+  },
+  {
+    "id": 921,
+    "question": "¿Qué recuerdo atrevido te gustaría que recordáramos?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 922,
+    "question": "¿Qué momento de desinhibición fue el más memorable?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 923,
+    "question": "¿Qué noche de confesiones fue la más intensa?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 924,
+    "question": "¿Cuál fue la experiencia grupal que nos unió más?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 925,
+    "question": "¿Qué recuerdo te da vergüenza pero es épico?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 926,
+    "question": "¿Qué confesión grupal cambió la dinámica del grupo?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 927,
+    "question": "¿Cuál fue la vez que nos atrevimos a hacer algo nuevo?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 928,
+    "question": "¿Cuál fue el momento de desinhibición más divertido?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 929,
+    "question": "¿Cuál fue la confesión más atrevida que alguien hizo en el grupo?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 930,
+    "question": "¿Cuál fue la noche más loca que hemos pasado juntos?",
+    "category": "recuerdos",
+    "intensity": 4,
+    "mode": "grupo"
+  },
+  {
+    "id": 931,
+    "question": "¿Cuál fue la confesión más extrema que alguien hizo en el grupo?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 932,
+    "question": "¿Qué noche sin límites fue la más inolvidable?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 933,
+    "question": "¿Cuál fue el momento más atrevido que hemos vivido juntos?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 934,
+    "question": "¿Qué recuerdo extremo te gustaría que siempre recordáramos?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 935,
+    "question": "¿Cuál fue la experiencia grupal más intensa?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 936,
+    "question": "¿Cuál fue el momento que nos hizo sentir más libres juntos?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 937,
+    "question": "¿Qué recuerdo extremo te da risa pero da vergüenza?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 938,
+    "question": "¿Qué noche de locuras absolutas fue la más memorable?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 939,
+    "question": "¿Qué confesión extrema cambió todo para siempre?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "grupo"
+  },
+  {
+    "id": 940,
+    "question": "¿Cuál fue la vez que superamos todos los límites?",
+    "category": "recuerdos",
+    "intensity": 5,
+    "mode": "grupo"
   }
 ]
