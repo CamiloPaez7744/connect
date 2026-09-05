@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Animated, Platform, useWindowDimensions } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Ionicons } from '@expo/vector-icons';
 import { T, S, R, F, FS, BP, SHARED, GLASS, SHADOW, useResponsive } from '../../src/tokens';
 import BackgroundGradient from '../../src/components/BackgroundGradient';
@@ -53,6 +54,8 @@ export default function GameScreen() {
 
   const [questions, setQuestions] = useState<any[]>([]);
   const [dares, setDares] = useState<any[]>([]);
+  const [herName, setHerName] = useState('');
+  const [hisName, setHisName] = useState('');
 
   useEffect(() => {
     if (Platform.OS === 'web') {
@@ -62,11 +65,17 @@ export default function GameScreen() {
       setQuestions(require('../../data/questions.json'));
       setDares(require('../../data/dares.json'));
     }
-    try {
-      const explicit = localStorage?.getItem('settings_explicitMode');
-      if (explicit === 'false') setMaxIntensity(3);
-      else setMaxIntensity(5);
-    } catch {}
+    (async () => {
+      try {
+        const explicit = await AsyncStorage.getItem('settings_explicitMode');
+        if (explicit === 'false') setMaxIntensity(3);
+        else setMaxIntensity(5);
+        const h = await AsyncStorage.getItem('couple_herName');
+        const s = await AsyncStorage.getItem('couple_hisName');
+        if (h) setHerName(h);
+        if (s) setHisName(s);
+      } catch {}
+    })();
   }, []);
 
   useEffect(() => {
@@ -104,6 +113,13 @@ export default function GameScreen() {
   const cardRotate = cardAnim.interpolate({ inputRange: [0, 1], outputRange: ['0deg', '90deg'] });
   const levelInfo = (i: number) => INTENSITY_LEVELS.find(l => l.id === i) || INTENSITY_LEVELS[0];
   const catInfo = (id: string) => [...TRUTH_CATS, ...DARE_CATS].find(c => c.id === id) || TRUTH_CATS[0];
+
+  const personalize = (text: string) => {
+    if (!herName && !hisName) return text;
+    const she = herName || 'Ella';
+    const he = hisName || 'Él';
+    return text.replace(/\buno\b/gi, he).replace(/\bel otro\b/gi, she).replace(/\buna\b/gi, she);
+  };
 
   return (
     <View style={s.container}>
@@ -186,7 +202,7 @@ export default function GameScreen() {
                 </Text>
               </View>
             </View>
-            <Text style={s.cardContent}>{currentCard.question || currentCard.dare}</Text>
+            <Text style={s.cardContent}>{personalize(currentCard.question || currentCard.dare)}</Text>
             <Text style={s.cardCat}>{catInfo(currentCard.category).icon} {catInfo(currentCard.category).name}</Text>
           </Animated.View>
         ) : (

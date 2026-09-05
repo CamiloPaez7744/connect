@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView, useWindowDimensions, Modal, Platform } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Ionicons } from '@expo/vector-icons';
 import { T, S, R, F, FS, BP, SHARED, GLASS, SHADOW, useResponsive } from '../../src/tokens';
 import BackgroundGradient from '../../src/components/BackgroundGradient';
@@ -23,6 +24,21 @@ interface GameState {
   timerSeconds: number;
 }
 
+function personalizeText(text: string, player: Player, herName: string, hisName: string): string {
+  if (!herName && !hisName) return text;
+  const she = herName || 'Ella';
+  const he = hisName || 'Él';
+  let result = text;
+  if (player === 'ella') {
+    result = result.replace(/\buno\b/gi, she).replace(/\bel otro\b/gi, he).replace(/\bla otra\b/gi, she);
+  } else if (player === 'el') {
+    result = result.replace(/\buno\b/gi, he).replace(/\bel otro\b/gi, she).replace(/\buna\b/gi, he);
+  } else {
+    result = result.replace(/\buno\b/gi, he).replace(/\bel otro\b/gi, she);
+  }
+  return result;
+}
+
 export default function SensesScreen() {
   const { width } = useWindowDimensions();
   const R2 = useResponsive(width);
@@ -30,6 +46,8 @@ export default function SensesScreen() {
   const [selectedSense, setSelectedSense] = useState<any>(null);
   const [selectedActivity, setSelectedActivity] = useState<any>(null);
   const [player, setPlayer] = useState<Player>('both');
+  const [herName, setHerName] = useState('');
+  const [hisName, setHisName] = useState('');
   const [game, setGame] = useState<GameState>({
     active: false, player: 'both', currentSense: null, currentActivity: null,
     intensity: 1, usedIds: [], timerActive: false, timerSeconds: 0,
@@ -37,6 +55,17 @@ export default function SensesScreen() {
 
   const [rouletteOpen, setRouletteOpen] = useState(false);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
+
+  useEffect(() => {
+    (async () => {
+      try {
+        const h = await AsyncStorage.getItem('couple_herName');
+        const s = await AsyncStorage.getItem('couple_hisName');
+        if (h) setHerName(h);
+        if (s) setHisName(s);
+      } catch {}
+    })();
+  }, []);
 
   useEffect(() => {
     if (Platform.OS === 'web') {
@@ -67,12 +96,26 @@ export default function SensesScreen() {
   const handleRouletteSpin = (item: RouletteItem) => {
     const sense = senses.find(s => s.id === item.id);
     if (!sense) return;
-    const activities = sense.activities.filter(a => !game.usedIds.includes(a.id));
-    if (!activities.length) return;
+    const activities = sense.activities.filter(
+      (a: any) => !game.usedIds.includes(a.id) && a.intensity <= game.intensity
+    );
+    if (!activities.length) {
+      const anyActivities = sense.activities.filter((a: any) => !game.usedIds.includes(a.id));
+      if (!anyActivities.length) return;
+      const act = anyActivities[Math.floor(Math.random() * anyActivities.length)];
+      setGame(g => ({
+        ...g, active: true, player, currentSense: sense,
+        currentActivity: { ...act, senseName: sense.name, senseColor: sense.color, senseIcon: sense.icon },
+        usedIds: [...g.usedIds, act.id], timerActive: false, timerSeconds: 0,
+      }));
+      setRouletteOpen(false);
+      return;
+    }
     const act = activities[Math.floor(Math.random() * activities.length)];
     setGame(g => ({
-      ...g, active: true, currentSense: sense, currentActivity: { ...act, senseName: sense.name, senseColor: sense.color, senseIcon: sense.icon },
-      intensity: 1, usedIds: [...g.usedIds, act.id], timerActive: false, timerSeconds: 0,
+      ...g, active: true, player, currentSense: sense,
+      currentActivity: { ...act, senseName: sense.name, senseColor: sense.color, senseIcon: sense.icon },
+      usedIds: [...g.usedIds, act.id], timerActive: false, timerSeconds: 0,
     }));
     setRouletteOpen(false);
   };
@@ -80,9 +123,20 @@ export default function SensesScreen() {
   const nextActivity = () => {
     const sense = game.currentSense;
     if (!sense) return;
-    const activities = sense.activities.filter(a => !game.usedIds.includes(a.id));
+    const activities = sense.activities.filter(
+      (a: any) => !game.usedIds.includes(a.id) && a.intensity <= game.intensity
+    );
     if (!activities.length) {
-      setGame(g => ({ ...g, active: false, currentSense: null, currentActivity: null }));
+      const anyActivities = sense.activities.filter((a: any) => !game.usedIds.includes(a.id));
+      if (!anyActivities.length) {
+        setGame(g => ({ ...g, active: false, currentSense: null, currentActivity: null }));
+        return;
+      }
+      const act = anyActivities[Math.floor(Math.random() * anyActivities.length)];
+      setGame(g => ({
+        ...g, currentActivity: { ...act, senseName: sense.name, senseColor: sense.color, senseIcon: sense.icon },
+        usedIds: [...g.usedIds, act.id], timerActive: false, timerSeconds: 0,
+      }));
       return;
     }
     const act = activities[Math.floor(Math.random() * activities.length)];
@@ -144,6 +198,16 @@ export default function SensesScreen() {
     return `${m}:${sec.toString().padStart(2, '0')}`;
   };
 
+  const getActivityDescription = () => {
+    if (!game.currentActivity) return '';
+    return personalizeText(game.currentActivity.description, game.player, herName, hisName);
+  };
+
+  const getActivityTip = () => {
+    if (!game.currentActivity?.tip) return null;
+    return personalizeText(game.currentActivity.tip, game.player, herName, hisName);
+  };
+
   return (
     <View style={s.container}>
       <BackgroundGradient />
@@ -164,7 +228,7 @@ export default function SensesScreen() {
             onPress={() => setPlayer(p)}
           >
             <Text style={[s.playerBtnText, player === p && { color: '#fff' }]}>
-              {p === 'both' ? 'Juntos' : p === 'ella' ? '👩 Ella' : '👨 Él'}
+              {p === 'both' ? 'Juntos' : p === 'ella' ? `👩 ${herName || 'Ella'}` : `👨 ${hisName || 'Él'}`}
             </Text>
           </TouchableOpacity>
         ))}
@@ -187,12 +251,14 @@ export default function SensesScreen() {
 
       {game.active ? (
         /* GAME MODE */
-        <View style={s.gameContainer}>
+        <ScrollView style={s.gameContainer} contentContainerStyle={{ paddingBottom: S.xl }} showsVerticalScrollIndicator={false}>
           <View style={[s.gameBanner, { backgroundColor: game.currentActivity?.senseColor + '20', borderColor: game.currentActivity?.senseColor + '40' }]}>
             <Text style={{ fontSize: 28 }}>{game.currentActivity?.senseIcon}</Text>
             <View style={{ flex: 1 }}>
               <Text style={[s.gameBannerTitle, { color: game.currentActivity?.senseColor }]}>{game.currentActivity?.senseName}</Text>
-              <Text style={s.gameBannerSub}>{game.player === 'both' ? 'Juntos' : game.player === 'ella' ? '👩 Ella' : '👨 Él'}</Text>
+              <Text style={s.gameBannerSub}>
+                {game.player === 'both' ? 'Juntos' : game.player === 'ella' ? `👩 ${herName || 'Ella'}` : `👨 ${hisName || 'Él'}`}
+              </Text>
             </View>
           </View>
 
@@ -216,11 +282,11 @@ export default function SensesScreen() {
           {game.currentActivity && (
             <View style={[s.gameCard, { borderColor: game.currentActivity.senseColor + '30', boxShadow: `0 4px 20px ${game.currentActivity.senseColor}20, 0 0 8px ${game.currentActivity.senseColor}12` }]}>
               <Text style={s.gameCardTitle}>{game.currentActivity.name}</Text>
-              <Text style={s.gameCardDesc}>{game.currentActivity.description}</Text>
-              {game.currentActivity.tip && (
+              <Text style={s.gameCardDesc}>{getActivityDescription()}</Text>
+              {getActivityTip() && (
                 <View style={s.tipBox}>
                   <Ionicons name="bulb-outline" size={16} color="#ffd166" />
-                  <Text style={s.tipText}>{game.currentActivity.tip}</Text>
+                  <Text style={s.tipText}>{getActivityTip()}</Text>
                 </View>
               )}
             </View>
@@ -258,7 +324,7 @@ export default function SensesScreen() {
               <Text style={s.gameActionText}>Terminar</Text>
             </TouchableOpacity>
           </View>
-        </View>
+        </ScrollView>
       ) : (
         /* BROWSE MODE */
         <ScrollView showsVerticalScrollIndicator={false}>

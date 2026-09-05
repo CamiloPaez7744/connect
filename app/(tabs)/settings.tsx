@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Switch, Platform, useWindowDimensions, TextInput } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Ionicons } from '@expo/vector-icons';
 import { T, S, R, F, FS, BP, SHARED, GLASS, SHADOW } from '../../src/tokens';
+import BackgroundGradient from '../../src/components/BackgroundGradient';
 
 export default function SettingsScreen() {
   const { width } = useWindowDimensions();
@@ -13,19 +15,28 @@ export default function SettingsScreen() {
   const [hisName, setHisName] = useState('');
 
   useEffect(() => {
-    try {
-      const h = localStorage?.getItem('couple_herName');
-      const s = localStorage?.getItem('couple_hisName');
-      if (h) setHerName(h);
-      if (s) setHisName(s);
-    } catch {}
+    (async () => {
+      try {
+        const h = await AsyncStorage.getItem('couple_herName');
+        const s = await AsyncStorage.getItem('couple_hisName');
+        const e = await AsyncStorage.getItem('settings_explicitMode');
+        const m = await AsyncStorage.getItem('settings_gameMode');
+        if (h) setHerName(h);
+        if (s) setHisName(s);
+        if (e !== null) setExplicitMode(e === 'true');
+        if (m === 'pareja' || m === 'grupo') setGameMode(m);
+      } catch {}
+    })();
   }, []);
 
-  useEffect(() => { try { localStorage?.setItem('couple_herName', herName); } catch {} }, [herName]);
-  useEffect(() => { try { localStorage?.setItem('couple_hisName', hisName); } catch {} }, [hisName]);
+  useEffect(() => { AsyncStorage.setItem('couple_herName', herName).catch(() => {}); }, [herName]);
+  useEffect(() => { AsyncStorage.setItem('couple_hisName', hisName).catch(() => {}); }, [hisName]);
+  useEffect(() => { AsyncStorage.setItem('settings_explicitMode', String(explicitMode)).catch(() => {}); }, [explicitMode]);
+  useEffect(() => { AsyncStorage.setItem('settings_gameMode', gameMode).catch(() => {}); }, [gameMode]);
 
   return (
     <View style={s.container}>
+      <BackgroundGradient />
       <View style={s.header}>
         <Text style={s.title}>Más</Text>
         <Text style={s.subtitle}>Configuración y opciones</Text>

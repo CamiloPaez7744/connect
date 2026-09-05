@@ -379,7 +379,7 @@ export default function PositionsScreen() {
     return (
       <View style={st.container}>
         <BackgroundGradient />
-        <View style={[st.header, { paddingTop: insets.top + 48 }]}>
+        <View style={st.header}>
           <Text style={st.title}>Posiciones</Text>
           <Text style={st.subtitle}>519 posiciones para explorar</Text>
         </View>
@@ -410,7 +410,7 @@ export default function PositionsScreen() {
     return (
       <View style={st.container}>
         <BackgroundGradient />
-        <View style={[st.header, { paddingTop: insets.top + 48 }]}>
+        <View style={st.header}>
           <View style={st.headerRow}>
             <TouchableOpacity onPress={() => { setRandomPos(null); setSubView('menu'); }}>
               <Ionicons name="arrow-back" size={24} color={T.text} />
@@ -488,7 +488,7 @@ export default function PositionsScreen() {
     return (
       <View style={st.container}>
         <BackgroundGradient />
-        <View style={[st.mylistHeader, { paddingTop: insets.top + 48 }]}>
+        <View style={st.header}>
           <View style={st.headerRow}>
             <TouchableOpacity onPress={() => setSubView('menu')}>
               <Ionicons name="arrow-back" size={24} color={T.text} />
@@ -659,7 +659,7 @@ export default function PositionsScreen() {
   return (
     <View style={st.container}>
       <BackgroundGradient />
-      <View style={[st.header, { paddingTop: insets.top + 48 }]}>
+      <View style={st.header}>
         <View style={st.headerRow}>
           <TouchableOpacity onPress={() => setSubView('menu')}>
             <Ionicons name="arrow-back" size={24} color={T.text} />
