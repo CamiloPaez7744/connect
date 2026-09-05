@@ -29,10 +29,19 @@ function personalizeText(text: string, player: Player, herName: string, hisName:
   const she = herName || 'Ella';
   const he = hisName || 'Él';
   let result = text;
+
   if (player === 'ella') {
-    result = result.replace(/\buno\b/gi, she).replace(/\bel otro\b/gi, he).replace(/\bla otra\b/gi, she);
+    const hasSubject = /\b(uno|el otro|la otra|usted)\b/i.test(text);
+    result = result.replace(/\buno\b/gi, she).replace(/\bel otro\b/gi, he).replace(/\bla otra\b/gi, she).replace(/\busted\b/gi, she);
+    if (!hasSubject) {
+      result = she + ', ' + result.charAt(0).toLowerCase() + result.slice(1);
+    }
   } else if (player === 'el') {
-    result = result.replace(/\buno\b/gi, he).replace(/\bel otro\b/gi, she).replace(/\buna\b/gi, he);
+    const hasSubject = /\b(uno|el otro|la otra|usted)\b/i.test(text);
+    result = result.replace(/\buno\b/gi, he).replace(/\bel otro\b/gi, she).replace(/\busted\b/gi, he);
+    if (!hasSubject) {
+      result = he + ', ' + result.charAt(0).toLowerCase() + result.slice(1);
+    }
   } else {
     result = result.replace(/\buno\b/gi, he).replace(/\bel otro\b/gi, she);
   }
